@@ -1,0 +1,35 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - preguntar_plan_estudios
+  - preguntar_prerequisitos
+  - goodbye
+  - bot_challenge
+
+actions:
+  - action_provide_plan_estudios
+  - action_provide_prerequisitos
+
+entities:
+  - materia
+
+responses:
+  utter_saludar:
+    - text: "Hola! Soy el asistente académico. ¿En qué puedo ayudarte?"
+
+  utter_goodbye:
+    - text: "Adiós, ¡hasta pronto!"
+  
+  utter_iamabot:
+    - text: "¡Soy un chatbot creado para ayudarte!"
+  
+  utter_plan_estudios:
+    - text: "El plan de estudios incluye materias como Programación, Bases de Datos, Redes, etc. ¿Sobre qué semestre o materia específica te gustaría saber más?"
+
+slots:
+  materia:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: materia

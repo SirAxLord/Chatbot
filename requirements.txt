@@ -2,4 +2,5 @@ rasa
 numpy
 scikit-learn
 pandas
+sqlalchemy<2.0
 #Si vamos a utilizar mas librerias agregarlas aqui.

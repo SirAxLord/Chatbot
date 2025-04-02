@@ -1,0 +1,16 @@
+version: "3.1"
+
+stories:
+- story: plan de estudios path
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_plan_estudios
+  - action: action_provide_plan_estudios
+
+- story: prerequisitos path
+  steps:
+  - intent: preguntar_prerequisitos
+  - slot_was_set:
+    - materia: Bases de Datos
+  - action: action_provide_prerequisitos
