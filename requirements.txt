@@ -1,0 +1,5 @@
+rasa
+numpy
+scikit-learn
+pandas
+#Si vamos a utilizar mas librerias agregarlas aqui.
