@@ -1,0 +1,44 @@
+{
+    "carreras": [
+      {
+        "nombre": "Ingeniería en Sistemas Computacionales",
+        "duracion": "9 semestres",
+        "materias": [
+          {
+            "nombre": "Programación Básica",
+            "semestre": 1,
+            "creditos": 8,
+            "prerequisitos": [],
+            "descripcion": "Fundamentos de programación estructurada y orientada a objetos"
+          },
+          {
+            "nombre": "Algoritmos y Estructuras de Datos",
+            "semestre": 2,
+            "creditos": 8,
+            "prerequisitos": ["Programación Básica"],
+            "descripcion": "Diseño e implementación de estructuras de datos y análisis de algoritmos"
+          },
+          {
+            "nombre": "Bases de Datos",
+            "semestre": 3,
+            "creditos": 8,
+            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
+            "descripcion": "Diseño y administración de bases de datos relacionales"
+          },
+          {
+            "nombre": "Programación Avanzada",
+            "semestre": 4,
+            "creditos": 8,
+            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
+            "descripcion": "Patrones de diseño y desarrollo de aplicaciones complejas"
+          }
+        ],
+        "salidas_profesionales": [
+          "Desarrollo de software",
+          "Administración de bases de datos",
+          "Administración de redes",
+          "Inteligencia artificial"
+        ]
+      }
+    ]
+  }
