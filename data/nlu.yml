@@ -1,23 +1,30 @@
 version: "3.1"
+
 nlu:
 - intent: saludar
   examples: |
-    - hola
-    - buenos días
-    - buenas tardes
-    - qué tal
-    - saludos
+    - Hola
+    - Buenas
+    - Qué tal
+
+- intent: goodbye
+  examples: |
+    - Adiós
+    - Nos vemos
+    - Hasta luego
+
+- intent: bot_challenge
+  examples: |
+    - Eres un bot?
+    - ¿Eres humano?
 
 - intent: preguntar_plan_estudios
   examples: |
     - ¿Cuál es el plan de estudios?
-    - Quiero saber sobre el plan de estudios
-    - ¿Qué materias incluye la carrera?
-    - Materias por semestre
-    - Malla curricular
+    - ¿Qué materias tengo que cursar?
 
 - intent: preguntar_prerequisitos
   examples: |
-    - ¿Cuáles son los requisitos previos para [Programación Avanzada](materia)?
-    - ¿Qué necesito para cursar [Bases de Datos](materia)?
-    - Prerequisitos de [Algoritmos](materia)
+    - ¿Qué prerequisitos tiene Bases de Datos?
+    - ¿Qué necesito para cursar Programación Avanzada?
+    - ¿Qué materias debo aprobar antes de Algoritmos y Estructuras de Datos?

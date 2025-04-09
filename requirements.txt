@@ -1,4 +1,5 @@
 rasa
+rasa-sdk
 numpy
 scikit-learn
 pandas

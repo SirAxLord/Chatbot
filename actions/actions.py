@@ -10,28 +10,23 @@ class ActionProvidePlanEstudios(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        try:
+            with open('data/plan_estudios.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except Exception as e:
+            dispatcher.utter_message(text="Hubo un error al cargar el plan de estudios.")
+            return []
         
-        # Cargar datos desde el archivo JSON
-        with open('data/plan_estudios.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        carrera = "Ingeniería en Sistemas Computacionales"  # Por defecto o puedes obtenerlo del tracker
-        
-        # Buscar la carrera en el dataset
-        plan = None
-        for c in data['carreras']:
-            if c['nombre'] == carrera:
-                plan = c
-                break
+        carrera = "Ingeniería en Sistemas Computacionales"
+
+        plan = next((c for c in data['carreras'] if c['nombre'] == carrera), None)
         
         if plan:
-            # Crear mensaje con la información del plan de estudios
             materias_por_semestre = {}
             for materia in plan['materias']:
                 semestre = materia['semestre']
-                if semestre not in materias_por_semestre:
-                    materias_por_semestre[semestre] = []
-                materias_por_semestre[semestre].append(materia['nombre'])
+                materias_por_semestre.setdefault(semestre, []).append(materia['nombre'])
             
             mensaje = f"Plan de estudios de {carrera} ({plan['duracion']}):\n\n"
             for semestre in sorted(materias_por_semestre.keys()):
@@ -39,7 +34,7 @@ class ActionProvidePlanEstudios(Action):
             
             dispatcher.utter_message(text=mensaje)
         else:
-            dispatcher.utter_message(text="Lo siento, no encuentro información sobre esa carrera.")
+            dispatcher.utter_message(text="Lo siento, no encontré información sobre esa carrera.")
         
         return []
 
@@ -50,24 +45,28 @@ class ActionProvidePrerequisitos(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        # Obtener la materia de la que el usuario está preguntando
+
         materia = tracker.get_slot("materia")
-        
-        # Cargar datos desde el archivo JSON
-        with open('data/plan_estudios.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # Buscar la materia en el dataset
+
+        if not materia:
+            dispatcher.utter_message(text="Por favor, indícame de qué materia quieres saber los prerequisitos.")
+            return []
+
+        try:
+            with open('data/plan_estudios.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except Exception as e:
+            dispatcher.utter_message(text="Hubo un error al cargar los datos.")
+            return []
+
         for carrera in data['carreras']:
             for m in carrera['materias']:
                 if m['nombre'].lower() == materia.lower():
-                    # Encontramos la materia
                     if m['prerequisitos']:
-                        dispatcher.utter_message(text=f"Para cursar {m['nombre']} necesitas haber aprobado: {', '.join(m['prerequisitos'])}")
+                        dispatcher.utter_message(text=f"Para cursar {m['nombre']} necesitas haber aprobado: {', '.join(m['prerequisitos'])}.")
                     else:
                         dispatcher.utter_message(text=f"{m['nombre']} no tiene prerequisitos.")
                     return []
-        
-        dispatcher.utter_message(text=f"No encuentro información sobre la materia {materia}.")
+
+        dispatcher.utter_message(text=f"No encontré la materia {materia} en el plan de estudios.")
         return []
