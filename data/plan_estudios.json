@@ -1,44 +1,200 @@
 {
-    "carreras": [
-      {
-        "nombre": "Ingeniería en Sistemas Computacionales",
-        "duracion": "9 semestres",
-        "materias": [
-          {
-            "nombre": "Programación Básica",
-            "semestre": 1,
-            "creditos": 8,
-            "prerequisitos": [],
-            "descripcion": "Fundamentos de programación estructurada y orientada a objetos"
-          },
-          {
-            "nombre": "Algoritmos y Estructuras de Datos",
-            "semestre": 2,
-            "creditos": 8,
-            "prerequisitos": ["Programación Básica"],
-            "descripcion": "Diseño e implementación de estructuras de datos y análisis de algoritmos"
-          },
-          {
-            "nombre": "Bases de Datos",
-            "semestre": 3,
-            "creditos": 8,
-            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
-            "descripcion": "Diseño y administración de bases de datos relacionales"
-          },
-          {
-            "nombre": "Programación Avanzada",
-            "semestre": 4,
-            "creditos": 8,
-            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
-            "descripcion": "Patrones de diseño y desarrollo de aplicaciones complejas"
-          }
-        ],
-        "salidas_profesionales": [
-          "Desarrollo de software",
-          "Administración de bases de datos",
-          "Administración de redes",
-          "Inteligencia artificial"
-        ]
-      }
-    ]
-  }
+  "carreras": [
+    {
+      "nombre": "Ingeniería en Sistemas Computacionales",
+      "duracion": "9 semestres",
+      "materias": [
+        {
+          "nombre": "Cómputo Bio-Inspirado",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Estudio de algoritmos y técnicas computacionales inspirados en sistemas biológicos como algoritmos genéticos, redes neuronales y swarm intelligence.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Programación de Robots",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Fundamentos de programación de sistemas robóticos, incluyendo cinemática, planificación de movimiento y control de actuadores.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Aprendizaje Automático",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Teoría y aplicación de algoritmos de machine learning, incluyendo aprendizaje supervisado, no supervisado y por refuerzo.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Visión Computacional",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Técnicas para adquisición, procesamiento y análisis de imágenes digitales para permitir que las máquinas interpreten información visual.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Robótica Inteligente",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Integración de técnicas de IA en sistemas robóticos para desarrollar robots autónomos capaces de tomar decisiones en entornos complejos.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Representación del Conocimiento y Ontologías",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Modelos formales para representar información estructurada y conocimiento, incluyendo ontologías, lógica formal y sistemas basados en reglas.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Ciencia de Datos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Fundamentos de Inteligencia Artificial"],
+          "descripcion": "Métodos para extraer conocimiento y generar insights a partir de grandes conjuntos de datos, incluyendo análisis estadístico, visualización y minería de datos.",
+          "area": "Robótica Inteligente e Inteligencia Artificial"
+        },
+        {
+          "nombre": "Diseño de Juegos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Graficacion por Computadora"],
+          "descripcion": "Principios fundamentales del diseño de juegos, incluyendo mecánicas, dinámicas, estética y experiencia del jugador.",
+          "area": "Desarrollo de Videojuegos y Sistemas Interactivos"
+        },
+        {
+          "nombre": "Programación de Videojuegos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Graficacion por Computadora"],
+          "descripcion": "Técnicas específicas para el desarrollo de videojuegos, incluyendo sistemas de físicas, inteligencia artificial para NPC y gestión de recursos.",
+          "area": "Desarrollo de Videojuegos y Sistemas Interactivos"
+        },
+        {
+          "nombre": "Motores Gráficos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Graficacion por Computadora"],
+          "descripcion": "Estudio y uso de motores de renderizado 2D y 3D, pipeline gráfico, shaders y optimización de renderizado para videojuegos.",
+          "area": "Desarrollo de Videojuegos y Sistemas Interactivos"
+        },
+        {
+          "nombre": "Arte Conceptual para Videojuegos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Graficacion por Computadora"],
+          "descripcion": "Fundamentos de diseño gráfico, modelado 3D y animación orientados a la creación de assets para videojuegos.",
+          "area": "Desarrollo de Videojuegos y Sistemas Interactivos"
+        },
+        {
+          "nombre": "Temas Selectos de Videojuegos",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Graficacion por Computadora"],
+          "descripcion": "Exploración de temas avanzados y emergentes en el desarrollo de videojuegos como VR/AR, gamificación y narrativa interactiva.",
+          "area": "Desarrollo de Videojuegos y Sistemas Interactivos" 
+        },
+        {
+          "nombre": "Fundamentos de Desarrollo Web",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Desarrollo Web y Multiplataforma"],
+          "descripcion": "Introducción a las tecnologías fundamentales del desarrollo web, incluyendo HTML, CSS, JavaScript y protocolos web.",
+          "area": "Desarrollo Web y Multiplataforma"
+        },
+        {
+          "nombre": "Aplicaciones Web Interactivas",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Desarrollo Web y Multiplataforma"],
+          "descripcion": "Desarrollo de aplicaciones web dinámicas con frameworks frontend modernos, enfocándose en la experiencia de usuario e interactividad.",
+          "area": "Desarrollo Web y Multiplataforma"
+        },
+        {
+          "nombre": "Aplicaciones Web Escalables",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Desarrollo Web y Multiplataforma"],
+          "descripcion": "Arquitecturas y técnicas para desarrollar aplicaciones web de alto rendimiento capaces de escalar a millones de usuarios.",
+          "area": "Desarrollo Web y Multiplataforma"
+        },
+        {
+          "nombre": "Fundamentos de Desarrollo Móvil",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Desarrollo Web y Multiplataforma"],
+          "descripcion": "Principios y prácticas para el desarrollo de aplicaciones nativas e híbridas para dispositivos móviles Android e iOS.",
+          "area": "Desarrollo Web y Multiplataforma"
+        },
+        {
+          "nombre": "Diseño de Interfaces",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Desarrollo Web y Multiplataforma"],
+          "descripcion": "Principios de diseño de experiencia de usuario (UX) e interfaces (UI) para aplicaciones web y móviles con enfoque en usabilidad y accesibilidad.",
+          "area": "Desarrollo Web y Multiplataforma"
+        },
+        {
+          "nombre": "Principios de Seguridad Informática",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Fundamentos de seguridad computacional, incluyendo amenazas comunes, evaluación de vulnerabilidades y mejores prácticas de protección.",
+          "area": "Ciberseguridad"
+        },
+        {
+          "nombre": "Anonimato y Privacidad",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Tecnologías y métodos para preservar la privacidad de datos y comunicaciones, incluyendo técnicas de anonimización y aspectos legales de privacidad.",
+          "area": "Ciberseguridad"
+        },
+        {
+          "nombre": "Criptografía",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Teoría y aplicación de algoritmos criptográficos para proteger la información, incluyendo cifrado simétrico, asimétrico y funciones hash.",
+          "area": "Ciberseguridad"
+        },
+        {
+          "nombre": "Administración de Redes",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Gestión, monitorización y optimización de redes informáticas, incluyendo configuración de dispositivos y resolución de problemas.",
+          "area": "Ciberseguridad"
+        },
+        {
+          "nombre": "Interacción de Redes",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Estudio de protocolos de comunicación entre redes heterogéneas, interoperabilidad y técnicas de integración de sistemas distribuidos.",
+          "area": "Ciberseguridad"
+        },
+        {
+          "nombre": "Modelado y Simulación de Redes",
+          "semestre": 6,
+          "creditos": 8,
+          "prerequisitos": ["Diseño e implementacion de Redes"],
+          "descripcion": "Técnicas para diseñar, modelar y simular redes complejas, análisis de tráfico y evaluación de rendimiento mediante herramientas especializadas.",
+          "area": "Ciberseguridad"
+        }
+      ],
+      "areas_enfasis": [
+        "Robótica Inteligente e Inteligencia Artificial",
+        "Desarrollo de Videojuegos y Sistemas Interactivos",
+        "Desarrollo Web y Multiplataforma",
+        "Ciberseguridad"
+      ]
+    }
+  ]
+}
