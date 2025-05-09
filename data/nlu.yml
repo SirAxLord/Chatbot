@@ -12,6 +12,11 @@ nlu:
     - Adiós
     - Nos vemos
     - Hasta luego
+    - salir
+    - bye
+    - chao
+    - adios bot
+    - nos vemos luego
 
 - intent: bot_challenge
   examples: |
@@ -25,6 +30,13 @@ nlu:
 
 - intent: preguntar_prerequisitos
   examples: |
-    - ¿Qué prerequisitos tiene Bases de Datos?
-    - ¿Qué necesito para cursar Programación Avanzada?
-    - ¿Qué materias debo aprobar antes de Algoritmos y Estructuras de Datos?
+    - ¿Qué prerequisitos tiene [Bases de Datos](materia)?
+    - ¿Qué necesito para cursar [Programación Avanzada](materia)?
+    - ¿Qué materias debo aprobar antes de [Algoritmos y Estructuras de Datos](materia)?
+    - Cuales son los requisitos para [Bases de Datos](materia)?
+    - Que necesito para ver [Programación Avanzada](materia)?
+    - dime los prerequisitos de [Algoritmos y Estructuras de Datos](materia)
+    - Requisitos para [Bases de Datos](materia)
+    - [Programación Avanzada](materia) prerequisitos
+    - Que va antes de [Bases de Datos](materia)? # Ejemplo con otra formulación
+    - Me puedes decir que necesito para [Programación Avanzada](materia)? # Ejemplo con más palabrasch
