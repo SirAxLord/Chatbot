@@ -1,16 +1,34 @@
 version: "3.1"
 
 stories:
-- story: plan de estudios path
+- story: Saludo y despedida
   steps:
   - intent: saludar
   - action: utter_saludar
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Preguntar plan de estudios
+  steps:
   - intent: preguntar_plan_estudios
   - action: action_provide_plan_estudios
 
-- story: prerequisitos path
+- story: Preguntar prerequisitos
   steps:
   - intent: preguntar_prerequisitos
-  - slot_was_set:
-    - materia: Bases de Datos
   - action: action_provide_prerequisitos
+
+- story: Preguntar por areas de enfasis
+  steps:
+  - intent: preguntar_areas_enfasis
+  - action: action_list_areas_enfasis
+
+- story: Preguntar por materias en area especifica
+  steps:
+  - intent: preguntar_materias_en_area
+  - action: action_list_materias_in_area
+
+- story: Preguntar detalles de materia
+  steps:
+  - intent: preguntar_detalle_materia
+  - action: action_provide_materia_details

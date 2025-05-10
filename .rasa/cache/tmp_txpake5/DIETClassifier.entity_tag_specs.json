@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-materia",
+      "2": "I-materia",
+      "3": "L-materia",
+      "4": "U-materia",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-materia": 1,
+      "I-materia": 2,
+      "L-materia": 3,
+      "U-materia": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

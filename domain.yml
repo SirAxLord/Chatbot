@@ -4,15 +4,34 @@ intents:
   - saludar
   - preguntar_plan_estudios
   - preguntar_prerequisitos
+  - preguntar_areas_enfasis
+  - preguntar_materias_en_area
   - goodbye
   - bot_challenge
+  - preguntar_detalle_materia
 
 actions:
   - action_provide_plan_estudios
   - action_provide_prerequisitos
+  - action_list_areas_enfasis
+  - action_list_materias_in_area
+  - action_provide_materia_details
 
 entities:
   - materia
+  - area_enfasis
+
+slots:
+  materia:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: materia
+  area_enfasis:
+     type: text
+     mappings:
+      - type: from_entity
+        entity: area_enfasis
 
 responses:
   utter_saludar:
@@ -23,13 +42,3 @@ responses:
   
   utter_iamabot:
     - text: "¡Soy un chatbot creado para ayudarte!"
-  
-  utter_plan_estudios:
-    - text: "El plan de estudios incluye materias como Programación, Bases de Datos, Redes, etc. ¿Sobre qué semestre o materia específica te gustaría saber más?"
-
-slots:
-  materia:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: materia

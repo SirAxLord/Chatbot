@@ -1,0 +1,58 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "bot_challenge": 1,
+        "goodbye": 2,
+        "nlu_fallback": 3,
+        "out_of_scope": 4,
+        "preguntar_areas_enfasis": 5,
+        "preguntar_detalle_materia": 6,
+        "preguntar_materias_en_area": 7,
+        "preguntar_plan_estudios": 8,
+        "preguntar_prerequisitos": 9,
+        "restart": 10,
+        "saludar": 11,
+        "session_start": 12
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_provide_plan_estudios": 13,
+        "action_provide_prerequisitos": 14,
+        "action_list_areas_enfasis": 15,
+        "action_list_materias_in_area": 16,
+        "action_provide_materia_details": 17,
+        "utter_goodbye": 18,
+        "utter_iamabot": 19,
+        "utter_saludar": 20
+      },
+      "entities": {
+        "area_enfasis": 0,
+        "materia": 1
+      },
+      "slots": {
+        "materia_0": 0,
+        "area_enfasis_0": 1
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

@@ -1,44 +1,408 @@
 {
-    "carreras": [
-      {
-        "nombre": "Ingeniería en Sistemas Computacionales",
-        "duracion": "9 semestres",
-        "materias": [
-          {
-            "nombre": "Programación Básica",
-            "semestre": 1,
-            "creditos": 8,
-            "prerequisitos": [],
-            "descripcion": "Fundamentos de programación estructurada y orientada a objetos"
-          },
-          {
-            "nombre": "Algoritmos y Estructuras de Datos",
-            "semestre": 2,
-            "creditos": 8,
-            "prerequisitos": ["Programación Básica"],
-            "descripcion": "Diseño e implementación de estructuras de datos y análisis de algoritmos"
-          },
-          {
-            "nombre": "Bases de Datos",
-            "semestre": 3,
-            "creditos": 8,
-            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
-            "descripcion": "Diseño y administración de bases de datos relacionales"
-          },
-          {
-            "nombre": "Programación Avanzada",
-            "semestre": 4,
-            "creditos": 8,
-            "prerequisitos": ["Algoritmos y Estructuras de Datos"],
-            "descripcion": "Patrones de diseño y desarrollo de aplicaciones complejas"
-          }
-        ],
-        "salidas_profesionales": [
-          "Desarrollo de software",
-          "Administración de bases de datos",
-          "Administración de redes",
-          "Inteligencia artificial"
-        ]
-      }
-    ]
-  }
+  "carreras": [
+    {
+      "nombre": "Ingenieria en Sistemas Inteligentes",
+      "duracion": "9 semestres",
+      "areas_enfasis": [ 
+        {
+          "nombre": "Inteligencia Artificial y Robótica",
+          "descripcion": "Área enfocada en el desarrollo de sistemas inteligentes y autónomos.",
+          "materias_clave": [ 
+            "2817", 
+            "2809",
+            "2815",
+            "2816",
+            "2818",
+            "2808",
+            "2819"
+          ]
+        },
+        {
+          "nombre": "Interacción y Videojuegos",
+          "descripcion": "Área enfocada en el desarrollo de Juegos.",
+          "materias_clave": [ 
+            "2832", 
+            "2833",
+            "2834",
+            "2835",
+            "2836"
+          ]
+        },
+        {
+          "nombre": "Ciberseguridad",
+          "descripcion": "Área enfocada en el desarrollo de las habilidades de ciberseguridad.",
+          "materias_clave": [ 
+            "2824", 
+            "2825",
+            "2826",
+            "2827",
+            "2828",
+            "2829"
+          ]
+        },
+        {
+          "nombre": "Desarrollo Web y Multiplataforma",
+          "descripcion": "Área enfocada en el desarrollo de paginas web.",
+          "materias_clave": [ 
+            "2237", 
+            "2238",
+            "2239",
+            "2244",
+            "2245"
+          ]
+        }
+      ],
+      "resultados_profesionales": [ 
+        "Rol Profesional 1 (e.g., Desarrollo de software)",
+        "Rol Profesional 2 (e.g., Administración de bases de datos)",
+        "Rol Profesional 3 (e.g., Administración de redes)",
+        "Rol Profesional 4 (e.g., Inteligencia artificial)"
+      ],
+      "materias": [ 
+        {
+          "nombre": "Programación de Robots",
+          "clave_materia": "2817",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            }
+          ],
+          "objetivo": "Conocer y aplicar los conceptos básicos de la cinemática de robots manipuladores y móviles, así como el uso de frameworks que permitan el modelado de sensores y actuadores para aplicar dichos conceptos en uno o más robots.",
+          "contenido_tematico_resumen": "Introducción a la robótica, Cinemática de Robots Moviles, Aplicaciones de los Concepots de Cinemática, Cinematica de Robots Manipuladores."
+        },
+        {
+          "nombre": "Computo Bio-Inspirado",
+          "clave_materia": "2809",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            }
+          ],
+          "objetivo": "Conocer, analizar y aplicar algoritmos avanzados basados en el comportamiento de un conjunto de seres vivos, así como su aplicación a problemas de búsqueda y optimización.",
+          "contenido_tematico_resumen": "Introduccion al Computo Bio-Inspirado, Inteligencia de Enjambre, Computo Evolutivo: Algoritmos Geneticos, Computo Evolutivo: Programacion Genetica.."
+        },
+        {
+          "nombre": "Vison Computacional",
+          "clave_materia": "2815",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            }
+          ],
+          "objetivo": "Comprender y aplicar los conceptos de visión computacional, mediante el uso de herramientas de programación para la interpretación automática de información obtenida mediante videos o imágenes. ",
+          "contenido_tematico_resumen": "Introduccion a la Vision Computacional, Tareas de Vision computacional de Bajo Nivel, Taraeas de Vision Computacional de Alto Nivel, Tareas de Vision Computacional Con Aprendizaje Automatico."
+        },
+        {
+          "nombre": "Aprendizaje Automatico",
+          "clave_materia": "2816",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            }
+          ],
+          "objetivo": "Conocer y ser capaz de aplicar algoritmos de aprendizaje automático para resolver problemas de regresión, clasificación y agrupamiento. ",
+          "contenido_tematico_resumen": "Algorimos de Regresion, Algoritmos de Clasificacion, Algorimtos de Agrupamiento."
+        },
+        {
+          "nombre": "Robotica Inteligente",
+          "clave_materia": "2818",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2817",
+              "nombre": "Programación de Robots"
+            }
+          ],
+          "objetivo": "Analizar y aplicar los conceptos y métodos que permitan modelar y desarrollar un agente robótico con la capacidad de adquirir información de su entorno y actuar en este mediante algún algoritmo de toma de decisiones.",
+          "contenido_tematico_resumen": "Interaccion con el Ambiente, Arquitecturas Roboticas, Percepcion y Localizacion, Planeacion de Movimientos, Toma de Decisiones."
+        },
+        {
+          "nombre": "Ciencia de Datos",
+          "clave_materia": "2808",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2816",
+              "nombre": "Aprendizaje Automatico"
+            }
+          ],
+          "objetivo": "Analizar y aplicar el proceso del descubrimiento de conocimiento en bases de datos utilizando un conjunto de datos reales y herramientas para la minería de datos.",
+          "contenido_tematico_resumen": "Proceso para el Descubrimiento de Conocimiento, Conjuntos de Datos, Preparacion de los Datos, Mineria de Datos, Interpretacion y Evaluacion de Resultados."
+        },
+        {
+          "nombre": "Representacion del Conocimiento y Ontologias",
+          "clave_materia": "2819",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2813",
+              "nombre": "Fundamentos de Inteligencia Artificial"
+            }
+          ],
+          "objetivo": "Conocer y aplicar las formas de representación del conocimiento basadas en lógica y en redes semánticas; así como los métodos de razonamiento y planificación usados en los sistemas expertos y en los agentes para la creación de sistemas inteligentes. ",
+          "contenido_tematico_resumen": "Representacion del Conocimiento Basado en Lógica, Redes Semanticas y Ontologias, Razonamiento, Sistemas Expertos Basados en Reglas, Planificacion y Agentes."
+        },
+
+        {
+          "nombre": "Programacion de Videojuegos",
+          "clave_materia": "2832",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2807",
+              "nombre": "Graficacion Por Computadora"
+            }
+          ],
+          "objetivo": "Comprender e implementar el proceso general para el diseño y programación de videojuegos, tomando en consideración los temas básicos para la realización de videojuegos.",
+          "contenido_tematico_resumen": "Shaders, Matrices del Modelo, Vistaa Y Proyeccion, Texturas, Escenarios."
+        },
+        {
+          "nombre": "Diseño de Videojuegos",
+          "clave_materia": "2833",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2807",
+              "nombre": "Graficacion Por Computadora"
+            }
+          ],
+          "objetivo": "Diseñar, prototipar, analizar y presentar formalmente experiencias de juego, interiorizando e implementando los conceptos clave del diseño de juegos.",
+          "contenido_tematico_resumen": "Teoria de los Juegos, Docuementacion de Diseño de Juegos(GDD), Diseño de Juegos Analogicos, Diseño de Juegos Digitales."
+        },
+        {
+          "nombre": "Motores Graficos",
+          "clave_materia": "2834",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2807",
+              "nombre": "Graficacion Por Computadora"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2832",
+              "nombre": "Programacion de Videojuegos"
+            }
+          ],
+          "objetivo": "Conocer la arquitectura básica de un motor gráfico para el desarrollo de videojuegos; además de implementar el proceso general para diseñar y programar un videojuego con un motor gráfico, tomando en consideración temas avanzados que el alumno debe de conocer para realizar dicho videojuego. ",
+          "contenido_tematico_resumen": "Generalidades de Los Motores Graficos, Arquitectura de los Motores Graficos, Consideraciones de Programacion, Aplicaciones de un Motor Grafico. "
+        },
+        {
+          "nombre": "Arte Conceptual Para Videojuegos",
+          "clave_materia": "2836",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2807",
+              "nombre": "Graficacion Por Computadora"
+            }
+          ],
+          "objetivo": "Comprender y ser capaz de interpretar los fundamentos artísticos universales, así como identificar la expresión y aplicación de estos en los videojuegos, empleando principios de creatividad y composición artística en la producción de ideas y conceptos.  ",
+          "contenido_tematico_resumen": "Fundamentos Artisticos, Introduccion a la Produccion de Arte en Videojeugos, Comunicacion y Narrativa Visual, Produccion de Personajes, Produccion de Entornos. "
+        },
+        {
+          "nombre": "Temas Selectos de Videojuegos",
+          "clave_materia": "2835",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2807",
+              "nombre": "Graficacion Por Computadora"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2832",
+              "nombre": "Programacion de Videojuegos"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2834",
+              "nombre": "Motores Graficos"
+            }
+          ],
+          "objetivo": "Conocer y analizar los temas de actualidad que giran alrededor del desarrollo de videojuegos; así como la implementación de diversas herramientas para dicho desarrollo. ",
+          "contenido_tematico_resumen": "Plataformas de Desarrollo, Experiencias Interactivas, Software para el Desarrollo de VIdeojuegos, Publicacion de Videojuegos."
+        },
+
+        {
+          "nombre": "Fundamentos de Desarrollo Web",
+          "clave_materia": "2238",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2236",
+              "nombre": "Interfaces Gráficas con Aplicaciones"
+            }
+          ],
+          "objetivo": "Conocer y aplicar algunas de las tecnologías fundamentales requeridas para el desarrollo de aplicaciones web integrales, tanto en el lado del cliente como en el lado del servidor.   ",
+          "contenido_tematico_resumen": "Lenguajes de Marcado (HTML), Hojas de Estilo (CSS), Diseño Responsivo Y FlexBox, Javascript, PHP, Servicos Rest."
+        },
+        {
+          "nombre": "Fundamentos de Desarrollo Movil",
+          "clave_materia": "2239",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2236",
+              "nombre": "Interfaces Gráficas con Aplicaciones"
+            }
+          ],
+          "objetivo": "Conocer y aplicar las diversas tecnologías para el desarrollo de aplicaciones móviles básicas, en los principales sistemas operativos del mercado. ",
+          "contenido_tematico_resumen": "Introduccion a la Programacion de Dispositivos Moviles, Programacion Hibrida, Programacion Nativa (Android), Programacion Nativa (IOS)."
+        },
+        {
+          "nombre": "Aplicaciones Web Interactivas",
+          "clave_materia": "2237",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2236",
+              "nombre": "Interfaces Gráficas con Aplicaciones"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2238",
+              "nombre": "Fundamentos de Desarrollo Web"
+            }
+          ],
+          "objetivo": "Generar aplicaciones web modernas, robustas y escalables utilizando librerías y frameworks tanto del lado del cliente como del lado del servidor.",
+          "contenido_tematico_resumen": "Bootstrap, JQuery, Laravel, Contruccion De Api's Rest."
+        },
+        {
+          "nombre": "Diseño de Interfaces",
+          "clave_materia": "2244",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2236",
+              "nombre": "Interfaces Gráficas con Aplicaciones"
+            }
+          ],
+          "objetivo": "Conocer y aplicar los fundamentos del diseño de interfaces, siguiendo los requerimientos de diseño digital de un proyecto dado, para ser desarrollados en aplicaciones Web, móviles y de escritorio. ",
+          "contenido_tematico_resumen": "Diseño de Interfaces Web, Diseño de Interfaces Moviles, Diseño de Interfaces de Aplicaciones de Escritorio"
+        },
+        {
+          "nombre": "Aplicaciones Web Escalables",
+          "clave_materia": "2245",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2236",
+              "nombre": "Interfaces Gráficas con Aplicaciones"
+            },
+            {
+              "tipo": "materia",
+              "clave": "2238",
+              "nombre": "Fundamentos de Desarrollo Web"
+            }
+          ],
+          "objetivo": "Generar aplicaciones web interactivas usando lenguajes de programación vigentes en el mercado que permitan enriquecer el desarrollo de aplicaciones de software.  ",
+          "contenido_tematico_resumen": "Angular, NodeJS, Mongo, Express JS"
+        }
+      ]
+    }
+  ]
+}

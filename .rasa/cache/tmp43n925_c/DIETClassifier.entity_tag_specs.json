@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-area_enfasis",
+      "2": "I-area_enfasis",
+      "3": "L-area_enfasis",
+      "4": "U-area_enfasis",
+      "5": "B-materia",
+      "6": "I-materia",
+      "7": "L-materia",
+      "8": "U-materia",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-area_enfasis": 1,
+      "I-area_enfasis": 2,
+      "L-area_enfasis": 3,
+      "U-area_enfasis": 4,
+      "B-materia": 5,
+      "I-materia": 6,
+      "L-materia": 7,
+      "U-materia": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
