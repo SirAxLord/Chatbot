@@ -30,13 +30,48 @@ nlu:
 
 - intent: preguntar_prerequisitos
   examples: |
-    - ¿Qué prerequisitos tiene [Bases de Datos](materia)?
-    - ¿Qué necesito para cursar [Programación Avanzada](materia)?
-    - ¿Qué materias debo aprobar antes de [Algoritmos y Estructuras de Datos](materia)?
-    - Cuales son los requisitos para [Bases de Datos](materia)?
-    - Que necesito para ver [Programación Avanzada](materia)?
-    - dime los prerequisitos de [Algoritmos y Estructuras de Datos](materia)
-    - Requisitos para [Bases de Datos](materia)
-    - [Programación Avanzada](materia) prerequisitos
-    - Que va antes de [Bases de Datos](materia)? # Ejemplo con otra formulación
-    - Me puedes decir que necesito para [Programación Avanzada](materia)? # Ejemplo con más palabrasch
+    - ¿Qué prerequisitos tiene [Representacion del Conocimiento y Ontologias](materia)?
+    - Que tengo que llevar para [Temas Selectos de Videojeugos](materia)?
+    - ¿Qué necesito para cursar [Programacion de Robots](materia)?
+    - ¿Qué materias debo aprobar antes de [Representacion del Conocimiento y Ontologias](materia)?
+    - Cuales son los requisitos para [Fundamentos de Desarrollo Web](materia)?
+    - Que necesito para ver [Diseño de Videojuegos](materia)?
+    - dime los prerequisitos de [Aplicaciones Web Escalables](materia)
+    - Requisitos para [Arte Conceptual Para Videojuegos](materia)
+    - [Temas Selectos de Videojeugos](materia) prerequisitos
+    - Que va antes de [Computo Bio-Inspirado](materia)? 
+    - Me puedes decir que necesito para [Vison Computacional](materia)? 
+
+- intent: preguntar_areas_enfasis
+  examples: |
+    - Cuales son las areas de enfasis?
+    - Que especializaciones hay en la carrera?
+    - Listame las areas
+    - Dime sobre las areas de enfasis
+    - Que opciones de especializacion hay?
+
+- intent: preguntar_materias_en_area
+  examples: |
+    - Que materias hay en el area de [Inteligencia Artificial y Robótica](area_enfasis)?
+    - Listame las materias del area de [Interacción y Videojuegos](area_enfasis)
+    - Cuales son los cursos del area de [Desarrollo Web y Multiplataforma](area_enfasis)?
+    - Que materias hay en [Inteligencia Artificial y Robótica](area_enfasis)?
+    - Cursos en el area de [Interacción y Videojuegos](area_enfasis)
+    - Materias del area de [Ciberseguridad](area_enfasis)
+    - Que materias da el area de [Desarrollo Web y Multiplataforma](area_enfasis)?
+    - Listame los cursos del area de [IA y Robótica](area_enfasis) # Usando acrónimo o nombre corto
+    - Materias en [videojuegos](area_enfasis) # Usando parte del nombre
+    - Cuales son los cursos de [ciberseguridad](area_enfasis) # Con minúsculas y sin "area de"
+    - que materias estan en [inteligencia artificial](area_enfasis) # Con minúsculas y nombre parcial
+    - materis en [Inteligencia Artificial y Robótica](area_enfasis) # Con error tipográfico en otra palabra
+    - Que materias hay en [Inteligencia Artificial y Robota](area_enfasis)? 
+
+- intent: preguntar_detalle_materia
+  examples: |
+    - De que trata [Bases de Datos](materia)?
+    - Cual es el objetivo de [Programación Avanzada](materia)?
+    - Dame el contenido de [Algoritmos y Estructuras de Datos](materia)
+    - Informacion sobre [Vison Computacional](materia)
+    - Dime mas sobre la materia [Aprendizaje Automatico](materia)
+    - Objetivo de [Ciencia de Datos](materia)
+    - Contenido de [Programación de Robots](materia)

@@ -17,3 +17,18 @@ stories:
   steps:
   - intent: preguntar_prerequisitos
   - action: action_provide_prerequisitos
+
+- story: Preguntar por areas de enfasis
+  steps:
+  - intent: preguntar_areas_enfasis
+  - action: action_list_areas_enfasis
+
+- story: Preguntar por materias en area especifica
+  steps:
+  - intent: preguntar_materias_en_area
+  - action: action_list_materias_in_area
+
+- story: Preguntar detalles de materia
+  steps:
+  - intent: preguntar_detalle_materia
+  - action: action_provide_materia_details
