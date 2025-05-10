@@ -1,0 +1,375 @@
+/* style.css - Diseño completo con Header, Footer y Layout */
+
+/* Variables CSS para colores institucionales (ejemplos inspirados en UASLP) */
+:root {
+    --color-primary-blue: #003366; /* Azul marino oscuro UASLP */
+    --color-secondary-gold: #FFCC00; /* Amarillo/Dorado UASLP */
+    --color-background: #f4f4f4; /* Fondo general suave */
+    --color-surface: #ffffff; /* Fondo de los contenedores (chat, input) */
+    --color-border: #e0e0e0; /* Bordes suaves, fondo burbuja bot */
+    --color-text-dark: #333; /* Texto oscuro */
+    --color-text-light: #fff; /* Texto claro (para fondo oscuro) */
+    --color-user-bubble: var(--color-secondary-gold); /* Color burbuja usuario */
+    --color-bot-bubble: var(--color-border); /* Color burbuja bot */
+    --color-secondary-blue: #3673b6; /* Un azul más claro para la barra secundaria */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Puedes cambiar a la fuente que prefieras */
+    margin: 0;
+    display: flex; /* Usamos flexbox en el body */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente si hay espacio */
+    min-height: 100vh; /* Ocupa al menos el alto de la ventana */
+    background-color: var(--color-background);
+    padding: 0; /* Quitamos el padding del body */
+    box-sizing: border-box;
+}
+
+/* --- Contenedor principal para el layout --- */
+#main-wrapper {
+    width: 100%;
+    /* Aumentamos el ancho máximo */
+    max-width: 1400px; /* Ejemplo: cambiar de 800px a 1000px */
+    /* Aumentamos la altura. Si quieres que ocupe casi toda la pantalla verticalmente, usa 90vh o 95vh. Si quieres que ocupe todo el alto, usa 100vh (puede ocultar barras de tareas) */
+    height: 95vh; /* Ejemplo: cambiar de 95vh a 90vh para dejar un pequeño margen, o pon 100vh si quieres que lo llene */
+
+    display: flex;
+    flex-direction: column; /* Apila header, chat y footer verticalmente */
+    border: 1px solid var(--color-border);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    background-color: var(--color-surface); /* Fondo para todo el contenedor principal */
+}
+/* --- Estilos del Encabezado --- */
+#main-header {
+    flex-shrink: 0; /* Evita que el encabezado se encoja */
+    background-color: var(--color-primary-blue);
+    color: var(--color-text-light);
+    border-top-left-radius: 12px; /* Bordes redondeados para el encabezado (coinciden con el wrapper) */
+    border-top-right-radius: 12px;
+    /* El padding interno lo maneja .header-content */
+}
+
+#main-header .header-content {
+    display: flex; /* Usamos flexbox para organizar logos y título */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    align-items: center;
+    justify-content: space-between; /* Espacio entre logos y título */
+    padding: 10px 20px; /* Padding interno del contenido del encabezado */
+}
+
+#main-header .header-logos {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre logos */
+}
+
+#main-header .header-logo {
+    height: 40px; /* Tamaño de los logos */
+    /* Puedes añadir max-width o estilos para que se ajusten */
+}
+
+#main-header .header-title {
+    flex-grow: 1; /* Permite que el título ocupe espacio si hay */
+    text-align: center;
+    padding: 0 10px; /* Padding alrededor del título */
+}
+
+#main-header .header-title h1 {
+    margin: 0;
+    font-size: 1.4em; /* Tamaño de fuente para el título principal */
+    font-weight: bold;
+    white-space: nowrap; /* Intenta mantener el título en una línea */
+    overflow: hidden; /* Oculta el texto que se desborda */
+    text-overflow: ellipsis; /* Añade puntos suspensivos si se trunca */
+    /* Oculto por defecto en pantallas pequeñas si se muestra el título corto */
+     display: block;
+}
+
+#main-header .header-title .short-title {
+     margin: 0;
+     font-size: 1.2em; /* Tamaño de fuente para el título corto */
+     font-weight: bold;
+     /* Visible por defecto en pantallas pequeñas, oculto en grandes */
+     display: none;
+}
+
+/* Media query para controlar cuál título se muestra según el ancho de la pantalla */
+@media (max-width: 600px) { /* Ajusta el breakpoint según necesites */
+    #main-header .header-content {
+        justify-content: center; /* Centra el contenido en pantallas pequeñas */
+        text-align: center;
+    }
+    #main-header .header-logos {
+        display: none; /* Oculta los logos en pantallas pequeñas */
+    }
+     #main-header .header-title h1 { display: none; } /* Oculta título largo */
+     #main-header .header-title .short-title { display: block; } /* Muestra título corto */
+     #main-header .header-content { padding: 10px 15px; } /* Ajusta padding */
+}
+
+
+#main-header .secondary-bar {
+    background-color: var(--color-secondary-blue); /* Color de la barra secundaria */
+    height: 5px; /* Altura de la barra */
+    width: 100%;
+}
+
+
+/* --- Estilos del Contenedor de Chat --- */
+#chat-container {
+    width: 100%; /* Ocupa todo el ancho del wrapper */
+    flex-grow: 1; /* Permite que el área del chat ocupe todo el espacio restante entre header y footer */
+    max-width: none; /* Elimina cualquier restricción de ancho máximo que pudiera existir antes */
+    height: auto; /* La altura es controlada por flex-grow */
+    border: none; /* Quitamos el borde que tenía antes */
+    box-shadow: none; /* Quitamos la sombra que tenía antes */
+    border-radius: 0; /* Quitamos los bordes redondeados internos */
+    overflow-y: auto; /* Mantiene el scroll vertical para los mensajes */
+    display: flex;
+    flex-direction: column; /* Apila chat-box y input-area */
+    background-color: var(--color-surface); /* Fondo del área del chat */
+    padding: 15px; /* Padding interno del área del chat */
+}
+
+/* --- Estilos de la Caja de Mensajes (dentro de #chat-container) --- */
+#chat-box {
+    flex-grow: 1; /* La caja de mensajes ocupa el espacio restante dentro de chat-container */
+    padding: 0; /* El padding ahora está en #chat-container */
+    overflow-y: auto; /* Mantiene su propio scrollbar si es necesario */
+    display: flex;
+    flex-direction: column;
+    /* Estilos del scrollbar (pueden variar entre navegadores) */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) var(--color-surface); /* Color del "pulgar" y el "riel" */
+}
+
+#chat-box::-webkit-scrollbar {
+    width: 8px; /* Ancho del scrollbar en navegadores WebKit */
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: var(--color-surface); /* Fondo del riel */
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Color del pulgar */
+    border-radius: 20px;
+    border: 2px solid var(--color-surface);
+}
+
+
+/* --- Estilos de las Burbujas de Mensaje y Animación --- */
+.message {
+    margin-bottom: 15px; /* Espacio debajo de cada burbuja */
+    padding: 12px 16px; /* Padding dentro de la burbuja */
+    border-radius: 20px; /* Bordes redondeados */
+    max-width: 85%; /* Ancho máximo de la burbuja */
+    word-wrap: break-word; /* Permite que palabras largas se dividan */
+    line-height: 1.4; /* Espaciado entre líneas */
+    opacity: 0; /* Inicialmente invisible para la animación */
+    animation: fadeIn 0.5s ease-out forwards; /* Aplica la animación */
+}
+
+/* Definición de la animación */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Inicia ligeramente abajo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Termina en su posición final */
+    }
+}
+
+/* Estilos específicos para burbujas de usuario y bot */
+.user-message {
+    align-self: flex-end; /* Alinea a la derecha */
+    background-color: var(--color-user-bubble); /* Color dorado/amarillo */
+    color: var(--color-text-dark);
+    /* Puedes añadir una "cola" si deseas, con pseudo-elementos */
+    border-bottom-right-radius: 5px; /* Bordes menos redondeados en la esquina de la "cola" */
+}
+
+.bot-message {
+    align-self: flex-start; /* Alinea a la izquierda */
+    background-color: var(--color-bot-bubble); /* Color gris claro */
+    color: var(--color-text-dark);
+    /* Puedes añadir una "cola" si deseas */
+    border-bottom-left-radius: 5px; /* Bordes menos redondeados en la esquina de la "cola" */
+}
+
+
+/* --- Estilos del Área de Input --- */
+#input-area {
+    display: flex;
+    padding: 15px 20px; /* Padding */
+    border-top: 1px solid var(--color-border); /* Borde superior */
+    background-color: var(--color-surface); /* Fondo */
+    flex-shrink: 0; /* Evita que se encoja */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+#user-input {
+    flex-grow: 1; /* Permite que el input ocupe el espacio disponible */
+    padding: 12px; /* Padding interno */
+    border: 1px solid var(--color-border);
+    border-radius: 20px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+    font-size: 1em;
+    outline: none; /* Quita el contorno azul/naranja al enfocar */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave al enfocar */
+}
+
+#user-input:focus {
+    border-color: var(--color-primary-blue); /* Borde azul al enfocar */
+    box-shadow: 0 0 5px rgba(0, 51, 102, 0.3); /* Sombra azul suave */
+}
+
+
+#send-button {
+    padding: 12px 20px; /* Padding */
+    border: none;
+    background-color: var(--color-primary-blue); /* Color azul primario */
+    color: var(--color-text-light);
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra la mano */
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+    flex-shrink: 0; /* Evita que se encoja */
+}
+
+#send-button:hover {
+    background-color: #002244; /* Un azul un poco más oscuro al pasar el mouse */
+}
+
+
+/* --- Estilos del Pie de Página --- */
+#main-footer {
+    flex-shrink: 0; /* Evita que el pie de página se encoja */
+    background-color: var(--color-primary-blue);
+    color: var(--color-text-light);
+    border-bottom-left-radius: 12px; /* Bordes redondeados para el pie de página */
+    border-bottom-right-radius: 12px;
+    /* El padding interno lo maneja .footer-content */
+}
+
+#main-footer .footer-secondary-bar {
+     background-color: var(--color-secondary-blue); /* Color de la barra secundaria */
+     height: 5px; /* Altura de la barra */
+     width: 100%;
+     margin-bottom: 15px; /* Espacio debajo de la barra */
+}
+
+#main-footer .footer-content {
+    padding: 15px 20px 20px 20px; /* Padding interno del contenido del pie de página */
+    /* Puedes ajustar esto si quieres secciones en columnas, usando flex o grid */
+    display: flex;
+    flex-direction: column; /* Apila las secciones verticalmente por defecto */
+    gap: 20px; /* Espacio entre secciones */
+}
+
+#main-footer .footer-section {
+     /* Estilos generales para las secciones del pie de página */
+}
+
+#main-footer h2 {
+    font-size: 1.2em; /* Tamaño de fuente para títulos en el pie de página */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#main-footer p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 0; /* Quitar margen por defecto */
+}
+
+/* Estilos para iconos sociales */
+#main-footer .social-icons .flex {
+     justify-content: flex-start; /* Alinea los iconos a la izquierda por defecto */
+     /* Puedes cambiar a center o flex-end si lo prefieres */
+     gap: 15px; /* Espacio entre iconos */
+}
+
+.social-icon-circle {
+    width: 35px; /* Tamaño de los círculos de iconos */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Forma de círculo */
+    background-color: var(--color-surface); /* Fondo blanco */
+    color: var(--color-primary-blue); /* Icono azul */
+    font-size: 1.3em; /* Tamaño del icono */
+    text-decoration: none;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon-circle:hover {
+    background-color: var(--color-secondary-gold); /* Fondo dorado al pasar mouse */
+    color: var(--color-primary-blue); /* Icono azul */
+}
+
+/* Ajustes responsivos para el pie de página (opcional) */
+@media (min-width: 768px) { /* Ajusta el breakpoint si usas un diseño de columnas */
+    #main-footer .footer-content {
+        flex-direction: row; /* En pantallas más grandes, poner secciones en fila */
+        justify-content: space-between; /* Espacio entre columnas */
+    }
+    #main-footer .footer-section {
+         flex: 1; /* Permite que las secciones crezcan */
+         /* Puedes controlar el ancho de las columnas aquí */
+    }
+    #main-footer .social-icons .flex {
+         justify-content: flex-end; /* Alinear iconos a la derecha en vista de escritorio */
+    }
+}
+
+/* style.css - Añadir estilos para el indicador de carga (tres puntitos) */
+
+.typing-indicator {
+    /* Reutilizamos clases de mensaje para el estilo general de la burbuja */
+    display: flex; /* Usamos flexbox para organizar los puntitos */
+    align-items: center;
+    justify-content: flex-start; /* Alinea a la izquierda, como un mensaje del bot */
+    margin-bottom: 15px; /* Espacio debajo */
+    padding: 12px 16px; /* Padding dentro de la "burbuja" del indicador */
+    border-radius: 20px;
+    max-width: 85%;
+    background-color: var(--color-bot-bubble); /* Mismo fondo que las burbujas del bot */
+    /* Puedes añadir la animación de aparición si quieres que también aparezca animado */
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.typing-indicator span {
+    display: inline-block; /* Hace que los spans se comporten como bloques pero en línea */
+    width: 8px; /* Tamaño de cada puntito */
+    height: 8px;
+    margin: 0 4px; /* Espacio entre los puntitos */
+    background-color: var(--color-text-dark); /* Color de los puntitos */
+    border-radius: 50%; /* Los hace redondos */
+    opacity: 0.7; /* Opacidad inicial */
+    animation: bounce 1.4s infinite ease-in-out both; /* Aplica la animación de rebote */
+}
+
+/* Retrasamos la animación de cada puntito para que parezca que se mueven secuencialmente */
+.typing-indicator span:nth-child(1) { animation-delay: -0.32s; } /* Empieza antes en el ciclo de animación */
+.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0s; } /* Empieza en el inicio del ciclo */
+
+/* Definimos la animación de rebote */
+@keyframes bounce {
+    0%, 80%, 100% {
+        transform: scale(0); /* Los hace muy pequeños (invisibles) */
+        opacity: 0.7;
+    }
+    40% {
+        transform: scale(1); /* Los hace de tamaño normal */
+        opacity: 1;
+    }
+}
