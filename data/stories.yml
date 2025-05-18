@@ -1,34 +1,322 @@
 version: "3.1"
 
 stories:
-- story: Saludo y despedida
+
+- story: Saludo y despedida simple
   steps:
   - intent: saludar
   - action: utter_saludar
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: despedir
+  - action: utter_despedir
 
-- story: Preguntar plan de estudios
+- story: Preguntar plan de estudios (materias de énfasis)
   steps:
   - intent: preguntar_plan_estudios
   - action: action_provide_plan_estudios
+  - action: utter_pregunta_generica
 
-- story: Preguntar prerequisitos
+- story: Preguntar prerequisitos de una materia de énfasis
   steps:
   - intent: preguntar_prerequisitos
+    entities:
+    - materia: "Robotica Inteligente"
+  - slot_was_set:
+    - materia: "Robotica Inteligente"
   - action: action_provide_prerequisitos
+  - action: utter_pregunta_generica
 
-- story: Preguntar por areas de enfasis
+- story: Preguntar por todas las areas de enfasis
   steps:
   - intent: preguntar_areas_enfasis
   - action: action_list_areas_enfasis
+  - action: utter_pregunta_generica
 
 - story: Preguntar por materias en area especifica
   steps:
   - intent: preguntar_materias_en_area
+    entities:
+    - area_enfasis: "Ciberseguridad"
+  - slot_was_set:
+    - area_enfasis: "Ciberseguridad"
   - action: action_list_materias_in_area
+  - action: utter_pregunta_generica
 
-- story: Preguntar detalles de materia
+- story: Preguntar detalles generales de una materia de énfasis
   steps:
   - intent: preguntar_detalle_materia
+    entities:
+    - materia: "Aprendizaje Automatico"
+  - slot_was_set:
+    - materia: "Aprendizaje Automatico"
   - action: action_provide_materia_details
+  - action: utter_pregunta_generica
+
+
+- story: Desafío de bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- story: Usuario agradece y se despide (simplificada)
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_areas_enfasis
+  - action: action_list_areas_enfasis
+  - intent: agradecer 
+  - intent: despedir
+  - action: utter_despedir
+
+- story: Preguntar nombre de la carrera (confirmación)
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_nombre_carrera
+  - action: action_informar_nombre_carrera
+  - action: utter_pregunta_generica
+
+- story: Preguntar duración de la carrera
+  steps:
+  - intent: preguntar_duracion_carrera
+  - action: action_informar_duracion_carrera
+  - action: utter_pregunta_generica
+
+- story: Preguntar resultados profesionales
+  steps:
+  - intent: preguntar_resultados_profesionales
+  - action: action_informar_resultados_profesionales
+  - action: utter_pregunta_generica
+
+
+- story: Listar áreas de énfasis y luego preguntar descripción de una
+  steps:
+  - intent: preguntar_areas_enfasis
+  - action: action_list_areas_enfasis
+  - intent: preguntar_descripcion_area_enfasis
+    entities:
+    - area_enfasis: "Inteligencia Artificial y Robótica"
+  - slot_was_set:
+    - area_enfasis: "Inteligencia Artificial y Robótica"
+  - action: action_informar_descripcion_area_enfasis
+  - action: utter_pregunta_generica
+
+- story: Preguntar descripción de un área de énfasis directamente (nombre corto)
+  steps:
+  - intent: preguntar_descripcion_area_enfasis
+    entities:
+    - area_enfasis: "videojuegos"
+  - slot_was_set:
+    - area_enfasis: "videojuegos"
+  - action: action_informar_descripcion_area_enfasis
+  - action: utter_pregunta_generica
+
+- story: Preguntar descripción y luego materias de la misma área (aprovechando slot)
+  steps:
+  - intent: preguntar_descripcion_area_enfasis
+    entities:
+    - area_enfasis: "Desarrollo Web y Multiplataforma"
+  - slot_was_set:
+    - area_enfasis: "Desarrollo Web y Multiplataforma"
+  - action: action_informar_descripcion_area_enfasis
+  - intent: preguntar_materias_en_area
+  - action: action_list_materias_in_area
+  - action: utter_pregunta_generica
+
+- story: Preguntar por un área de énfasis que no existe
+  steps:
+  - intent: preguntar_descripcion_area_enfasis
+    entities:
+    - area_enfasis: "Marketing Digital Avanzado" # Área inventada
+  - slot_was_set:
+    - area_enfasis: "Marketing Digital Avanzado"
+  - action: action_informar_descripcion_area_enfasis # La acción debe responder con utter_area_no_encontrada
+  - action: utter_pregunta_generica
+
+# --- Historias para Información Específica de Materias de Énfasis ---
+
+- story: Preguntar prerequisitos de una materia de énfasis por clave
+  steps:
+  - intent: preguntar_prerequisitos
+    entities:
+    - materia: "2834" # Motores Graficos
+  - slot_was_set:
+    - materia: "2834"
+  - action: action_provide_prerequisitos
+  - action: utter_pregunta_generica
+
+- story: Preguntar objetivo de una materia de énfasis
+  steps:
+  - intent: preguntar_objetivo_materia
+    entities:
+    - materia: "Programación de Robots"
+  - slot_was_set:
+    - materia: "Programación de Robots"
+  - action: action_informar_objetivo_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar créditos de una materia de énfasis por clave
+  steps:
+  - intent: preguntar_creditos_materia
+    entities:
+    - materia: "2809" # Computo Bio-Inspirado
+  - slot_was_set:
+    - materia: "2809"
+  - action: action_informar_creditos_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar semestre de una materia de énfasis
+  steps:
+  - intent: preguntar_semestre_materia
+    entities:
+    - materia: "Visión Computacional"
+  - slot_was_set:
+    - materia: "Visión Computacional"
+  - action: action_informar_semestre_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar horas de una materia de énfasis
+  steps:
+  - intent: preguntar_horas_materia
+    entities:
+    - materia: "Ciencia de Datos"
+  - slot_was_set:
+    - materia: "Ciencia de Datos"
+  - action: action_informar_horas_materia # La acción puede dar ambas horas o pedir especificación
+  - action: utter_pregunta_generica
+
+- story: Preguntar tipo de una materia de énfasis por clave
+  steps:
+  - intent: preguntar_tipo_materia
+    entities:
+    - materia: "2819" # Representacion del Conocimiento y Ontologias
+  - slot_was_set:
+    - materia: "2819"
+  - action: action_informar_tipo_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar contenido de una materia de énfasis
+  steps:
+  - intent: preguntar_contenido_materia
+    entities:
+    - materia: "Programacion de Videojuegos"
+  - slot_was_set:
+    - materia: "Programacion de Videojuegos"
+  - action: action_informar_contenido_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar clave de una materia de énfasis dado su nombre
+  steps:
+  - intent: preguntar_clave_materia
+    entities:
+    - materia: "Diseño de Videojuegos"
+  - slot_was_set:
+    - materia: "Diseño de Videojuegos"
+  - action: action_informar_clave_materia
+  - action: utter_pregunta_generica
+
+- story: Preguntar nombre de una materia de énfasis dada su clave
+  steps:
+  - intent: preguntar_nombre_materia_por_clave
+    entities:
+    - materia: "2834" # Motores Graficos
+  - slot_was_set:
+    - materia: "2834"
+  - action: action_informar_nombre_materia_por_clave
+  - action: utter_pregunta_generica
+
+- story: Preguntar por una materia de énfasis que no existe (usando intent específico)
+  steps:
+  - intent: preguntar_objetivo_materia
+    entities:
+    - materia: "Física de Partículas para IA"
+  - slot_was_set:
+    - materia: "Física de Partículas para IA"
+  - action: action_informar_objetivo_materia 
+  - action: utter_pregunta_generica
+
+# --- Historias Combinadas y de Flujo (Más largas) ---
+- story: Conversación más larga sobre materias de énfasis (simplificada por regla de agradecer)
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_materias_en_area
+    entities:
+    - area_enfasis: "Inteligencia Artificial y Robótica"
+  - slot_was_set:
+    - area_enfasis: "Inteligencia Artificial y Robótica"
+  - action: action_list_materias_in_area
+  - intent: preguntar_objetivo_materia
+    entities:
+    - materia: "Programación de Robots"
+  - slot_was_set:
+    - materia: "Programación de Robots"
+  - action: action_informar_objetivo_materia
+  - intent: preguntar_creditos_materia
+  - action: action_informar_creditos_materia
+  - intent: preguntar_prerequisitos
+  - action: action_provide_prerequisitos
+  - intent: agradecer 
+  - intent: despedir 
+  - action: utter_despedir
+
+- story: Usuario pregunta sobre materia sin especificarla, luego la especifica
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: preguntar_objetivo_materia # No hay entidad materia aquí
+  - action: utter_pedir_materia_especifica # Bot pide la materia
+  - intent: preguntar_detalle_materia # Usuario responde con la materia.
+    entities:
+    - materia: "Ciencia de Datos"
+  - slot_was_set:
+    - materia: "Ciencia de Datos"
+  - action: action_informar_objetivo_materia # Ahora la acción tiene la materia y puede responder al intent original
+  - action: utter_pregunta_generica
+
+- story: Cambio de tema pregunta por área, luego por materia de otra área
+  steps:
+  - intent: preguntar_descripcion_area_enfasis
+    entities:
+    - area_enfasis: "Ciberseguridad"
+  - slot_was_set:
+    - area_enfasis: "Ciberseguridad"
+  - action: action_informar_descripcion_area_enfasis
+  - intent: preguntar_objetivo_materia # Cambia a preguntar por una materia
+    entities:
+    - materia: "Programacion de Videojuegos" # Materia de un área diferente
+  - slot_was_set:
+    - materia: "Programacion de Videojuegos"
+  - action: action_informar_objetivo_materia
+  - action: utter_pregunta_generica
+
+- story: Usuario afirma después de una respuesta y luego se despide
+  steps:
+  - intent: preguntar_creditos_materia
+    entities:
+    - materia: "Aplicaciones Web Interactivas"
+  - slot_was_set:
+    - materia: "Aplicaciones Web Interactivas"
+  - action: action_informar_creditos_materia
+  - intent: afirmar # Usuario dice "ok" o "sí, gracias"
+  - action: utter_pregunta_generica # La acción de afirmar no tiene respuesta directa, así que podemos ofrecer ayuda
+  - intent: despedir
+  - action: utter_despedir
+
+- story: Usuario niega (posible malentendido) y reformula
+  steps:
+  - intent: preguntar_detalle_materia
+    entities:
+    - materia: "Robotica Inteligente"
+  - slot_was_set:
+    - materia: "Robotica Inteligente"
+  - action: action_provide_materia_details # Bot da info general
+  - intent: negar # Usuario dice "no, eso no era" o "no me refiero a eso"
+  - action: utter_no_entiendo # O una respuesta más específica
+  - intent: preguntar_contenido_materia # Usuario reformula, pidiendo algo más específico
+    entities:
+    - materia: "Robotica Inteligente"
+  - slot_was_set: # Slot materia ya está seteado
+    - materia: "Robotica Inteligente"
+  - action: action_informar_contenido_materia
+  - action: utter_pregunta_generica

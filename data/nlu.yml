@@ -6,8 +6,13 @@ nlu:
     - Hola
     - Buenas
     - Qué tal
+    - buenos días
+    - buenas tardes
+    - hey
+    - holi
+    - que onda
 
-- intent: goodbye
+- intent: despedir
   examples: |
     - Adiós
     - Nos vemos
@@ -17,38 +22,48 @@ nlu:
     - chao
     - adios bot
     - nos vemos luego
+    - muchas gracias, eso es todo
+    - ya me voy
 
 - intent: bot_challenge
   examples: |
     - Eres un bot?
     - ¿Eres humano?
+    - ¿Estoy hablando con una IA?
 
 - intent: preguntar_plan_estudios
   examples: |
-    - ¿Cuál es el plan de estudios?
-    - ¿Qué materias tengo que cursar?
+    - ¿Cuál es el plan de estudios de las áreas de énfasis?
+    - ¿Qué materias de especialización tengo que cursar?
+    - Muéstrame el plan de estudios de especialización
+    - ¿Cómo es la currícula de las áreas de énfasis?
+    - Ver las materias de énfasis
 
 - intent: preguntar_prerequisitos
   examples: |
     - ¿Qué prerequisitos tiene [Representacion del Conocimiento y Ontologias](materia)?
-    - Que tengo que llevar para [Temas Selectos de Videojeugos](materia)?
+    - Que tengo que llevar para [Temas Selectos de Videojuegos](materia)?
     - ¿Qué necesito para cursar [Programacion de Robots](materia)?
-    - ¿Qué materias debo aprobar antes de [Representacion del Conocimiento y Ontologias](materia)?
+    - ¿Qué materias debo aprobar antes de [2819](materia)?
     - Cuales son los requisitos para [Fundamentos de Desarrollo Web](materia)?
     - Que necesito para ver [Diseño de Videojuegos](materia)?
     - dime los prerequisitos de [Aplicaciones Web Escalables](materia)
-    - Requisitos para [Arte Conceptual Para Videojuegos](materia)
-    - [Temas Selectos de Videojeugos](materia) prerequisitos
-    - Que va antes de [Computo Bio-Inspirado](materia)? 
-    - Me puedes decir que necesito para [Vison Computacional](materia)? 
+    - Requisitos para [2836](materia)
+    - [Temas Selectos de Videojuegos](materia) prerequisitos
+    - Que va antes de [Computo Bio-Inspirado](materia)?
+    - Me puedes decir que necesito para [Vison Computacional](materia)?
+    - ¿Prerrequisitos para [Administracion de Redes](materia)?
+    - ¿Qué necesito para [Criptografía](materia)?
 
 - intent: preguntar_areas_enfasis
   examples: |
     - Cuales son las areas de enfasis?
     - Que especializaciones hay en la carrera?
-    - Listame las areas
-    - Dime sobre las areas de enfasis
-    - Que opciones de especializacion hay?
+    - Listame las areas de especialización
+    - Dime sobre las areas de enfasis disponibles
+    - Que opciones de especializacion tengo?
+    - ¿Qué líneas de acentuación ofrecen?
+    - ¿Cuáles son las terminales de la carrera?
 
 - intent: preguntar_materias_en_area
   examples: |
@@ -59,19 +74,241 @@ nlu:
     - Cursos en el area de [Interacción y Videojuegos](area_enfasis)
     - Materias del area de [Ciberseguridad](area_enfasis)
     - Que materias da el area de [Desarrollo Web y Multiplataforma](area_enfasis)?
-    - Listame los cursos del area de [IA y Robótica](area_enfasis) # Usando acrónimo o nombre corto
-    - Materias en [videojuegos](area_enfasis) # Usando parte del nombre
-    - Cuales son los cursos de [ciberseguridad](area_enfasis) # Con minúsculas y sin "area de"
-    - que materias estan en [inteligencia artificial](area_enfasis) # Con minúsculas y nombre parcial
-    - materis en [Inteligencia Artificial y Robótica](area_enfasis) # Con error tipográfico en otra palabra
-    - Que materias hay en [Inteligencia Artificial y Robota](area_enfasis)? 
+    - Listame los cursos del area de [IA y Robótica](area_enfasis)
+    - Materias en [videojuegos](area_enfasis)
+    - Cuales son los cursos de [ciberseguridad](area_enfasis)
+    - que materias estan en [inteligencia artificial](area_enfasis)
+    - materis en [Inteligencia Artificial y Robótica](area_enfasis)
+    - Que materias hay en [Inteligencia Artificial y Robota](area_enfasis)?
+    - ¿Qué asignaturas pertenecen a [Desarrollo Web](area_enfasis)?
 
 - intent: preguntar_detalle_materia
   examples: |
-    - De que trata [Bases de Datos](materia)?
-    - Cual es el objetivo de [Programación Avanzada](materia)?
-    - Dame el contenido de [Algoritmos y Estructuras de Datos](materia)
     - Informacion sobre [Vison Computacional](materia)
     - Dime mas sobre la materia [Aprendizaje Automatico](materia)
-    - Objetivo de [Ciencia de Datos](materia)
-    - Contenido de [Programación de Robots](materia)
+    - Háblame de [Programacion de Robots](materia)
+    - ¿Qué me puedes decir de [2809](materia)?
+    - detalles de la materia [Aplicaciones Web Interactivas](materia)
+    - Quiero saber más de [Programacion de Videojuegos](materia)
+    - Detalles sobre [Administracion de Redes](materia)
+    - Cuéntame de [Principios de Seguridad Informatica](materia)
+    - Más información de [2826](materia) # Criptografía
+
+- intent: agradecer
+  examples: |
+    - gracias
+    - muchas gracias
+    - te lo agradezco
+    - qué amable
+    - chido, gracias
+    - vale, gracias
+
+- intent: afirmar
+  examples: |
+    - sí
+    - simon
+    - sipi
+    - correcto
+    - afirmativo
+    - claro
+    - exacto
+    - ok
+    - va
+
+- intent: negar
+  examples: |
+    - no
+    - nel
+    - nop
+    - para nada
+    - incorrecto
+    - negativo
+
+- intent: preguntar_nombre_carrera
+  examples: |
+    - ¿Cómo se llama esta carrera de especialización?
+    - ¿Cuál es el nombre oficial de la ingeniería de sistemas inteligentes?
+    - Dime el nombre de la carrera que cubre este bot
+
+- intent: preguntar_duracion_carrera
+  examples: |
+    - ¿Cuánto dura la carrera de Ingenieria en Sistemas Inteligentes?
+    - ¿Cuántos semestres son en Sistemas Inteligentes?
+    - Duración de la ingeniería esta
+    - En cuánto tiempo termino la carrera (enfocada en el plan de ISI)
+    - Cuantos semestres tiene Ingenieria en Sistemas Inteligentes
+
+- intent: preguntar_resultados_profesionales
+  examples: |
+    - ¿En qué puedo trabajar cuando me gradúe de ISI?
+    - ¿Cuáles son las salidas laborales de Ingenieria en Sistemas Inteligentes?
+    - Perfil de egreso de sistemas inteligentes
+    - Oportunidades de trabajo para un ingeniero en sistemas inteligentes
+    - ¿Qué roles puedo desempeñar con esta carrera?
+
+- intent: preguntar_descripcion_area_enfasis
+  examples: |
+    - ¿De qué trata el área de [Inteligencia Artificial y Robótica](area_enfasis)?
+    - Descríbeme el área de [Interacción y Videojuegos](area_enfasis)
+    - ¿Qué es [Ciberseguridad](area_enfasis) como área de énfasis?
+    - Información sobre la descripción de [Desarrollo Web y Multiplataforma](area_enfasis)
+    - Cuéntame más sobre [IA y Robótica](area_enfasis)
+    - Detalles del área [Videojuegos](area_enfasis)
+    - ¿Cuál es la descripción de [Desarrollo Web](area_enfasis)?
+
+- intent: preguntar_objetivo_materia
+  examples: |
+    - ¿Cuál es el objetivo de [Programación de Robots](materia)?
+    - Objetivo de la materia [Computo Bio-Inspirado](materia)
+    - ¿Para qué sirve [Vison Computacional](materia)?
+    - ¿Qué se busca con [2816](materia)?
+    - ¿Cuál es la finalidad de [Robotica Inteligente](materia)?
+    - el objetivo de [Ciencia de Datos](materia) es?
+    - ¿Objetivo de [Criptografía](materia)?
+
+- intent: preguntar_creditos_materia
+  examples: |
+    - ¿Cuántos créditos vale [Programación de Robots](materia)?
+    - Créditos de [Computo Bio-Inspirado](materia)
+    - ¿Valor en créditos de la clave [2815](materia)?
+    - Cuántos créditos da [Aprendizaje Automatico](materia)
+    - los créditos de [2818](materia)
+    - creditos para [Ciencia de Datos](materia)
+    - ¿Cuántos créditos tiene [Anonimato y Privacidad](materia)?
+
+- intent: preguntar_semestre_materia
+  examples: |
+    - ¿En qué semestre se lleva [Programación de Robots](materia)?
+    - Semestre de [Computo Bio-Inspirado](materia)
+    - ¿Cuándo se cursa la materia con clave [2815](materia)?
+    - Semestre para [Aprendizaje Automatico](materia)
+    - en que semestre va [Robotica Inteligente](materia)
+    - semestre de [2808](materia)
+    - ¿Semestre de [Modelado y simulacion de redes](materia)?
+
+- intent: preguntar_horas_materia
+  examples: |
+    - ¿Cuántas horas son de [Programación de Robots](materia) a la semana?
+    - Horas de clase de [Computo Bio-Inspirado](materia)
+    - ¿Cuántas horas en total tiene la materia [2815](materia)?
+    - Horas semanales de [Aprendizaje Automatico](materia)
+    - ¿Cuál es la carga horaria de [Robotica Inteligente](materia)?
+    - horas de [2808](materia)
+    - ¿Cuántas horas son en total en el semestre para [Programacion de Videojuegos](materia)?
+    - ¿Horas por semana de [Interaccion de Redes](materia)?
+
+- intent: preguntar_tipo_materia
+  examples: |
+    - ¿Qué tipo de materia es [Programación de Robots](materia)?
+    - ¿[Computo Bio-Inspirado](materia) es obligatoria o electiva de área de énfasis?
+    - Tipo de [2815](materia)
+    - ¿[Aprendizaje Automatico](materia) es de área de énfasis o tronco común?
+    - la materia [Robotica Inteligente](materia) es optativa?
+    - ¿[Principios de Seguridad Informatica](materia) es electiva?
+
+- intent: preguntar_contenido_materia
+  examples: |
+    - ¿Qué temas se ven en [Programación de Robots](materia)?
+    - Contenido temático de [Computo Bio-Inspirado](materia)
+    - ¿Cuál es el temario de la materia [2815](materia)?
+    - Temas de [Aprendizaje Automatico](materia)
+    - ¿Qué enseñan en [Robotica Inteligente](materia)?
+    - el contenido de [Ciencia de Datos](materia)
+    - ¿Temario de [Administracion de Redes](materia)?
+
+- intent: preguntar_clave_materia
+  examples: |
+    - ¿Cuál es la clave de [Programación de Robots](materia)?
+    - Clave de la materia [Computo Bio-Inspirado](materia)
+    - ¿Qué clave tiene [Vison Computacional](materia)?
+    - la clave para [Aprendizaje Automatico](materia)
+    - ¿Clave de [Criptografía](materia)?
+
+- intent: preguntar_nombre_materia_por_clave
+  examples: |
+    - ¿Qué materia es la clave [2817](materia)?
+    - ¿Cómo se llama la materia [2809](materia)?
+    - Nombre de la clave [2815](materia)
+    - la materia [2816](materia) cual es?
+    - ¿Nombre de la materia [2824](materia)?
+
+- lookup: materia 
+  examples:
+  # Inteligencia Artificial y Robótica
+    - Programación de Robots
+    - "2817"
+    - Computo Bio-Inspirado
+    - "2809"
+    - Visión Computacional 
+    - "2815"
+    - Aprendizaje Automatico
+    - "2816"
+    - Robotica Inteligente
+    - "2818"
+    - Ciencia de Datos
+    - "2808"
+    - Representacion del Conocimiento y Ontologias
+    - "2819"
+    # Interacción y Videojuegos
+    - Programacion de Videojuegos
+    - "2832"
+    - Diseño de Videojuegos
+    - "2833"
+    - Motores Graficos
+    - "2834"
+    - Arte Conceptual Para Videojuegos
+    - "2836"
+    - Temas Selectos de Videojuegos
+    - "2835"
+    # Ciberseguridad 
+    - Administracion de Redes
+    - "2824"
+    - Principios de Seguridad Informatica
+    - "2825"
+    - Criptografía
+    - "2826"
+    - Modelado y simulacion de redes
+    - "2827"
+    - Anonimato y Privacidad
+    - "2828"
+    - Interaccion de Redes
+    - "2829"
+    # Desarrollo Web y Multiplataforma
+    - Aplicaciones Web Interactivas
+    - "2237"
+    - Fundamentos de Desarrollo Web
+    - "2238"
+    - Fundamentos de Desarrollo Movil
+    - "2239"
+    - Diseño de Interfaces
+    - "2244"
+    - Aplicaciones Web Escalables
+    - "2245"
+    # Prerrequisitos (nombres y claves de materias prerrequisito)
+    - Fundamentos de Inteligencia Artificial
+    - "2813"
+    - Graficacion Por Computadora
+    - "2807"
+    - Interfaces Gráficas con Aplicaciones
+    - "2236"
+    - Diseño e Implementacion de Redes 
+    - "2823" 
+
+- lookup: area_enfasis 
+  examples:
+    - Inteligencia Artificial y Robótica
+    - IA y Robótica
+    - Inteligencia Artificial
+    - Robótica
+    - Interacción y Videojuegos
+    - Videojuegos
+    - Interaccion y Videojuegos
+    - Interaccion
+    - Ciberseguridad
+    - Seguridad Informatica 
+    - Seguridad Informática
+    - Desarrollo Web y Multiplataforma
+    - Web y Multiplataforma
+    - Desarrollo Web
+    - Desarrollo Multiplataforma
+    - Web

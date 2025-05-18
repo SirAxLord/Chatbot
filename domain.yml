@@ -2,43 +2,116 @@ version: "3.1"
 
 intents:
   - saludar
+  - despedir 
+  - bot_challenge
   - preguntar_plan_estudios
   - preguntar_prerequisitos
   - preguntar_areas_enfasis
   - preguntar_materias_en_area
-  - goodbye
-  - bot_challenge
-  - preguntar_detalle_materia
+  - preguntar_detalle_materia 
+  - agradecer
+  - afirmar
+  - negar
+  - preguntar_nombre_carrera
+  - preguntar_duracion_carrera
+  - preguntar_resultados_profesionales
+  - preguntar_descripcion_area_enfasis
+  - preguntar_objetivo_materia
+  - preguntar_creditos_materia
+  - preguntar_semestre_materia
+  - preguntar_horas_materia
+  - preguntar_tipo_materia
+  - preguntar_contenido_materia
+  - preguntar_clave_materia
+  - preguntar_nombre_materia_por_clave
 
+# Entidades que el bot puede extraer
+entities:
+  - materia # Para nombres o claves de materias de énfasis
+  - area_enfasis
+
+# Slots para almacenar información durante la conversación
+slots:
+  materia:
+    type: text
+    influence_conversation: true # Mantenemos true, ya que la materia actual es clave
+    mappings:
+      - type: from_entity
+        entity: materia
+  area_enfasis:
+    type: text
+    influence_conversation: true # Mantenemos true, el área actual es clave
+    mappings:
+      - type: from_entity
+        entity: area_enfasis
+
+# Plantillas de respuesta del bot
+responses:
+  utter_saludar: # Tu respuesta actual es buena, añado una alternativa
+    - text: "¡Hola! Soy tu asistente académico para la carrera de Ingeniería en Sistemas Inteligentes, enfocado en las áreas de énfasis. ¿En qué puedo ayudarte hoy?"
+    - text: "¡Qué tal! Estoy aquí para darte información sobre las especializaciones y materias de énfasis de Ingeniería en Sistemas Inteligentes. ¿Qué necesitas saber?"
+
+  utter_despedir: # Tu respuesta actual es buena, añado una alternativa
+    - text: "Adiós, ¡hasta pronto! Espero haberte ayudado."
+    - text: "¡Nos vemos! Si tienes más dudas sobre las áreas de énfasis, no dudes en preguntar."
+
+  utter_iamabot: # Tu respuesta actual es buena, añado una alternativa
+    - text: "¡Soy un chatbot creado para ayudarte con información sobre las áreas de énfasis de Ingeniería en Sistemas Inteligentes en la UASLP!"
+    - text: "Soy un asistente virtual, especializado en las áreas de énfasis de tu carrera."
+
+  utter_agradecer: # Nueva response
+    - text: "¡De nada! Es un placer ayudarte con la información de las áreas de énfasis."
+    - text: "No hay de qué. ¡Cualquier otra consulta sobre las especializaciones, aquí estoy!"
+
+  utter_pregunta_generica: # Nueva response útil para ofrecer más ayuda
+    - text: "¿Hay algo más sobre las áreas de énfasis o sus materias en lo que pueda ayudarte?"
+    - text: "¿Necesitas más información sobre alguna especialización o materia de énfasis?"
+
+  utter_no_entiendo: # Nueva response para cuando el bot no entiende
+    - text: "Lo siento, no entendí bien tu pregunta sobre las áreas de énfasis. ¿Podrías intentar de otra manera?"
+    - text: "Perdona, no estoy seguro de cómo responder a eso en el contexto de las especializaciones. ¿Puedes reformularlo?"
+
+  utter_area_no_encontrada: # Nueva response, más específica
+    - text: "Lo siento, no encontré información sobre esa área de énfasis. Las áreas disponibles son: Inteligencia Artificial y Robótica, Interacción y Videojuegos, Ciberseguridad, y Desarrollo Web y Multiplataforma. ¿Te referías a alguna de estas?"
+    - text: "No pude encontrar datos para el área de énfasis que mencionaste. Asegúrate de que el nombre sea uno de los oficiales o intenta con un nombre más corto que esté en la lista de opciones."
+
+  utter_materia_no_encontrada: # Nueva response, más específica para materias de énfasis
+    - text: "Lo siento, no encontré información sobre esa materia de énfasis. Verifica el nombre o la clave, o asegúrate de que sea una materia de especialización de la carrera."
+    - text: "No pude encontrar datos para la materia de énfasis que mencionaste. ¿Podrías revisar si el nombre o clave son correctos y si pertenece a un área de énfasis de Ingeniería en Sistemas Inteligentes?"
+
+  utter_info_no_disponible: # Nueva response genérica si un detalle específico de una materia no está en el JSON
+    - text: "No tengo esa información específica para la materia que mencionaste en este momento."
+    - text: "Ese detalle en particular no está disponible para la materia consultada. ¿Puedo ayudarte con otra cosa de esa materia o alguna otra?"
+
+  utter_pedir_materia_especifica: # Nueva, para cuando falta la entidad materia
+    - text: "Claro, ¿de qué materia de énfasis te gustaría saber esa información?"
+    - text: "Entendido, ¿podrías decirme el nombre o la clave de la materia de énfasis?"
+
+  utter_pedir_area_especifica: # Nueva, para cuando falta la entidad area_enfasis
+    - text: "Por supuesto, ¿sobre qué área de énfasis te gustaría saber más?"
+    - text: "Entendido, ¿podrías indicarme el nombre del área de énfasis?"
+
+# Acciones personalizadas que tu bot puede ejecutar (código en actions.py)
 actions:
+  # Tus acciones existentes:
   - action_provide_plan_estudios
   - action_provide_prerequisitos
   - action_list_areas_enfasis
   - action_list_materias_in_area
   - action_provide_materia_details
+  - action_informar_nombre_carrera
+  - action_informar_duracion_carrera
+  - action_informar_resultados_profesionales
+  - action_informar_descripcion_area_enfasis
+  - action_informar_objetivo_materia
+  - action_informar_creditos_materia
+  - action_informar_semestre_materia
+  - action_informar_horas_materia
+  - action_informar_tipo_materia
+  - action_informar_contenido_materia
+  - action_informar_clave_materia
+  - action_informar_nombre_materia_por_clave
 
-entities:
-  - materia
-  - area_enfasis
-
-slots:
-  materia:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: materia
-  area_enfasis:
-     type: text
-     mappings:
-      - type: from_entity
-        entity: area_enfasis
-
-responses:
-  utter_saludar:
-    - text: "Hola! Soy el asistente académico. ¿En qué puedo ayudarte?"
-
-  utter_goodbye:
-    - text: "Adiós, ¡hasta pronto!"
-  
-  utter_iamabot:
-    - text: "¡Soy un chatbot creado para ayudarte!"
+session_config:
+  session_expiration_time: 60 # en minutos, tiempo de inactividad antes de que la sesión termine
+  carry_over_slots_to_new_session: true # si los slots deben persistir entre sesiones (generalmente true)
