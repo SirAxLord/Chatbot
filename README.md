@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Chatbot Rasa con Docker
 
 Este proyecto es un chatbot desarrollado con **Rasa** y ejecutado dentro de contenedores **Docker**, utilizando `Docker Compose`.
@@ -69,5 +68,3 @@ docker-compose down
 ---
 
 ¡Listo! 🚀 Ahora puedes usar el chatbot tanto desde la **terminal** como desde la **interfaz web**. 😃
-```
-
