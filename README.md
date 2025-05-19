@@ -1,8 +1,11 @@
-# Chatbot Rasa con Docker
+¡Entendido, Axel! Aquí tienes tu texto estructurado correctamente, con los formatos adecuados para que se vea bien en tu README de GitHub:
 
-Este proyecto es un chatbot desarrollado con **Rasa** y ejecutado dentro de un contenedor **Docker**.
+```markdown
+# 🚀 Chatbot Rasa con Docker
 
-## 🚀 Instrucciones de Instalación
+Este proyecto es un chatbot desarrollado con **Rasa** y ejecutado dentro de contenedores **Docker**, utilizando `Docker Compose`.
+
+## 🔧 Instrucciones de Instalación
 
 ### 1️⃣ Clonar el repositorio
 Ejecuta el siguiente comando en tu terminal:
@@ -11,41 +14,62 @@ git clone https://github.com/SirAxLord/Chatbot.git
 cd chatbot-rasa
 ```
 
-### 2️⃣ Construir la imagen de Docker
-Ejecuta el siguiente comando para construir la imagen del chatbot:
+### 2️⃣ Construir y ejecutar con Docker Compose
+Para construir la imagen y ejecutar todos los servicios en segundo plano:
 ```bash
-docker build -t chatbot-rasa .
-```
-Esto creará una imagen de Docker llamada `chatbot-rasa`.
-
-### 3️⃣ Ejecutar el contenedor
-Para correr el chatbot, usa:
-```bash
-docker run -p 5005:5005 chatbot-rasa
-```
-Si todo está bien, verás un mensaje indicando que el servidor está corriendo en `http://0.0.0.0:5005`.
-
-### 4️⃣ Probar el chatbot
-Abre un navegador y ve a:
-```
-http://localhost:5005
-```
-También puedes probarlo desde la terminal con:
-```bash
-curl http://localhost:5005/version
+docker-compose up -d --build
 ```
 
-## 🛑 Detener el contenedor
-Para detener el contenedor en ejecución, presiona `CTRL + C` en la terminal o usa:
+### 3️⃣ Entrenar el modelo de Rasa
+Para entrenar el modelo del chatbot:
 ```bash
-docker ps   # Para ver el ID del contenedor
-docker stop <ID_DEL_CONTENEDOR>
+docker-compose run --rm rasa rasa train
 ```
 
-## 📌 Notas
-- Asegúrate de tener **Docker instalado** en tu computadora.
+### 4️⃣ Reiniciar el servidor de acciones
+Después de entrenar o hacer cambios en las acciones personalizadas:
+```bash
+docker-compose restart actions
+```
+
+### 5️⃣ Interactuar con el chatbot
+Para usar el chatbot desde la terminal:
+```bash
+docker-compose run --rm rasa rasa shell
+```
+
+## 🌐 Interfaz Web
+
+El proyecto incluye una **interfaz web** para interactuar con el chatbot:
+
+1. Asegúrate de que el servidor de Rasa esté en ejecución.
+2. Abre el archivo `index.html` desde tu explorador de archivos.
+3. Comenzará a funcionar automáticamente mientras el servicio de Rasa esté activo.
+
+> **Nota:** La interfaz web solo funciona cuando los servicios de Rasa están en ejecución.
+
+## 🛑 Detener los servicios
+
+Para detener todos los contenedores en ejecución:
+```bash
+docker-compose down
+```
+
+## 📌 Notas adicionales
+
+- Asegúrate de tener **Docker** y **Docker Compose** instalados en tu computadora.
 - Si tienes problemas con permisos, prueba ejecutando los comandos con `sudo` en Linux.
-- Si necesitas reconstruir la imagen, usa `docker build --no-cache -t chatbot-rasa .` para evitar problemas de caché.
+- Para ver los logs de los servicios en ejecución:
+  ```bash
+  docker-compose logs -f
+  ```
+- Para reconstruir completamente las imágenes:
+  ```bash
+  docker-compose build --no-cache
+  ```
 
-¡Listo! 🚀 Ahora puedes usar el chatbot en tu máquina. 😃
+---
+
+¡Listo! 🚀 Ahora puedes usar el chatbot tanto desde la **terminal** como desde la **interfaz web**. 😃
+```
 
