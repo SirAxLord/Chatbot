@@ -96,7 +96,7 @@
           "contenido_tematico_resumen": "Introduccion al Computo Bio-Inspirado, Inteligencia de Enjambre, Computo Evolutivo: Algoritmos Geneticos, Computo Evolutivo: Programacion Genetica.."
         },
         {
-          "nombre": "Vison Computacional",
+          "nombre": "Visión Computacional",
           "clave_materia": "2815",
           "semestre": 6,
           "creditos": 8,
@@ -111,7 +111,7 @@
             }
           ],
           "objetivo": "Comprender y aplicar los conceptos de visión computacional, mediante el uso de herramientas de programación para la interpretación automática de información obtenida mediante videos o imágenes. ",
-          "contenido_tematico_resumen": "Introduccion a la Vision Computacional, Tareas de Vision computacional de Bajo Nivel, Taraeas de Vision Computacional de Alto Nivel, Tareas de Vision Computacional Con Aprendizaje Automatico."
+          "contenido_tematico_resumen": "Introduccion a la Visión Computacional, Tareas de Visión computacional de Bajo Nivel, Taraeas de Visión Computacional de Alto Nivel, Tareas de Visión Computacional Con Aprendizaje Automatico."
         },
         {
           "nombre": "Aprendizaje Automatico",
@@ -401,6 +401,114 @@
           ],
           "objetivo": "Generar aplicaciones web interactivas usando lenguajes de programación vigentes en el mercado que permitan enriquecer el desarrollo de aplicaciones de software.  ",
           "contenido_tematico_resumen": "Angular, NodeJS, Mongo, Express JS"
+        },
+        {
+          "nombre": "Administracion de Redes",
+          "clave_materia": "2824",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2823",
+              "nombre": "Diseño e Implementacion de Redes"
+            }
+          ],
+          "objetivo": "Diseñar, configurar y ser capaces de adminstrar redes de tipo LAN y WAN",
+          "contenido_tematico_resumen": "Conceptos basicos de redes,  IPv4, IPv6, LAN, Redundancia en LAN, DHCP, Seguridad en LAN, WLAN, Enrutamiento"
+        },
+        {
+          "nombre": "Principios de Seguridad Informatica",
+          "clave_materia": "2825",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2823",
+              "nombre": "Diseño e implementacion de Redes"
+            }
+          ],
+          "objetivo": "Analizar los conceptos fundamentales y principios de la seguridad informatica necesarios, ademas de ser capaces de aplicarlos para el funcionamiento de una organizacion.",
+          "contenido_tematico_resumen": "Amenazas y Ataques, Politicas de Seguridad y legislacion, Seguridad de Redes, Principios de Software seguro"
+        },
+        {
+          "nombre": "Interaccion de Redes",
+          "clave_materia": "2829",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2824",
+              "nombre": "Administracion de Redes"
+            }
+          ],
+          "objetivo": "Conocer, analizar y aplicar las herramientas y protocolos utilizados para la administracion y automatización de la red, así como las herramientas y aspectos relacionados a la seguridad de la red, la calidad de servicio, y los mecanismos para el acceso remoto seguro.",
+          "contenido_tematico_resumen": "Enrutamiento, Introduccion a la seguriad en redes, Listas de control de acceso, Traduccion de direcciones de red para OPv4, Redes de area amplia, red privada virtual e IPsec, Calidad de servicio. "
+        },
+        {
+          "nombre": "Criptografía",
+          "clave_materia": "2826",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2823",
+              "nombre": "Diseño e implementacion de Redes"
+            }
+          ],
+          "objetivo": "Analizar y aplciar los elementos fundamentales y los protocolos básicos que permiten contruir los actuales sistemas de seguridad. ",
+          "contenido_tematico_resumen": "Fundamentos e Historia de la Criptografia, Introduccion a la Criptografia Moderna, Criptografia Simetrica, Criptografia Asimetrica, Esteganografia y Estegoanalisis. "
+        },
+        {
+          "nombre": "Modelado y simulacion de redes",
+          "clave_materia": "2827",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2823",
+              "nombre": "Diseño e implementacion de Redes"
+            }
+          ],
+          "objetivo": "Comprender, analizar y aplicar la estructura de las redes de telecomunicaciones mediante el estudio de modelos, propiedades matemáticas y experimentos usando simulador. ",
+          "contenido_tematico_resumen": "Simuladores de redes, Estructura matemática de las redes, Simulacion de redes. "
+        },
+        {
+          "nombre": "Anonimato y Privacidad",
+          "clave_materia": "2828",
+          "semestre": 6,
+          "creditos": 8,
+          "horas_clase_semana": 4,
+          "horas_totales_semestre": 64,
+          "tipo_materia": "Electiva de Área de Énfasis",
+          "prerequisitos": [ 
+            {
+              "tipo": "materia",
+              "clave": "2825",
+              "nombre": "Principios de Seguridad Informatica"
+            }
+          ],
+          "objetivo": "Analizar y aplciar los conceptos fundamentales y técnicas de anonimato, las aplicaciones que protegen la privacidad y los algoritmos utilizados, a través de la configuración de las redes y sistemas operativos para acceder a los servicions de la red oscura de forma segura. ",
+          "contenido_tematico_resumen": "Anonimato, Privacidad, Criptomonedas y Blockchain, Dark Net. "
         }
       ]
     }

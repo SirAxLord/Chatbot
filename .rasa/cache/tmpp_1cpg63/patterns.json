@@ -1,0 +1,10 @@
+[
+  {
+    "name": "materia",
+    "pattern": "(\\bProgramación\\ de\\ Robots\\b|\\b\"2817\"\\b|\\bComputo\\ Bio\\-Inspirado\\b|\\b\"2809\"\\b|\\bVisión\\ Computacional\\b|\\b\"2815\"\\b|\\bAprendizaje\\ Automatico\\b|\\b\"2816\"\\b|\\bRobotica\\ Inteligente\\b|\\b\"2818\"\\b|\\bCiencia\\ de\\ Datos\\b|\\b\"2808\"\\b|\\bRepresentacion\\ del\\ Conocimiento\\ y\\ Ontologias\\b|\\b\"2819\"\\b|\\bProgramacion\\ de\\ Videojuegos\\b|\\b\"2832\"\\b|\\bDiseño\\ de\\ Videojuegos\\b|\\b\"2833\"\\b|\\bMotores\\ Graficos\\b|\\b\"2834\"\\b|\\bArte\\ Conceptual\\ Para\\ Videojuegos\\b|\\b\"2836\"\\b|\\bTemas\\ Selectos\\ de\\ Videojuegos\\b|\\b\"2835\"\\b|\\bAdministracion\\ de\\ Redes\\b|\\b\"2824\"\\b|\\bPrincipios\\ de\\ Seguridad\\ Informatica\\b|\\b\"2825\"\\b|\\bCriptografía\\b|\\b\"2826\"\\b|\\bModelado\\ y\\ simulacion\\ de\\ redes\\b|\\b\"2827\"\\b|\\bAnonimato\\ y\\ Privacidad\\b|\\b\"2828\"\\b|\\bInteraccion\\ de\\ Redes\\b|\\b\"2829\"\\b|\\bAplicaciones\\ Web\\ Interactivas\\b|\\b\"2237\"\\b|\\bFundamentos\\ de\\ Desarrollo\\ Web\\b|\\b\"2238\"\\b|\\bFundamentos\\ de\\ Desarrollo\\ Movil\\b|\\b\"2239\"\\b|\\bDiseño\\ de\\ Interfaces\\b|\\b\"2244\"\\b|\\bAplicaciones\\ Web\\ Escalables\\b|\\b\"2245\"\\b|\\bFundamentos\\ de\\ Inteligencia\\ Artificial\\b|\\b\"2813\"\\b|\\bGraficacion\\ Por\\ Computadora\\b|\\b\"2807\"\\b|\\bInterfaces\\ Gráficas\\ con\\ Aplicaciones\\b|\\b\"2236\"\\b|\\bDiseño\\ e\\ Implementacion\\ de\\ Redes\\b|\\b\"2823\"\\b)"
+  },
+  {
+    "name": "area_enfasis",
+    "pattern": "(\\bInteligencia\\ Artificial\\ y\\ Robótica\\b|\\bIA\\ y\\ Robótica\\b|\\bInteligencia\\ Artificial\\b|\\bRobótica\\b|\\bInteracción\\ y\\ Videojuegos\\b|\\bVideojuegos\\b|\\bInteraccion\\ y\\ Videojuegos\\b|\\bInteraccion\\b|\\bCiberseguridad\\b|\\bSeguridad\\ Informatica\\b|\\bSeguridad\\ Informática\\b|\\bDesarrollo\\ Web\\ y\\ Multiplataforma\\b|\\bWeb\\ y\\ Multiplataforma\\b|\\bDesarrollo\\ Web\\b|\\bDesarrollo\\ Multiplataforma\\b|\\bWeb\\b)"
+  }
+]
