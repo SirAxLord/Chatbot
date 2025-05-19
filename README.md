@@ -1,5 +1,3 @@
-¡Entendido, Axel! Aquí tienes tu texto estructurado correctamente, con los formatos adecuados para que se vea bien en tu README de GitHub:
-
 ```markdown
 # 🚀 Chatbot Rasa con Docker
 
