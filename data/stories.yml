@@ -29,7 +29,6 @@ stories:
   steps:
   - intent: preguntar_areas_enfasis
   - action: action_list_areas_enfasis
-  - action: utter_pregunta_generica
 
 - story: Preguntar por materias en area especifica
   steps:
@@ -49,7 +48,6 @@ stories:
   - slot_was_set:
     - materia: "Aprendizaje Automatico"
   - action: action_provide_materia_details
-  - action: utter_pregunta_generica
 
 
 - story: Desafío de bot
@@ -64,7 +62,8 @@ stories:
   - action: utter_saludar
   - intent: preguntar_areas_enfasis
   - action: action_list_areas_enfasis
-  - intent: agradecer 
+  - intent: agradecer
+  - action: utter_agradecer
   - intent: despedir
   - action: utter_despedir
 
@@ -99,7 +98,6 @@ stories:
   - slot_was_set:
     - area_enfasis: "Inteligencia Artificial y Robótica"
   - action: action_informar_descripcion_area_enfasis
-  - action: utter_pregunta_generica
 
 - story: Preguntar descripción de un área de énfasis directamente (nombre corto)
   steps:
@@ -109,7 +107,6 @@ stories:
   - slot_was_set:
     - area_enfasis: "videojuegos"
   - action: action_informar_descripcion_area_enfasis
-  - action: utter_pregunta_generica
 
 - story: Preguntar descripción y luego materias de la misma área (aprovechando slot)
   steps:
@@ -131,9 +128,6 @@ stories:
   - slot_was_set:
     - area_enfasis: "Marketing Digital Avanzado"
   - action: action_informar_descripcion_area_enfasis # La acción debe responder con utter_area_no_encontrada
-  - action: utter_pregunta_generica
-
-# --- Historias para Información Específica de Materias de Énfasis ---
 
 - story: Preguntar prerequisitos de una materia de énfasis por clave
   steps:
@@ -163,7 +157,6 @@ stories:
   - slot_was_set:
     - materia: "2809"
   - action: action_informar_creditos_materia
-  - action: utter_pregunta_generica
 
 - story: Preguntar semestre de una materia de énfasis
   steps:
@@ -257,6 +250,7 @@ stories:
   - intent: preguntar_prerequisitos
   - action: action_provide_prerequisitos
   - intent: agradecer 
+  - action: utter_agradecer 
   - intent: despedir 
   - action: utter_despedir
 

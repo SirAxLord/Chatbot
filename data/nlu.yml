@@ -33,10 +33,10 @@ nlu:
 
 - intent: preguntar_plan_estudios
   examples: |
-    - ¿Cuál es el plan de estudios de las áreas de énfasis?
-    - ¿Qué materias de especialización tengo que cursar?
-    - Muéstrame el plan de estudios de especialización
-    - ¿Cómo es la currícula de las áreas de énfasis?
+    - ¿Cuál es el plan de estudios?
+    - ¿Qué materias tengo que cursar?
+    - Muéstrame el plan de estudios de la carrera
+    - ¿Qué materias hay en la carrera?
     - Ver las materias de énfasis
 
 - intent: preguntar_prerequisitos
@@ -44,11 +44,13 @@ nlu:
     - ¿Qué prerequisitos tiene [Representacion del Conocimiento y Ontologias](materia)?
     - Que tengo que llevar para [Temas Selectos de Videojuegos](materia)?
     - ¿Qué necesito para cursar [Programacion de Robots](materia)?
+    - ¿Qué materias debo llevar antes de [Representacion del Conocimiento y Ontologias](materia)?
     - ¿Qué materias debo aprobar antes de [2819](materia)?
     - Cuales son los requisitos para [Fundamentos de Desarrollo Web](materia)?
     - Que necesito para ver [Diseño de Videojuegos](materia)?
     - dime los prerequisitos de [Aplicaciones Web Escalables](materia)
     - Requisitos para [2836](materia)
+    - Requisisitos para [Arte Conceptual Para Videojuegos](materia)
     - [Temas Selectos de Videojuegos](materia) prerequisitos
     - Que va antes de [Computo Bio-Inspirado](materia)?
     - Me puedes decir que necesito para [Vison Computacional](materia)?
@@ -59,7 +61,9 @@ nlu:
   examples: |
     - Cuales son las areas de enfasis?
     - Que especializaciones hay en la carrera?
-    - Listame las areas de especialización
+    - Dime sobre las areas de enfasis
+    - Que opciones de especializacion hay?
+    - Listame las areas de especializacion
     - Dime sobre las areas de enfasis disponibles
     - Que opciones de especializacion tengo?
     - ¿Qué líneas de acentuación ofrecen?
@@ -233,8 +237,7 @@ nlu:
     - ¿Nombre de la materia [2824](materia)?
 
 - lookup: materia 
-  examples:
-  # Inteligencia Artificial y Robótica
+  examples: |
     - Programación de Robots
     - "2817"
     - Computo Bio-Inspirado
@@ -249,7 +252,6 @@ nlu:
     - "2808"
     - Representacion del Conocimiento y Ontologias
     - "2819"
-    # Interacción y Videojuegos
     - Programacion de Videojuegos
     - "2832"
     - Diseño de Videojuegos
@@ -260,7 +262,6 @@ nlu:
     - "2836"
     - Temas Selectos de Videojuegos
     - "2835"
-    # Ciberseguridad 
     - Administracion de Redes
     - "2824"
     - Principios de Seguridad Informatica
@@ -273,7 +274,6 @@ nlu:
     - "2828"
     - Interaccion de Redes
     - "2829"
-    # Desarrollo Web y Multiplataforma
     - Aplicaciones Web Interactivas
     - "2237"
     - Fundamentos de Desarrollo Web
@@ -284,7 +284,6 @@ nlu:
     - "2244"
     - Aplicaciones Web Escalables
     - "2245"
-    # Prerrequisitos (nombres y claves de materias prerrequisito)
     - Fundamentos de Inteligencia Artificial
     - "2813"
     - Graficacion Por Computadora
@@ -295,7 +294,7 @@ nlu:
     - "2823" 
 
 - lookup: area_enfasis 
-  examples:
+  examples: |
     - Inteligencia Artificial y Robótica
     - IA y Robótica
     - Inteligencia Artificial

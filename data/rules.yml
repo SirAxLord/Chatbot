@@ -12,9 +12,7 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Responder a agradecimiento 
-  condition:
-  - active_loop: null )
+- rule: Responder a agradecimiento
   steps:
   - intent: agradecer
   - action: utter_agradecer
