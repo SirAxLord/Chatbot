@@ -2,13 +2,31 @@
 
 Este proyecto es un chatbot desarrollado con **Rasa** y ejecutado dentro de contenedores **Docker**, utilizando `Docker Compose`.
 
+## 🧠 Descripción del Proyecto
+
+Este chatbot está orientado a brindar información académica de la carrera de **Ingeniería en Sistemas Inteligentes** con foco en las **áreas de énfasis** y sus **materias clave**. Integra datos estructurados del archivo `data/plan_estudios.json` y expone respuestas a consultas frecuentes mediante acciones personalizadas en `actions/actions.py`.
+
+### 🎯 ¿Qué puede hacer?
+- Consultar el plan de estudios y materias por semestre.
+- Listar áreas de énfasis disponibles (p. ej., IA y Robótica, Interacción y Videojuegos, Ciberseguridad, Desarrollo Web y Multiplataforma).
+- Mostrar las materias asociadas a una área de énfasis.
+- Dar detalles de una materia de énfasis: objetivo, contenidos, créditos, semestre, tipo, horas, prerrequisitos y clave.
+- Responder información general de la carrera: nombre, duración y posibles resultados/roles profesionales.
+
+### 🔍 Cómo funciona
+- El NLU usa `data/nlu.yml` para identificar intenciones como `preguntar_plan_estudios`, `preguntar_prerequisitos`, `preguntar_areas_enfasis`, etc.
+- La conversación se guía con `data/stories.yml` y `data/rules.yml`.
+- Las respuestas y slots se definen en `domain.yml`.
+- La lógica de negocio vive en `actions/actions.py`, que lee `data/plan_estudios.json` y realiza búsquedas tolerantes a errores tipográficos (RapidFuzz) para encontrar materias y áreas por nombre o clave.
+- Se puede interactuar vía consola (`rasa shell`) o mediante la **interfaz web** (`index.html` + `script.js`).
+
 ## 🔧 Instrucciones de Instalación
 
 ### 1️⃣ Clonar el repositorio
 Ejecuta el siguiente comando en tu terminal:
 ```bash
 git clone https://github.com/SirAxLord/Chatbot.git
-cd chatbot-rasa
+cd Chatbot
 ```
 
 ### 2️⃣ Construir y ejecutar con Docker Compose
