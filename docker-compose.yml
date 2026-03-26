@@ -1,0 +1,57 @@
+version: "3.9"
+services:
+  rasa:
+    image: rasa/rasa:3.6.21-full
+    command: >
+      run --enable-api --cors "*"
+      --endpoints /app/project/endpoints.yml
+    volumes:
+      - ./project:/app/project
+    ports:
+      - "5005:5005"
+    depends_on:
+      - action-server
+      - redis
+
+  action-server:
+    build:
+      context: ./actions
+    environment:
+      OLLAMA_URL: "http://ollama:11434"
+      OLLAMA_MODEL: "llama3.1:8b"
+      MEMORY_PATH: "/app/memory_store.json"
+    volumes:
+      - ./actions:/app
+    ports:
+      - "5055:5055"
+      - "5056:5056"
+    depends_on:
+      - ollama
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+
+  ollama:
+    image: ollama/ollama:latest
+    ports: ["11434:11434"]
+    volumes:
+      - ollama:/root/.ollama
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./web:/usr/share/nginx/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - rasa
+
+volumes:
+  ollama:

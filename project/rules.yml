@@ -1,0 +1,16 @@
+version: "3.1"
+rules:
+  - rule: Saludo
+    steps:
+      - intent: saludar
+      - action: utter_saludar
+
+  - rule: Despedida
+    steps:
+      - intent: despedir
+      - action: utter_despedir
+
+  - rule: Fallback NLU
+    steps:
+      - intent: nlu_fallback
+      - action: action_llm_fallback

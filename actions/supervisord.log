@@ -1,0 +1,1873 @@
+2025-09-09 20:44:51,085 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-09 20:44:51,089 INFO supervisord started with pid 1
+2025-09-09 20:44:52,091 INFO spawned: 'rag' with pid 7
+2025-09-09 20:44:52,094 INFO spawned: 'sdk' with pid 8
+2025-09-09 20:44:53,970 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:44:53,974 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:44:59,621 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:00,624 INFO spawned: 'rag' with pid 43
+2025-09-09 20:45:01,720 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:07,104 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:08,108 INFO spawned: 'rag' with pid 77
+2025-09-09 20:45:09,191 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:14,996 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:16,000 INFO spawned: 'rag' with pid 111
+2025-09-09 20:45:17,106 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:23,042 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:24,045 INFO spawned: 'rag' with pid 145
+2025-09-09 20:45:25,132 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:30,803 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:31,806 INFO spawned: 'rag' with pid 179
+2025-09-09 20:45:32,891 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:38,695 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:39,700 INFO spawned: 'rag' with pid 213
+2025-09-09 20:45:40,785 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:46,357 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:47,361 INFO spawned: 'rag' with pid 247
+2025-09-09 20:45:48,441 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:45:54,249 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:45:55,252 INFO spawned: 'rag' with pid 281
+2025-09-09 20:45:56,337 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:02,363 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:03,366 INFO spawned: 'rag' with pid 315
+2025-09-09 20:46:04,451 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:10,025 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:11,029 INFO spawned: 'rag' with pid 349
+2025-09-09 20:46:12,126 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:17,835 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:18,838 INFO spawned: 'rag' with pid 383
+2025-09-09 20:46:19,944 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:25,768 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:26,771 INFO spawned: 'rag' with pid 417
+2025-09-09 20:46:27,871 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:33,595 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:34,599 INFO spawned: 'rag' with pid 451
+2025-09-09 20:46:35,739 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:41,822 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:42,826 INFO spawned: 'rag' with pid 485
+2025-09-09 20:46:43,914 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:49,944 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:50,947 INFO spawned: 'rag' with pid 519
+2025-09-09 20:46:52,033 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:46:57,990 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:46:58,993 INFO spawned: 'rag' with pid 553
+2025-09-09 20:47:00,079 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:05,983 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:06,987 INFO spawned: 'rag' with pid 587
+2025-09-09 20:47:08,074 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:13,929 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:14,932 INFO spawned: 'rag' with pid 621
+2025-09-09 20:47:16,028 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:21,975 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:22,979 INFO spawned: 'rag' with pid 655
+2025-09-09 20:47:24,065 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:29,876 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:30,879 INFO spawned: 'rag' with pid 689
+2025-09-09 20:47:31,963 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:37,667 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:38,670 INFO spawned: 'rag' with pid 723
+2025-09-09 20:47:39,757 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:45,526 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:46,530 INFO spawned: 'rag' with pid 757
+2025-09-09 20:47:47,623 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:47:53,463 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:47:54,467 INFO spawned: 'rag' with pid 791
+2025-09-09 20:47:55,546 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:01,169 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:02,172 INFO spawned: 'rag' with pid 825
+2025-09-09 20:48:03,253 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:09,073 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:10,077 INFO spawned: 'rag' with pid 859
+2025-09-09 20:48:11,174 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:17,659 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:18,663 INFO spawned: 'rag' with pid 893
+2025-09-09 20:48:19,811 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:26,101 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:27,104 INFO spawned: 'rag' with pid 927
+2025-09-09 20:48:28,187 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:33,852 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:34,868 INFO spawned: 'rag' with pid 961
+2025-09-09 20:48:35,950 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:42,542 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:43,545 INFO spawned: 'rag' with pid 995
+2025-09-09 20:48:44,631 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:48:51,757 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:48:52,761 INFO spawned: 'rag' with pid 1029
+2025-09-09 20:48:53,850 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:00,908 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:01,911 INFO spawned: 'rag' with pid 1063
+2025-09-09 20:49:03,005 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:10,602 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:11,605 INFO spawned: 'rag' with pid 1097
+2025-09-09 20:49:12,692 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:19,187 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:20,190 INFO spawned: 'rag' with pid 1131
+2025-09-09 20:49:21,279 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:29,070 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:30,073 INFO spawned: 'rag' with pid 1165
+2025-09-09 20:49:31,163 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:38,431 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:39,434 INFO spawned: 'rag' with pid 1199
+2025-09-09 20:49:40,533 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:47,525 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:48,529 INFO spawned: 'rag' with pid 1233
+2025-09-09 20:49:49,623 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:49:56,297 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:49:57,300 INFO spawned: 'rag' with pid 1267
+2025-09-09 20:49:58,390 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:04,593 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:05,595 INFO spawned: 'rag' with pid 1301
+2025-09-09 20:50:06,689 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:15,489 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:16,492 INFO spawned: 'rag' with pid 1335
+2025-09-09 20:50:17,590 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:24,725 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:25,729 INFO spawned: 'rag' with pid 1369
+2025-09-09 20:50:26,831 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:33,753 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:34,756 INFO spawned: 'rag' with pid 1403
+2025-09-09 20:50:35,847 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:42,216 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:43,219 INFO spawned: 'rag' with pid 1437
+2025-09-09 20:50:44,316 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:50,847 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:50:51,849 INFO spawned: 'rag' with pid 1471
+2025-09-09 20:50:52,944 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:50:59,560 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:00,564 INFO spawned: 'rag' with pid 1505
+2025-09-09 20:51:01,653 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:09,146 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:10,150 INFO spawned: 'rag' with pid 1539
+2025-09-09 20:51:11,262 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:19,581 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:20,584 INFO spawned: 'rag' with pid 1573
+2025-09-09 20:51:21,675 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:27,505 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:28,524 INFO spawned: 'rag' with pid 1607
+2025-09-09 20:51:29,607 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:35,376 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:36,380 INFO spawned: 'rag' with pid 1641
+2025-09-09 20:51:37,463 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:42,772 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:43,776 INFO spawned: 'rag' with pid 1675
+2025-09-09 20:51:44,857 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:50,124 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:51,126 INFO spawned: 'rag' with pid 1709
+2025-09-09 20:51:52,209 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:51:57,618 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:51:58,622 INFO spawned: 'rag' with pid 1743
+2025-09-09 20:51:59,703 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:05,187 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:06,196 INFO spawned: 'rag' with pid 1777
+2025-09-09 20:52:07,280 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:12,873 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:13,877 INFO spawned: 'rag' with pid 1811
+2025-09-09 20:52:14,967 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:20,585 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:21,588 INFO spawned: 'rag' with pid 1845
+2025-09-09 20:52:22,669 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:28,202 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:29,206 INFO spawned: 'rag' with pid 1879
+2025-09-09 20:52:30,288 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:35,896 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:36,899 INFO spawned: 'rag' with pid 1913
+2025-09-09 20:52:37,980 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:43,500 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:44,504 INFO spawned: 'rag' with pid 1947
+2025-09-09 20:52:45,591 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:50,995 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:52:51,999 INFO spawned: 'rag' with pid 1981
+2025-09-09 20:52:53,087 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:52:59,099 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:00,103 INFO spawned: 'rag' with pid 2015
+2025-09-09 20:53:01,193 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:06,727 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:07,731 INFO spawned: 'rag' with pid 2049
+2025-09-09 20:53:08,815 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:14,598 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:15,601 INFO spawned: 'rag' with pid 2083
+2025-09-09 20:53:16,689 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:22,805 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:23,808 INFO spawned: 'rag' with pid 2117
+2025-09-09 20:53:24,890 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:30,683 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:31,687 INFO spawned: 'rag' with pid 2151
+2025-09-09 20:53:32,774 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:39,267 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:40,270 INFO spawned: 'rag' with pid 2185
+2025-09-09 20:53:41,369 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:47,899 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:48,903 INFO spawned: 'rag' with pid 2219
+2025-09-09 20:53:50,005 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:53:56,285 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:53:57,289 INFO spawned: 'rag' with pid 2253
+2025-09-09 20:53:58,379 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:04,766 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:05,769 INFO spawned: 'rag' with pid 2287
+2025-09-09 20:54:06,872 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:13,078 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:14,082 INFO spawned: 'rag' with pid 2321
+2025-09-09 20:54:15,190 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:21,319 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:22,322 INFO spawned: 'rag' with pid 2355
+2025-09-09 20:54:23,417 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:29,867 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:30,870 INFO spawned: 'rag' with pid 2389
+2025-09-09 20:54:31,961 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:37,769 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:38,773 INFO spawned: 'rag' with pid 2423
+2025-09-09 20:54:39,860 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:45,623 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:46,626 INFO spawned: 'rag' with pid 2457
+2025-09-09 20:54:47,711 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:54:53,795 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:54:54,798 INFO spawned: 'rag' with pid 2491
+2025-09-09 20:54:55,896 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:01,773 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:02,776 INFO spawned: 'rag' with pid 2525
+2025-09-09 20:55:03,864 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:09,652 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:10,656 INFO spawned: 'rag' with pid 2559
+2025-09-09 20:55:11,740 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:17,337 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:18,340 INFO spawned: 'rag' with pid 2593
+2025-09-09 20:55:19,427 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:25,072 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:26,075 INFO spawned: 'rag' with pid 2627
+2025-09-09 20:55:27,162 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:32,650 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:33,654 INFO spawned: 'rag' with pid 2661
+2025-09-09 20:55:34,741 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:40,588 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:41,591 INFO spawned: 'rag' with pid 2695
+2025-09-09 20:55:42,674 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:49,237 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:50,241 INFO spawned: 'rag' with pid 2729
+2025-09-09 20:55:51,334 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:55:57,689 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:55:58,693 INFO spawned: 'rag' with pid 2763
+2025-09-09 20:55:59,793 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:06,237 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:07,241 INFO spawned: 'rag' with pid 2797
+2025-09-09 20:56:08,338 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:14,536 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:15,540 INFO spawned: 'rag' with pid 2831
+2025-09-09 20:56:16,625 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:22,592 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:23,596 INFO spawned: 'rag' with pid 2865
+2025-09-09 20:56:24,682 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:30,709 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:31,712 INFO spawned: 'rag' with pid 2899
+2025-09-09 20:56:32,801 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:38,661 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:39,665 INFO spawned: 'rag' with pid 2933
+2025-09-09 20:56:40,747 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:46,411 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:47,414 INFO spawned: 'rag' with pid 2967
+2025-09-09 20:56:48,505 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:56:54,277 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:56:55,282 INFO spawned: 'rag' with pid 3001
+2025-09-09 20:56:56,362 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:01,740 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:02,742 INFO spawned: 'rag' with pid 3035
+2025-09-09 20:57:03,826 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:09,358 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:10,362 INFO spawned: 'rag' with pid 3069
+2025-09-09 20:57:11,445 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:17,109 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:18,112 INFO spawned: 'rag' with pid 3103
+2025-09-09 20:57:19,195 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:24,933 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:25,936 INFO spawned: 'rag' with pid 3137
+2025-09-09 20:57:27,023 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:32,525 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:33,529 INFO spawned: 'rag' with pid 3171
+2025-09-09 20:57:34,610 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:40,085 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:41,088 INFO spawned: 'rag' with pid 3205
+2025-09-09 20:57:42,176 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:47,764 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:48,768 INFO spawned: 'rag' with pid 3239
+2025-09-09 20:57:49,854 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:57:55,748 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:57:56,751 INFO spawned: 'rag' with pid 3273
+2025-09-09 20:57:57,834 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:03,504 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:04,508 INFO spawned: 'rag' with pid 3307
+2025-09-09 20:58:05,589 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:11,096 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:12,099 INFO spawned: 'rag' with pid 3341
+2025-09-09 20:58:13,188 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:18,894 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:19,898 INFO spawned: 'rag' with pid 3375
+2025-09-09 20:58:20,979 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:26,443 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:27,446 INFO spawned: 'rag' with pid 3409
+2025-09-09 20:58:28,527 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:34,358 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:35,362 INFO spawned: 'rag' with pid 3443
+2025-09-09 20:58:36,445 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:41,919 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:42,922 INFO spawned: 'rag' with pid 3477
+2025-09-09 20:58:44,007 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:49,642 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:50,646 INFO spawned: 'rag' with pid 3511
+2025-09-09 20:58:51,732 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:58:57,398 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:58:58,401 INFO spawned: 'rag' with pid 3545
+2025-09-09 20:58:59,483 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:05,012 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:06,015 INFO spawned: 'rag' with pid 3579
+2025-09-09 20:59:07,100 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:12,637 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:13,641 INFO spawned: 'rag' with pid 3613
+2025-09-09 20:59:14,722 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:20,484 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:21,486 INFO spawned: 'rag' with pid 3647
+2025-09-09 20:59:22,567 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:28,145 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:29,148 INFO spawned: 'rag' with pid 3681
+2025-09-09 20:59:30,230 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:35,622 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:36,625 INFO spawned: 'rag' with pid 3715
+2025-09-09 20:59:37,707 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:43,345 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:44,349 INFO spawned: 'rag' with pid 3749
+2025-09-09 20:59:45,432 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:50,934 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:51,937 INFO spawned: 'rag' with pid 3783
+2025-09-09 20:59:53,041 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 20:59:58,892 WARN exited: rag (exit status 3; not expected)
+2025-09-09 20:59:59,896 INFO spawned: 'rag' with pid 3817
+2025-09-09 21:00:00,999 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:06,828 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:07,832 INFO spawned: 'rag' with pid 3851
+2025-09-09 21:00:08,919 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:14,600 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:15,603 INFO spawned: 'rag' with pid 3885
+2025-09-09 21:00:16,686 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:22,454 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:23,458 INFO spawned: 'rag' with pid 3919
+2025-09-09 21:00:24,547 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:30,266 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:31,270 INFO spawned: 'rag' with pid 3953
+2025-09-09 21:00:32,356 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:38,267 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:39,272 INFO spawned: 'rag' with pid 3987
+2025-09-09 21:00:40,363 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:46,295 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:47,299 INFO spawned: 'rag' with pid 4021
+2025-09-09 21:00:48,387 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:00:54,810 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:00:55,813 INFO spawned: 'rag' with pid 4055
+2025-09-09 21:00:56,919 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:03,439 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:04,443 INFO spawned: 'rag' with pid 4089
+2025-09-09 21:01:05,531 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:12,524 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:13,527 INFO spawned: 'rag' with pid 4123
+2025-09-09 21:01:14,617 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:20,548 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:21,550 INFO spawned: 'rag' with pid 4157
+2025-09-09 21:01:22,641 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:28,547 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:29,550 INFO spawned: 'rag' with pid 4191
+2025-09-09 21:01:30,638 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:36,754 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:37,758 INFO spawned: 'rag' with pid 4225
+2025-09-09 21:01:38,846 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:44,650 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:45,653 INFO spawned: 'rag' with pid 4259
+2025-09-09 21:01:46,742 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:01:52,671 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:01:53,675 INFO spawned: 'rag' with pid 4293
+2025-09-09 21:01:54,770 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:00,781 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:01,784 INFO spawned: 'rag' with pid 4327
+2025-09-09 21:02:02,877 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:08,799 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:09,802 INFO spawned: 'rag' with pid 4361
+2025-09-09 21:02:10,893 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:17,059 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:18,064 INFO spawned: 'rag' with pid 4395
+2025-09-09 21:02:19,150 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:25,101 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:26,104 INFO spawned: 'rag' with pid 4429
+2025-09-09 21:02:27,190 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:32,883 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:33,886 INFO spawned: 'rag' with pid 4463
+2025-09-09 21:02:34,969 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:42,656 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:43,659 INFO spawned: 'rag' with pid 4497
+2025-09-09 21:02:44,748 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:50,232 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:51,234 INFO spawned: 'rag' with pid 4531
+2025-09-09 21:02:52,320 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:02:57,895 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:02:58,898 INFO spawned: 'rag' with pid 4565
+2025-09-09 21:02:59,982 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:05,527 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:06,530 INFO spawned: 'rag' with pid 4599
+2025-09-09 21:03:07,616 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:13,196 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:14,200 INFO spawned: 'rag' with pid 4633
+2025-09-09 21:03:15,281 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:20,750 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:21,756 INFO spawned: 'rag' with pid 4667
+2025-09-09 21:03:22,841 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:28,220 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:29,224 INFO spawned: 'rag' with pid 4701
+2025-09-09 21:03:30,305 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:35,770 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:36,773 INFO spawned: 'rag' with pid 4735
+2025-09-09 21:03:37,856 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:43,311 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:44,314 INFO spawned: 'rag' with pid 4769
+2025-09-09 21:03:45,396 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:50,781 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:51,783 INFO spawned: 'rag' with pid 4803
+2025-09-09 21:03:52,866 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:03:58,624 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:03:59,627 INFO spawned: 'rag' with pid 4837
+2025-09-09 21:04:00,709 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:06,441 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:07,444 INFO spawned: 'rag' with pid 4871
+2025-09-09 21:04:08,527 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:13,885 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:14,888 INFO spawned: 'rag' with pid 4905
+2025-09-09 21:04:15,970 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:21,525 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:22,529 INFO spawned: 'rag' with pid 4939
+2025-09-09 21:04:23,611 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:28,984 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:29,987 INFO spawned: 'rag' with pid 4973
+2025-09-09 21:04:31,074 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:36,630 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:37,633 INFO spawned: 'rag' with pid 5007
+2025-09-09 21:04:38,718 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:44,089 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:45,092 INFO spawned: 'rag' with pid 5041
+2025-09-09 21:04:46,174 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:51,762 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:04:52,765 INFO spawned: 'rag' with pid 5075
+2025-09-09 21:04:53,850 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:04:59,359 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:00,362 INFO spawned: 'rag' with pid 5109
+2025-09-09 21:05:01,444 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:06,982 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:07,985 INFO spawned: 'rag' with pid 5143
+2025-09-09 21:05:09,067 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:14,625 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:15,628 INFO spawned: 'rag' with pid 5177
+2025-09-09 21:05:16,723 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:22,547 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:23,550 INFO spawned: 'rag' with pid 5211
+2025-09-09 21:05:24,633 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:30,025 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:31,028 INFO spawned: 'rag' with pid 5245
+2025-09-09 21:05:32,114 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:37,748 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:38,752 INFO spawned: 'rag' with pid 5279
+2025-09-09 21:05:39,834 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:45,197 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:46,201 INFO spawned: 'rag' with pid 5313
+2025-09-09 21:05:47,282 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:05:52,742 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:05:53,746 INFO spawned: 'rag' with pid 5347
+2025-09-09 21:05:54,827 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:01,026 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:02,029 INFO spawned: 'rag' with pid 5381
+2025-09-09 21:06:03,118 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:08,476 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:09,479 INFO spawned: 'rag' with pid 5415
+2025-09-09 21:06:10,558 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:16,469 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:17,474 INFO spawned: 'rag' with pid 5449
+2025-09-09 21:06:18,554 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:24,231 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:25,235 INFO spawned: 'rag' with pid 5483
+2025-09-09 21:06:26,317 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:32,425 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:33,429 INFO spawned: 'rag' with pid 5517
+2025-09-09 21:06:34,513 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:40,361 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:41,365 INFO spawned: 'rag' with pid 5551
+2025-09-09 21:06:42,449 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:47,878 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:48,881 INFO spawned: 'rag' with pid 5585
+2025-09-09 21:06:49,967 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:06:55,793 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:06:56,797 INFO spawned: 'rag' with pid 5619
+2025-09-09 21:06:57,885 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:03,365 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:04,370 INFO spawned: 'rag' with pid 5653
+2025-09-09 21:07:05,450 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:11,000 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:12,004 INFO spawned: 'rag' with pid 5687
+2025-09-09 21:07:13,085 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:18,613 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:19,617 INFO spawned: 'rag' with pid 5721
+2025-09-09 21:07:20,697 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:25,953 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:26,957 INFO spawned: 'rag' with pid 5755
+2025-09-09 21:07:28,050 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:33,508 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:34,511 INFO spawned: 'rag' with pid 5789
+2025-09-09 21:07:35,592 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:41,125 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:42,129 INFO spawned: 'rag' with pid 5823
+2025-09-09 21:07:43,212 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:48,498 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:49,501 INFO spawned: 'rag' with pid 5857
+2025-09-09 21:07:50,583 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:07:55,965 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:07:56,969 INFO spawned: 'rag' with pid 5891
+2025-09-09 21:07:58,047 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:03,575 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:04,578 INFO spawned: 'rag' with pid 5925
+2025-09-09 21:08:05,660 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:10,932 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:11,936 INFO spawned: 'rag' with pid 5959
+2025-09-09 21:08:13,015 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:18,539 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:19,542 INFO spawned: 'rag' with pid 5993
+2025-09-09 21:08:20,623 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:26,080 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:27,083 INFO spawned: 'rag' with pid 6027
+2025-09-09 21:08:28,168 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:33,458 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:34,463 INFO spawned: 'rag' with pid 6061
+2025-09-09 21:08:35,544 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:41,005 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:42,009 INFO spawned: 'rag' with pid 6095
+2025-09-09 21:08:43,094 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:48,618 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:49,621 INFO spawned: 'rag' with pid 6129
+2025-09-09 21:08:50,704 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:08:56,077 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:08:57,080 INFO spawned: 'rag' with pid 6163
+2025-09-09 21:08:58,162 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:03,610 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:04,615 INFO spawned: 'rag' with pid 6197
+2025-09-09 21:09:05,695 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:11,566 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:12,569 INFO spawned: 'rag' with pid 6231
+2025-09-09 21:09:13,664 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:19,611 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:20,614 INFO spawned: 'rag' with pid 6265
+2025-09-09 21:09:21,704 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:28,008 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:29,011 INFO spawned: 'rag' with pid 6299
+2025-09-09 21:09:30,111 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:36,449 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:37,452 INFO spawned: 'rag' with pid 6333
+2025-09-09 21:09:38,542 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:44,718 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:45,721 INFO spawned: 'rag' with pid 6367
+2025-09-09 21:09:46,811 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:09:52,873 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:09:53,876 INFO spawned: 'rag' with pid 6401
+2025-09-09 21:09:54,973 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:01,063 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:02,067 INFO spawned: 'rag' with pid 6435
+2025-09-09 21:10:03,165 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:09,520 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:10,523 INFO spawned: 'rag' with pid 6469
+2025-09-09 21:10:11,612 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:17,914 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:18,917 INFO spawned: 'rag' with pid 6503
+2025-09-09 21:10:20,011 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:26,227 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:27,230 INFO spawned: 'rag' with pid 6537
+2025-09-09 21:10:28,320 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:34,270 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:35,273 INFO spawned: 'rag' with pid 6571
+2025-09-09 21:10:36,370 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:42,697 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:43,700 INFO spawned: 'rag' with pid 6605
+2025-09-09 21:10:44,791 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:50,856 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:10:51,858 INFO spawned: 'rag' with pid 6639
+2025-09-09 21:10:52,954 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:10:58,998 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:00,002 INFO spawned: 'rag' with pid 6673
+2025-09-09 21:11:01,100 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:07,102 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:08,106 INFO spawned: 'rag' with pid 6707
+2025-09-09 21:11:09,195 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:15,208 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:16,211 INFO spawned: 'rag' with pid 6741
+2025-09-09 21:11:17,299 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:23,645 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:24,649 INFO spawned: 'rag' with pid 6775
+2025-09-09 21:11:25,738 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:31,723 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:32,727 INFO spawned: 'rag' with pid 6809
+2025-09-09 21:11:33,816 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:40,052 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:41,056 INFO spawned: 'rag' with pid 6843
+2025-09-09 21:11:42,145 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:48,174 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:49,178 INFO spawned: 'rag' with pid 6877
+2025-09-09 21:11:50,266 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:11:56,475 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:11:57,478 INFO spawned: 'rag' with pid 6911
+2025-09-09 21:11:58,568 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:04,661 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:05,664 INFO spawned: 'rag' with pid 6945
+2025-09-09 21:12:06,757 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:12,877 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:13,880 INFO spawned: 'rag' with pid 6979
+2025-09-09 21:12:14,981 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:21,291 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:22,295 INFO spawned: 'rag' with pid 7013
+2025-09-09 21:12:23,387 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:29,845 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:30,848 INFO spawned: 'rag' with pid 7047
+2025-09-09 21:12:31,941 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:38,002 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:39,005 INFO spawned: 'rag' with pid 7081
+2025-09-09 21:12:40,095 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:49,545 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:50,548 INFO spawned: 'rag' with pid 7115
+2025-09-09 21:12:51,643 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:12:57,835 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:12:58,838 INFO spawned: 'rag' with pid 7149
+2025-09-09 21:12:59,930 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:06,194 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:07,197 INFO spawned: 'rag' with pid 7183
+2025-09-09 21:13:08,288 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:19,165 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:20,168 INFO spawned: 'rag' with pid 7217
+2025-09-09 21:13:21,256 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:27,344 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:28,347 INFO spawned: 'rag' with pid 7251
+2025-09-09 21:13:29,437 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:35,324 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:36,327 INFO spawned: 'rag' with pid 7285
+2025-09-09 21:13:37,415 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:43,314 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:44,317 INFO spawned: 'rag' with pid 7319
+2025-09-09 21:13:45,411 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:51,808 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:13:52,811 INFO spawned: 'rag' with pid 7353
+2025-09-09 21:13:53,901 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:13:59,973 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:00,976 INFO spawned: 'rag' with pid 7387
+2025-09-09 21:14:02,067 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:08,271 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:09,274 INFO spawned: 'rag' with pid 7421
+2025-09-09 21:14:10,366 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:16,436 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:17,440 INFO spawned: 'rag' with pid 7455
+2025-09-09 21:14:18,535 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:24,329 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:25,332 INFO spawned: 'rag' with pid 7489
+2025-09-09 21:14:26,421 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:32,533 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:33,536 INFO spawned: 'rag' with pid 7523
+2025-09-09 21:14:34,637 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:40,468 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:41,470 INFO spawned: 'rag' with pid 7557
+2025-09-09 21:14:42,573 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:48,641 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:49,644 INFO spawned: 'rag' with pid 7591
+2025-09-09 21:14:50,736 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:14:56,704 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:14:57,708 INFO spawned: 'rag' with pid 7625
+2025-09-09 21:14:58,795 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:04,988 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:05,991 INFO spawned: 'rag' with pid 7659
+2025-09-09 21:15:07,082 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:13,138 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:14,140 INFO spawned: 'rag' with pid 7693
+2025-09-09 21:15:15,230 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:21,439 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:22,442 INFO spawned: 'rag' with pid 7727
+2025-09-09 21:15:23,530 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:29,495 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:30,498 INFO spawned: 'rag' with pid 7761
+2025-09-09 21:15:31,587 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:37,594 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:38,597 INFO spawned: 'rag' with pid 7795
+2025-09-09 21:15:39,686 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:45,606 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:46,610 INFO spawned: 'rag' with pid 7829
+2025-09-09 21:15:47,701 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:15:54,042 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:15:55,046 INFO spawned: 'rag' with pid 7863
+2025-09-09 21:15:56,137 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:02,034 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:03,038 INFO spawned: 'rag' with pid 7897
+2025-09-09 21:16:04,138 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:10,364 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:11,369 INFO spawned: 'rag' with pid 7931
+2025-09-09 21:16:12,458 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:18,658 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:19,661 INFO spawned: 'rag' with pid 7965
+2025-09-09 21:16:20,753 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:26,549 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:27,553 INFO spawned: 'rag' with pid 7999
+2025-09-09 21:16:28,652 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:34,708 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:35,712 INFO spawned: 'rag' with pid 8033
+2025-09-09 21:16:36,803 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:42,849 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:43,852 INFO spawned: 'rag' with pid 8067
+2025-09-09 21:16:44,943 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:50,950 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:16:51,952 INFO spawned: 'rag' with pid 8101
+2025-09-09 21:16:53,051 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:16:59,696 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:00,699 INFO spawned: 'rag' with pid 8135
+2025-09-09 21:17:01,791 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:09,143 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:10,147 INFO spawned: 'rag' with pid 8169
+2025-09-09 21:17:11,238 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:17,283 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:18,287 INFO spawned: 'rag' with pid 8203
+2025-09-09 21:17:19,379 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:25,358 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:26,362 INFO spawned: 'rag' with pid 8237
+2025-09-09 21:17:27,442 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:33,403 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:34,407 INFO spawned: 'rag' with pid 8271
+2025-09-09 21:17:35,522 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:41,859 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:42,862 INFO spawned: 'rag' with pid 8305
+2025-09-09 21:17:43,950 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:49,596 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:50,599 INFO spawned: 'rag' with pid 8339
+2025-09-09 21:17:51,678 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:17:57,183 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:17:58,187 INFO spawned: 'rag' with pid 8373
+2025-09-09 21:17:59,266 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:05,167 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:06,170 INFO spawned: 'rag' with pid 8407
+2025-09-09 21:18:07,265 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:12,764 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:13,768 INFO spawned: 'rag' with pid 8441
+2025-09-09 21:18:14,852 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:20,564 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:21,566 INFO spawned: 'rag' with pid 8475
+2025-09-09 21:18:22,651 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:28,174 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:29,178 INFO spawned: 'rag' with pid 8509
+2025-09-09 21:18:30,262 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:35,450 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:36,453 INFO spawned: 'rag' with pid 8543
+2025-09-09 21:18:37,532 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:42,984 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:43,987 INFO spawned: 'rag' with pid 8577
+2025-09-09 21:18:45,070 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:50,717 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:51,720 INFO spawned: 'rag' with pid 8611
+2025-09-09 21:18:52,798 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:18:58,011 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:18:59,014 INFO spawned: 'rag' with pid 8645
+2025-09-09 21:19:00,109 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:06,147 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:07,151 INFO spawned: 'rag' with pid 8679
+2025-09-09 21:19:08,241 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:14,367 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:15,370 INFO spawned: 'rag' with pid 8713
+2025-09-09 21:19:16,459 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:22,444 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:23,447 INFO spawned: 'rag' with pid 8747
+2025-09-09 21:19:24,541 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:31,117 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:32,121 INFO spawned: 'rag' with pid 8781
+2025-09-09 21:19:33,214 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:39,123 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:40,126 INFO spawned: 'rag' with pid 8815
+2025-09-09 21:19:41,216 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:47,238 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:48,241 INFO spawned: 'rag' with pid 8849
+2025-09-09 21:19:49,334 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:19:55,356 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:19:56,359 INFO spawned: 'rag' with pid 8883
+2025-09-09 21:19:57,450 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:03,810 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:04,814 INFO spawned: 'rag' with pid 8917
+2025-09-09 21:20:05,902 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:12,303 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:13,307 INFO spawned: 'rag' with pid 8951
+2025-09-09 21:20:14,403 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:20,614 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:21,616 INFO spawned: 'rag' with pid 8985
+2025-09-09 21:20:22,710 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:28,665 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:29,669 INFO spawned: 'rag' with pid 9019
+2025-09-09 21:20:30,751 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:36,919 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:37,923 INFO spawned: 'rag' with pid 9053
+2025-09-09 21:20:39,018 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:44,906 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:45,909 INFO spawned: 'rag' with pid 9087
+2025-09-09 21:20:46,992 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:20:53,065 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:20:54,069 INFO spawned: 'rag' with pid 9121
+2025-09-09 21:20:55,167 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:00,874 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:01,877 INFO spawned: 'rag' with pid 9155
+2025-09-09 21:21:02,967 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:08,932 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:09,936 INFO spawned: 'rag' with pid 9189
+2025-09-09 21:21:11,019 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:17,765 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:18,768 INFO spawned: 'rag' with pid 9223
+2025-09-09 21:21:19,861 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:26,500 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:27,509 INFO spawned: 'rag' with pid 9257
+2025-09-09 21:21:28,592 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:35,606 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:36,612 INFO spawned: 'rag' with pid 9291
+2025-09-09 21:21:37,721 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:44,719 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:45,724 INFO spawned: 'rag' with pid 9325
+2025-09-09 21:21:46,825 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:21:54,270 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:21:55,274 INFO spawned: 'rag' with pid 9359
+2025-09-09 21:21:56,364 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:02,396 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:03,404 INFO spawned: 'rag' with pid 9393
+2025-09-09 21:22:04,494 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:10,437 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:11,440 INFO spawned: 'rag' with pid 9427
+2025-09-09 21:22:12,526 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:18,321 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:19,324 INFO spawned: 'rag' with pid 9461
+2025-09-09 21:22:20,417 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:26,726 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:27,729 INFO spawned: 'rag' with pid 9495
+2025-09-09 21:22:28,817 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:36,199 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:37,202 INFO spawned: 'rag' with pid 9529
+2025-09-09 21:22:38,313 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:38,314 WARN received SIGTERM indicating exit request
+2025-09-09 21:22:38,315 INFO waiting for rag, sdk to die
+2025-09-09 21:22:38,692 INFO stopped: sdk (exit status 0)
+2025-09-09 21:22:41,697 INFO waiting for rag to die
+2025-09-09 21:22:44,313 WARN stopped: rag (exit status 1)
+2025-09-09 21:22:46,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-09 21:22:46,010 INFO supervisord started with pid 1
+2025-09-09 21:22:47,014 INFO spawned: 'rag' with pid 7
+2025-09-09 21:22:47,016 INFO spawned: 'sdk' with pid 8
+2025-09-09 21:22:48,837 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:48,837 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:22:54,332 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:22:55,336 INFO spawned: 'rag' with pid 43
+2025-09-09 21:22:56,424 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:02,136 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:03,139 INFO spawned: 'rag' with pid 77
+2025-09-09 21:23:04,219 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:09,608 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:10,612 INFO spawned: 'rag' with pid 111
+2025-09-09 21:23:11,691 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:17,468 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:18,472 INFO spawned: 'rag' with pid 145
+2025-09-09 21:23:19,561 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:25,626 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:26,630 INFO spawned: 'rag' with pid 179
+2025-09-09 21:23:27,712 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:33,404 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:34,408 INFO spawned: 'rag' with pid 213
+2025-09-09 21:23:35,493 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:41,060 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:42,063 INFO spawned: 'rag' with pid 247
+2025-09-09 21:23:43,149 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:48,756 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:49,761 INFO spawned: 'rag' with pid 281
+2025-09-09 21:23:50,842 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:23:56,564 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:23:57,567 INFO spawned: 'rag' with pid 315
+2025-09-09 21:23:58,650 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:04,295 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:05,298 INFO spawned: 'rag' with pid 349
+2025-09-09 21:24:06,383 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:11,770 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:12,774 INFO spawned: 'rag' with pid 383
+2025-09-09 21:24:13,858 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:19,424 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:20,428 INFO spawned: 'rag' with pid 417
+2025-09-09 21:24:21,509 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:27,178 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:28,182 INFO spawned: 'rag' with pid 451
+2025-09-09 21:24:29,261 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:34,648 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:35,652 INFO spawned: 'rag' with pid 485
+2025-09-09 21:24:36,734 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:43,346 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:44,350 INFO spawned: 'rag' with pid 519
+2025-09-09 21:24:45,429 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:50,695 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:51,698 INFO spawned: 'rag' with pid 553
+2025-09-09 21:24:52,777 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:24:58,206 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:24:59,210 INFO spawned: 'rag' with pid 587
+2025-09-09 21:25:00,299 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:05,810 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:06,814 INFO spawned: 'rag' with pid 621
+2025-09-09 21:25:07,899 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:13,442 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:14,445 INFO spawned: 'rag' with pid 655
+2025-09-09 21:25:15,532 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:21,077 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:22,080 INFO spawned: 'rag' with pid 689
+2025-09-09 21:25:23,173 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:28,780 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:29,784 INFO spawned: 'rag' with pid 723
+2025-09-09 21:25:30,870 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:36,317 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:37,320 INFO spawned: 'rag' with pid 757
+2025-09-09 21:25:38,400 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:43,943 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:44,946 INFO spawned: 'rag' with pid 791
+2025-09-09 21:25:46,037 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:25:51,763 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:25:52,767 INFO spawned: 'rag' with pid 825
+2025-09-09 21:25:53,864 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:00,404 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:01,408 INFO spawned: 'rag' with pid 859
+2025-09-09 21:26:02,498 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:08,881 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:09,885 INFO spawned: 'rag' with pid 893
+2025-09-09 21:26:10,974 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:17,429 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:18,432 INFO spawned: 'rag' with pid 927
+2025-09-09 21:26:19,541 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:26,949 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:27,953 INFO spawned: 'rag' with pid 961
+2025-09-09 21:26:29,046 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:35,345 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:36,348 INFO spawned: 'rag' with pid 995
+2025-09-09 21:26:37,437 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:43,623 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:44,626 INFO spawned: 'rag' with pid 1029
+2025-09-09 21:26:45,714 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:26:51,953 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:26:52,957 INFO spawned: 'rag' with pid 1063
+2025-09-09 21:26:54,070 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:00,832 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:01,837 INFO spawned: 'rag' with pid 1097
+2025-09-09 21:27:02,953 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:09,605 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:10,608 INFO spawned: 'rag' with pid 1131
+2025-09-09 21:27:11,706 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:18,153 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:19,157 INFO spawned: 'rag' with pid 1165
+2025-09-09 21:27:20,260 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:26,703 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:27,708 INFO spawned: 'rag' with pid 1199
+2025-09-09 21:27:28,796 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:35,432 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:36,436 INFO spawned: 'rag' with pid 1233
+2025-09-09 21:27:37,533 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:43,896 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:44,900 INFO spawned: 'rag' with pid 1267
+2025-09-09 21:27:45,991 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:27:52,497 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:27:53,500 INFO spawned: 'rag' with pid 1301
+2025-09-09 21:27:54,604 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:00,675 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:01,679 INFO spawned: 'rag' with pid 1335
+2025-09-09 21:28:02,765 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:08,417 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:09,421 INFO spawned: 'rag' with pid 1369
+2025-09-09 21:28:10,504 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:16,539 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:17,542 INFO spawned: 'rag' with pid 1403
+2025-09-09 21:28:18,637 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:24,704 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:25,708 INFO spawned: 'rag' with pid 1437
+2025-09-09 21:28:26,797 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:32,593 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:33,597 INFO spawned: 'rag' with pid 1471
+2025-09-09 21:28:34,679 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:40,919 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:41,923 INFO spawned: 'rag' with pid 1505
+2025-09-09 21:28:43,008 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:49,049 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:50,053 INFO spawned: 'rag' with pid 1539
+2025-09-09 21:28:51,138 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:28:56,596 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:28:57,599 INFO spawned: 'rag' with pid 1573
+2025-09-09 21:28:58,687 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:04,132 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:05,136 INFO spawned: 'rag' with pid 1607
+2025-09-09 21:29:06,222 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:11,975 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:12,980 INFO spawned: 'rag' with pid 1641
+2025-09-09 21:29:14,064 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:20,448 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:21,451 INFO spawned: 'rag' with pid 1675
+2025-09-09 21:29:22,532 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:28,428 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:29,431 INFO spawned: 'rag' with pid 1709
+2025-09-09 21:29:30,516 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:36,346 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:37,350 INFO spawned: 'rag' with pid 1743
+2025-09-09 21:29:38,442 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:44,385 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:45,389 INFO spawned: 'rag' with pid 1777
+2025-09-09 21:29:46,476 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:52,099 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:29:53,102 INFO spawned: 'rag' with pid 1811
+2025-09-09 21:29:54,189 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:29:59,721 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:00,724 INFO spawned: 'rag' with pid 1845
+2025-09-09 21:30:01,810 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:07,447 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:08,450 INFO spawned: 'rag' with pid 1879
+2025-09-09 21:30:09,535 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:15,162 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:16,165 INFO spawned: 'rag' with pid 1913
+2025-09-09 21:30:17,252 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:23,276 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:24,279 INFO spawned: 'rag' with pid 1947
+2025-09-09 21:30:25,363 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:31,384 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:32,388 INFO spawned: 'rag' with pid 1981
+2025-09-09 21:30:33,488 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:39,264 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:40,269 INFO spawned: 'rag' with pid 2015
+2025-09-09 21:30:41,380 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:47,398 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:48,402 INFO spawned: 'rag' with pid 2049
+2025-09-09 21:30:49,492 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:30:56,415 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:30:57,419 INFO spawned: 'rag' with pid 2083
+2025-09-09 21:30:58,524 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:05,838 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:06,842 INFO spawned: 'rag' with pid 2117
+2025-09-09 21:31:07,924 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:13,760 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:14,764 INFO spawned: 'rag' with pid 2151
+2025-09-09 21:31:15,848 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:22,461 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:23,464 INFO spawned: 'rag' with pid 2185
+2025-09-09 21:31:24,562 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:30,693 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:31,697 INFO spawned: 'rag' with pid 2219
+2025-09-09 21:31:32,783 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:39,247 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:40,251 INFO spawned: 'rag' with pid 2253
+2025-09-09 21:31:41,345 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:47,690 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:48,694 INFO spawned: 'rag' with pid 2287
+2025-09-09 21:31:49,784 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:31:55,895 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:31:56,899 INFO spawned: 'rag' with pid 2321
+2025-09-09 21:31:57,986 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:04,745 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:05,748 INFO spawned: 'rag' with pid 2355
+2025-09-09 21:32:06,834 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:12,903 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:13,907 INFO spawned: 'rag' with pid 2389
+2025-09-09 21:32:15,007 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:20,801 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:21,804 INFO spawned: 'rag' with pid 2423
+2025-09-09 21:32:22,885 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:28,720 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:29,723 INFO spawned: 'rag' with pid 2457
+2025-09-09 21:32:30,806 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:36,539 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:37,542 INFO spawned: 'rag' with pid 2491
+2025-09-09 21:32:38,628 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:43,975 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:44,979 INFO spawned: 'rag' with pid 2525
+2025-09-09 21:32:46,064 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:51,868 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:32:52,871 INFO spawned: 'rag' with pid 2559
+2025-09-09 21:32:53,959 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:32:59,841 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:00,844 INFO spawned: 'rag' with pid 2593
+2025-09-09 21:33:01,936 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:07,755 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:08,758 INFO spawned: 'rag' with pid 2627
+2025-09-09 21:33:09,838 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:15,683 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:16,686 INFO spawned: 'rag' with pid 2661
+2025-09-09 21:33:17,771 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:23,375 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:24,379 INFO spawned: 'rag' with pid 2695
+2025-09-09 21:33:25,468 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:31,243 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:32,246 INFO spawned: 'rag' with pid 2729
+2025-09-09 21:33:33,333 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:38,950 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:39,953 INFO spawned: 'rag' with pid 2763
+2025-09-09 21:33:41,038 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:46,606 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:47,609 INFO spawned: 'rag' with pid 2797
+2025-09-09 21:33:48,693 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:33:54,585 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:33:55,588 INFO spawned: 'rag' with pid 2831
+2025-09-09 21:33:56,680 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:02,645 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:03,649 INFO spawned: 'rag' with pid 2865
+2025-09-09 21:34:04,757 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:10,706 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:11,709 INFO spawned: 'rag' with pid 2899
+2025-09-09 21:34:12,793 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:18,966 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:19,970 INFO spawned: 'rag' with pid 2933
+2025-09-09 21:34:21,056 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:27,262 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:28,266 INFO spawned: 'rag' with pid 2967
+2025-09-09 21:34:29,360 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:35,698 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:36,702 INFO spawned: 'rag' with pid 3001
+2025-09-09 21:34:37,794 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:43,754 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:44,758 INFO spawned: 'rag' with pid 3035
+2025-09-09 21:34:45,859 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:34:52,058 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:34:53,061 INFO spawned: 'rag' with pid 3069
+2025-09-09 21:34:54,163 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:00,475 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:01,478 INFO spawned: 'rag' with pid 3103
+2025-09-09 21:35:02,574 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:08,503 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:09,506 INFO spawned: 'rag' with pid 3137
+2025-09-09 21:35:10,592 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:16,549 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:17,553 INFO spawned: 'rag' with pid 3171
+2025-09-09 21:35:18,636 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:24,669 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:25,673 INFO spawned: 'rag' with pid 3205
+2025-09-09 21:35:26,759 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:32,737 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:33,741 INFO spawned: 'rag' with pid 3239
+2025-09-09 21:35:34,830 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:40,781 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:41,786 INFO spawned: 'rag' with pid 3273
+2025-09-09 21:35:42,890 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:49,398 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:50,401 INFO spawned: 'rag' with pid 3307
+2025-09-09 21:35:51,487 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:35:58,197 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:35:59,201 INFO spawned: 'rag' with pid 3341
+2025-09-09 21:36:00,331 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:06,664 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:07,667 INFO spawned: 'rag' with pid 3375
+2025-09-09 21:36:08,761 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:14,599 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:15,603 INFO spawned: 'rag' with pid 3409
+2025-09-09 21:36:16,685 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:22,156 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:23,164 INFO spawned: 'rag' with pid 3443
+2025-09-09 21:36:24,246 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:30,158 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:31,161 INFO spawned: 'rag' with pid 3477
+2025-09-09 21:36:32,244 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:38,095 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:39,100 INFO spawned: 'rag' with pid 3511
+2025-09-09 21:36:40,187 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:46,442 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:47,446 INFO spawned: 'rag' with pid 3545
+2025-09-09 21:36:48,528 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:36:54,128 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:36:55,132 INFO spawned: 'rag' with pid 3579
+2025-09-09 21:36:56,212 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:02,042 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:03,045 INFO spawned: 'rag' with pid 3613
+2025-09-09 21:37:04,138 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:10,052 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:11,055 INFO spawned: 'rag' with pid 3647
+2025-09-09 21:37:12,137 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:17,778 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:18,782 INFO spawned: 'rag' with pid 3681
+2025-09-09 21:37:19,862 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:25,671 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:26,674 INFO spawned: 'rag' with pid 3715
+2025-09-09 21:37:27,758 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:33,359 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:34,363 INFO spawned: 'rag' with pid 3749
+2025-09-09 21:37:35,448 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:41,158 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:42,161 INFO spawned: 'rag' with pid 3783
+2025-09-09 21:37:43,251 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:49,471 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:50,474 INFO spawned: 'rag' with pid 3817
+2025-09-09 21:37:51,562 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:37:57,860 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:37:58,863 INFO spawned: 'rag' with pid 3851
+2025-09-09 21:37:59,961 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:06,057 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:07,060 INFO spawned: 'rag' with pid 3885
+2025-09-09 21:38:08,149 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:14,767 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:15,771 INFO spawned: 'rag' with pid 3919
+2025-09-09 21:38:16,882 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:23,881 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:24,884 INFO spawned: 'rag' with pid 3953
+2025-09-09 21:38:25,980 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:32,154 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:33,157 INFO spawned: 'rag' with pid 3987
+2025-09-09 21:38:34,249 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:40,074 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:41,077 INFO spawned: 'rag' with pid 4021
+2025-09-09 21:38:42,165 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:47,906 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:48,910 INFO spawned: 'rag' with pid 4055
+2025-09-09 21:38:50,003 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:38:55,698 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:38:56,703 INFO spawned: 'rag' with pid 4089
+2025-09-09 21:38:57,792 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:03,495 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:04,499 INFO spawned: 'rag' with pid 4123
+2025-09-09 21:39:05,582 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:10,955 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:11,959 INFO spawned: 'rag' with pid 4157
+2025-09-09 21:39:13,041 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:19,058 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:20,061 INFO spawned: 'rag' with pid 4191
+2025-09-09 21:39:21,148 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:27,025 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:28,029 INFO spawned: 'rag' with pid 4225
+2025-09-09 21:39:29,110 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:34,473 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:35,476 INFO spawned: 'rag' with pid 4259
+2025-09-09 21:39:36,561 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:41,930 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:42,933 INFO spawned: 'rag' with pid 4293
+2025-09-09 21:39:44,016 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:49,755 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:50,759 INFO spawned: 'rag' with pid 4327
+2025-09-09 21:39:51,846 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:39:57,403 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:39:58,407 INFO spawned: 'rag' with pid 4361
+2025-09-09 21:39:59,505 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:05,396 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:06,400 INFO spawned: 'rag' with pid 4395
+2025-09-09 21:40:07,486 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:13,564 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:14,567 INFO spawned: 'rag' with pid 4429
+2025-09-09 21:40:15,661 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:23,522 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:24,526 INFO spawned: 'rag' with pid 4463
+2025-09-09 21:40:25,616 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:31,646 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:32,650 INFO spawned: 'rag' with pid 4497
+2025-09-09 21:40:33,744 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:40,020 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:41,023 INFO spawned: 'rag' with pid 4531
+2025-09-09 21:40:42,109 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:48,127 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:49,131 INFO spawned: 'rag' with pid 4565
+2025-09-09 21:40:50,221 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:40:56,006 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:40:57,010 INFO spawned: 'rag' with pid 4599
+2025-09-09 21:40:58,095 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:03,830 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:04,834 INFO spawned: 'rag' with pid 4633
+2025-09-09 21:41:05,946 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:11,977 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:12,980 INFO spawned: 'rag' with pid 4667
+2025-09-09 21:41:14,068 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:20,175 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:21,178 INFO spawned: 'rag' with pid 4701
+2025-09-09 21:41:22,270 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:28,353 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:29,356 INFO spawned: 'rag' with pid 4735
+2025-09-09 21:41:30,442 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:36,398 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:37,401 INFO spawned: 'rag' with pid 4769
+2025-09-09 21:41:38,485 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:44,151 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:45,155 INFO spawned: 'rag' with pid 4803
+2025-09-09 21:41:46,245 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:52,012 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:41:53,015 INFO spawned: 'rag' with pid 4837
+2025-09-09 21:41:54,097 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:41:59,751 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:00,755 INFO spawned: 'rag' with pid 4871
+2025-09-09 21:42:01,834 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:08,646 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:09,650 INFO spawned: 'rag' with pid 4905
+2025-09-09 21:42:10,730 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:16,764 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:17,767 INFO spawned: 'rag' with pid 4939
+2025-09-09 21:42:18,850 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:24,749 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:25,752 INFO spawned: 'rag' with pid 4973
+2025-09-09 21:42:26,837 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:32,426 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:33,430 INFO spawned: 'rag' with pid 5007
+2025-09-09 21:42:34,516 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:40,427 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:41,432 INFO spawned: 'rag' with pid 5041
+2025-09-09 21:42:42,515 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:48,302 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:49,306 INFO spawned: 'rag' with pid 5075
+2025-09-09 21:42:50,396 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:42:56,275 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:42:57,278 INFO spawned: 'rag' with pid 5109
+2025-09-09 21:42:58,363 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:03,992 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:04,995 INFO spawned: 'rag' with pid 5143
+2025-09-09 21:43:06,078 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:11,648 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:12,652 INFO spawned: 'rag' with pid 5177
+2025-09-09 21:43:13,733 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:19,185 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:20,189 INFO spawned: 'rag' with pid 5211
+2025-09-09 21:43:21,269 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:26,982 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:27,985 INFO spawned: 'rag' with pid 5245
+2025-09-09 21:43:29,084 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:34,546 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:35,549 INFO spawned: 'rag' with pid 5279
+2025-09-09 21:43:36,632 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:42,597 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:43,601 INFO spawned: 'rag' with pid 5313
+2025-09-09 21:43:44,694 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:50,780 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:51,783 INFO spawned: 'rag' with pid 5347
+2025-09-09 21:43:52,870 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:43:58,610 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:43:59,614 INFO spawned: 'rag' with pid 5381
+2025-09-09 21:44:00,700 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:06,802 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:07,805 INFO spawned: 'rag' with pid 5415
+2025-09-09 21:44:08,905 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:14,957 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:15,961 INFO spawned: 'rag' with pid 5449
+2025-09-09 21:44:17,058 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:23,137 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:24,140 INFO spawned: 'rag' with pid 5483
+2025-09-09 21:44:25,225 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:31,274 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:32,277 INFO spawned: 'rag' with pid 5517
+2025-09-09 21:44:33,368 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:39,179 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:40,182 INFO spawned: 'rag' with pid 5551
+2025-09-09 21:44:41,273 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:47,166 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:48,169 INFO spawned: 'rag' with pid 5585
+2025-09-09 21:44:49,256 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:44:54,925 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:44:55,929 INFO spawned: 'rag' with pid 5619
+2025-09-09 21:44:57,013 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:02,768 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:03,772 INFO spawned: 'rag' with pid 5653
+2025-09-09 21:45:04,853 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:10,183 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:11,186 INFO spawned: 'rag' with pid 5687
+2025-09-09 21:45:12,269 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:17,771 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:18,774 INFO spawned: 'rag' with pid 5721
+2025-09-09 21:45:19,855 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:25,685 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:26,689 INFO spawned: 'rag' with pid 5755
+2025-09-09 21:45:27,769 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:33,587 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:34,590 INFO spawned: 'rag' with pid 5789
+2025-09-09 21:45:35,675 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:41,363 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:42,366 INFO spawned: 'rag' with pid 5823
+2025-09-09 21:45:43,446 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:49,034 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:50,038 INFO spawned: 'rag' with pid 5857
+2025-09-09 21:45:51,116 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:45:56,796 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:45:57,799 INFO spawned: 'rag' with pid 5891
+2025-09-09 21:45:58,877 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:04,852 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:05,856 INFO spawned: 'rag' with pid 5925
+2025-09-09 21:46:06,948 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:12,496 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:13,500 INFO spawned: 'rag' with pid 5959
+2025-09-09 21:46:14,581 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:20,216 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:21,218 INFO spawned: 'rag' with pid 5993
+2025-09-09 21:46:22,306 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:27,795 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:28,798 INFO spawned: 'rag' with pid 6027
+2025-09-09 21:46:29,879 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:35,641 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:36,645 INFO spawned: 'rag' with pid 6061
+2025-09-09 21:46:37,729 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:43,448 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:44,452 INFO spawned: 'rag' with pid 6095
+2025-09-09 21:46:45,532 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:51,037 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:52,039 INFO spawned: 'rag' with pid 6129
+2025-09-09 21:46:53,126 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:46:58,662 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:46:59,665 INFO spawned: 'rag' with pid 6163
+2025-09-09 21:47:00,745 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:05,946 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:06,949 INFO spawned: 'rag' with pid 6197
+2025-09-09 21:47:08,028 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:13,447 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:14,451 INFO spawned: 'rag' with pid 6231
+2025-09-09 21:47:15,537 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:20,905 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:21,908 INFO spawned: 'rag' with pid 6265
+2025-09-09 21:47:22,995 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:28,412 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:29,415 INFO spawned: 'rag' with pid 6299
+2025-09-09 21:47:30,494 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:36,077 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:37,080 INFO spawned: 'rag' with pid 6333
+2025-09-09 21:47:38,171 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:43,996 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:45,000 INFO spawned: 'rag' with pid 6367
+2025-09-09 21:47:46,079 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:51,517 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:47:52,521 INFO spawned: 'rag' with pid 6401
+2025-09-09 21:47:53,599 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:47:59,643 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:00,646 INFO spawned: 'rag' with pid 6435
+2025-09-09 21:48:01,732 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:07,393 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:08,397 INFO spawned: 'rag' with pid 6469
+2025-09-09 21:48:09,489 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:15,279 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:16,283 INFO spawned: 'rag' with pid 6503
+2025-09-09 21:48:17,364 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:22,969 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:23,972 INFO spawned: 'rag' with pid 6537
+2025-09-09 21:48:25,060 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:30,617 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:31,622 INFO spawned: 'rag' with pid 6571
+2025-09-09 21:48:32,707 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:38,105 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:39,108 INFO spawned: 'rag' with pid 6605
+2025-09-09 21:48:40,192 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:45,669 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:46,672 INFO spawned: 'rag' with pid 6639
+2025-09-09 21:48:47,757 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:48:53,841 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:48:54,845 INFO spawned: 'rag' with pid 6673
+2025-09-09 21:48:55,930 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:01,901 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:02,905 INFO spawned: 'rag' with pid 6707
+2025-09-09 21:49:03,992 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:09,572 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:10,576 INFO spawned: 'rag' with pid 6741
+2025-09-09 21:49:11,661 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:17,106 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:18,109 INFO spawned: 'rag' with pid 6775
+2025-09-09 21:49:19,199 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:25,111 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:26,115 INFO spawned: 'rag' with pid 6809
+2025-09-09 21:49:27,206 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:32,891 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:33,894 INFO spawned: 'rag' with pid 6843
+2025-09-09 21:49:34,985 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:40,551 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:41,554 INFO spawned: 'rag' with pid 6877
+2025-09-09 21:49:42,632 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:48,044 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:49,048 INFO spawned: 'rag' with pid 6911
+2025-09-09 21:49:50,136 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:49:56,072 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:49:57,076 INFO spawned: 'rag' with pid 6945
+2025-09-09 21:49:58,174 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:04,551 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:05,554 INFO spawned: 'rag' with pid 6979
+2025-09-09 21:50:06,641 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:13,358 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:14,361 INFO spawned: 'rag' with pid 7013
+2025-09-09 21:50:15,456 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:21,955 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:22,959 INFO spawned: 'rag' with pid 7047
+2025-09-09 21:50:24,058 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:30,230 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:31,233 INFO spawned: 'rag' with pid 7081
+2025-09-09 21:50:32,336 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:38,573 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:39,577 INFO spawned: 'rag' with pid 7115
+2025-09-09 21:50:40,666 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:47,583 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:48,586 INFO spawned: 'rag' with pid 7149
+2025-09-09 21:50:49,684 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:50:56,295 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:50:57,299 INFO spawned: 'rag' with pid 7183
+2025-09-09 21:50:58,394 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:51:05,181 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:51:06,185 INFO spawned: 'rag' with pid 7217
+2025-09-09 21:51:07,271 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:51:13,155 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:51:14,159 INFO spawned: 'rag' with pid 7251
+2025-09-09 21:51:15,240 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:51:20,853 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:51:21,855 INFO spawned: 'rag' with pid 7285
+2025-09-09 21:51:22,950 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:51:36,790 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:51:37,793 INFO spawned: 'rag' with pid 7319
+2025-09-09 21:51:39,060 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:51:50,571 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:51:51,573 INFO spawned: 'rag' with pid 7353
+2025-09-09 21:51:52,797 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:06,864 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:07,870 INFO spawned: 'rag' with pid 7387
+2025-09-09 21:52:09,090 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:22,410 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:23,419 INFO spawned: 'rag' with pid 7421
+2025-09-09 21:52:24,882 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:31,852 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:32,856 INFO spawned: 'rag' with pid 7455
+2025-09-09 21:52:33,974 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:40,077 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:41,081 INFO spawned: 'rag' with pid 7489
+2025-09-09 21:52:42,169 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:47,951 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:48,956 INFO spawned: 'rag' with pid 7523
+2025-09-09 21:52:50,046 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:52:55,743 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:52:56,747 INFO spawned: 'rag' with pid 7557
+2025-09-09 21:52:57,863 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:03,555 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:03,557 INFO spawned: 'rag' with pid 7591
+2025-09-09 21:53:04,642 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:10,438 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:11,441 INFO spawned: 'rag' with pid 7625
+2025-09-09 21:53:12,525 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:18,015 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:19,018 INFO spawned: 'rag' with pid 7659
+2025-09-09 21:53:20,103 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:26,467 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:27,471 INFO spawned: 'rag' with pid 7693
+2025-09-09 21:53:28,559 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:34,530 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:35,534 INFO spawned: 'rag' with pid 7727
+2025-09-09 21:53:36,619 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:42,425 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:43,429 INFO spawned: 'rag' with pid 7761
+2025-09-09 21:53:44,512 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:50,477 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:51,479 INFO spawned: 'rag' with pid 7795
+2025-09-09 21:53:52,558 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:53:58,198 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:53:59,202 INFO spawned: 'rag' with pid 7829
+2025-09-09 21:54:00,288 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:06,054 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:07,057 INFO spawned: 'rag' with pid 7863
+2025-09-09 21:54:08,140 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:13,571 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:14,574 INFO spawned: 'rag' with pid 7897
+2025-09-09 21:54:15,657 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:21,224 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:22,228 INFO spawned: 'rag' with pid 7931
+2025-09-09 21:54:23,310 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:28,905 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:29,908 INFO spawned: 'rag' with pid 7965
+2025-09-09 21:54:30,996 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:36,566 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:37,569 INFO spawned: 'rag' with pid 7999
+2025-09-09 21:54:38,651 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:44,307 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:45,311 INFO spawned: 'rag' with pid 8033
+2025-09-09 21:54:46,392 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:51,825 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:54:52,829 INFO spawned: 'rag' with pid 8067
+2025-09-09 21:54:53,910 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:54:59,886 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:00,889 INFO spawned: 'rag' with pid 8101
+2025-09-09 21:55:01,971 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:07,838 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:08,842 INFO spawned: 'rag' with pid 8135
+2025-09-09 21:55:09,932 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:15,843 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:16,846 INFO spawned: 'rag' with pid 8169
+2025-09-09 21:55:17,929 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:23,372 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:24,376 INFO spawned: 'rag' with pid 8203
+2025-09-09 21:55:25,455 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:31,086 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:32,089 INFO spawned: 'rag' with pid 8237
+2025-09-09 21:55:33,174 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:38,746 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:39,750 INFO spawned: 'rag' with pid 8271
+2025-09-09 21:55:40,831 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:46,480 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:47,483 INFO spawned: 'rag' with pid 8305
+2025-09-09 21:55:48,565 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:55:54,291 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:55:55,295 INFO spawned: 'rag' with pid 8339
+2025-09-09 21:55:56,385 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:01,892 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:02,896 INFO spawned: 'rag' with pid 8373
+2025-09-09 21:56:03,977 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:09,597 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:10,600 INFO spawned: 'rag' with pid 8407
+2025-09-09 21:56:11,682 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:17,332 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:18,335 INFO spawned: 'rag' with pid 8441
+2025-09-09 21:56:19,417 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:25,136 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:26,140 INFO spawned: 'rag' with pid 8475
+2025-09-09 21:56:27,219 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:32,701 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:33,704 INFO spawned: 'rag' with pid 8509
+2025-09-09 21:56:34,784 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:40,406 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:41,409 INFO spawned: 'rag' with pid 8543
+2025-09-09 21:56:42,490 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:48,090 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:49,093 INFO spawned: 'rag' with pid 8577
+2025-09-09 21:56:50,175 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:56:56,224 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:56:57,228 INFO spawned: 'rag' with pid 8611
+2025-09-09 21:56:58,310 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:03,789 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:04,793 INFO spawned: 'rag' with pid 8645
+2025-09-09 21:57:05,873 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:11,601 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:12,605 INFO spawned: 'rag' with pid 8679
+2025-09-09 21:57:13,685 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:19,146 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:20,150 INFO spawned: 'rag' with pid 8713
+2025-09-09 21:57:21,231 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:26,789 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:27,792 INFO spawned: 'rag' with pid 8747
+2025-09-09 21:57:28,875 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:34,499 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:35,503 INFO spawned: 'rag' with pid 8781
+2025-09-09 21:57:36,586 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:42,159 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:43,163 INFO spawned: 'rag' with pid 8815
+2025-09-09 21:57:44,254 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:49,879 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:50,883 INFO spawned: 'rag' with pid 8849
+2025-09-09 21:57:51,971 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:57:58,171 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:57:59,174 INFO spawned: 'rag' with pid 8883
+2025-09-09 21:58:00,256 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:06,023 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:07,026 INFO spawned: 'rag' with pid 8917
+2025-09-09 21:58:08,111 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:13,924 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:14,927 INFO spawned: 'rag' with pid 8951
+2025-09-09 21:58:16,008 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:21,926 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:22,930 INFO spawned: 'rag' with pid 8985
+2025-09-09 21:58:24,021 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:30,480 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:31,484 INFO spawned: 'rag' with pid 9019
+2025-09-09 21:58:32,570 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:38,487 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:39,490 INFO spawned: 'rag' with pid 9053
+2025-09-09 21:58:40,574 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:46,304 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:47,307 INFO spawned: 'rag' with pid 9087
+2025-09-09 21:58:48,388 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:58:54,013 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:58:55,016 INFO spawned: 'rag' with pid 9121
+2025-09-09 21:58:56,098 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:01,526 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:02,530 INFO spawned: 'rag' with pid 9155
+2025-09-09 21:59:03,611 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:09,328 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:10,331 INFO spawned: 'rag' with pid 9189
+2025-09-09 21:59:11,412 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:17,093 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:18,097 INFO spawned: 'rag' with pid 9223
+2025-09-09 21:59:19,178 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:24,808 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:25,812 INFO spawned: 'rag' with pid 9257
+2025-09-09 21:59:26,893 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:32,497 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:33,500 INFO spawned: 'rag' with pid 9291
+2025-09-09 21:59:34,587 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:40,222 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:41,225 INFO spawned: 'rag' with pid 9325
+2025-09-09 21:59:42,311 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:48,489 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:49,492 INFO spawned: 'rag' with pid 9359
+2025-09-09 21:59:50,582 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 21:59:56,606 WARN exited: rag (exit status 3; not expected)
+2025-09-09 21:59:57,610 INFO spawned: 'rag' with pid 9393
+2025-09-09 21:59:58,695 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:04,518 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:05,521 INFO spawned: 'rag' with pid 9427
+2025-09-09 22:00:06,611 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:12,506 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:13,509 INFO spawned: 'rag' with pid 9461
+2025-09-09 22:00:14,598 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:20,250 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:21,252 INFO spawned: 'rag' with pid 9495
+2025-09-09 22:00:22,337 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:28,987 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:29,992 INFO spawned: 'rag' with pid 9529
+2025-09-09 22:00:31,079 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:36,882 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:37,885 INFO spawned: 'rag' with pid 9563
+2025-09-09 22:00:38,970 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:44,678 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:45,681 INFO spawned: 'rag' with pid 9597
+2025-09-09 22:00:46,763 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:00:52,310 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:00:53,313 INFO spawned: 'rag' with pid 9631
+2025-09-09 22:00:54,398 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:00,839 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:01,842 INFO spawned: 'rag' with pid 9665
+2025-09-09 22:01:02,936 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:08,797 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:09,800 INFO spawned: 'rag' with pid 9699
+2025-09-09 22:01:10,880 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:16,860 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:17,863 INFO spawned: 'rag' with pid 9733
+2025-09-09 22:01:18,947 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:24,605 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:25,608 INFO spawned: 'rag' with pid 9767
+2025-09-09 22:01:26,690 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:32,281 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:33,284 INFO spawned: 'rag' with pid 9801
+2025-09-09 22:01:34,365 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:39,912 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:40,915 INFO spawned: 'rag' with pid 9835
+2025-09-09 22:01:41,998 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:47,478 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:48,482 INFO spawned: 'rag' with pid 9869
+2025-09-09 22:01:49,565 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:01:54,986 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:01:55,989 INFO spawned: 'rag' with pid 9903
+2025-09-09 22:01:57,071 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:02,576 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:03,579 INFO spawned: 'rag' with pid 9937
+2025-09-09 22:02:04,664 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:10,152 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:11,155 INFO spawned: 'rag' with pid 9971
+2025-09-09 22:02:12,237 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:17,870 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:18,873 INFO spawned: 'rag' with pid 10005
+2025-09-09 22:02:19,955 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:25,649 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:26,652 INFO spawned: 'rag' with pid 10039
+2025-09-09 22:02:27,736 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:33,188 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:34,191 INFO spawned: 'rag' with pid 10073
+2025-09-09 22:02:35,275 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:40,784 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:41,787 INFO spawned: 'rag' with pid 10107
+2025-09-09 22:02:42,868 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:51,545 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:02:52,548 INFO spawned: 'rag' with pid 10141
+2025-09-09 22:02:53,631 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:02:59,166 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:00,170 INFO spawned: 'rag' with pid 10175
+2025-09-09 22:03:01,254 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:06,833 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:07,836 INFO spawned: 'rag' with pid 10209
+2025-09-09 22:03:08,918 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:14,335 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:15,338 INFO spawned: 'rag' with pid 10243
+2025-09-09 22:03:16,423 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:21,849 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:22,852 INFO spawned: 'rag' with pid 10277
+2025-09-09 22:03:23,940 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:29,707 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:30,710 INFO spawned: 'rag' with pid 10311
+2025-09-09 22:03:31,799 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:37,731 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:38,734 INFO spawned: 'rag' with pid 10345
+2025-09-09 22:03:39,816 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:45,354 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:46,357 INFO spawned: 'rag' with pid 10379
+2025-09-09 22:03:47,438 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:03:53,315 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:03:54,318 INFO spawned: 'rag' with pid 10413
+2025-09-09 22:03:55,405 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:01,329 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:02,332 INFO spawned: 'rag' with pid 10447
+2025-09-09 22:04:03,418 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:09,122 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:10,125 INFO spawned: 'rag' with pid 10481
+2025-09-09 22:04:11,210 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:16,938 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:17,941 INFO spawned: 'rag' with pid 10515
+2025-09-09 22:04:19,026 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:24,802 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:25,805 INFO spawned: 'rag' with pid 10549
+2025-09-09 22:04:26,892 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:32,686 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:33,689 INFO spawned: 'rag' with pid 10583
+2025-09-09 22:04:34,779 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:40,735 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:41,739 INFO spawned: 'rag' with pid 10617
+2025-09-09 22:04:42,830 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:49,091 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:50,094 INFO spawned: 'rag' with pid 10651
+2025-09-09 22:04:51,185 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:04:57,304 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:04:58,308 INFO spawned: 'rag' with pid 10685
+2025-09-09 22:04:59,398 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:05,614 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:06,617 INFO spawned: 'rag' with pid 10719
+2025-09-09 22:05:07,705 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:13,586 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:14,589 INFO spawned: 'rag' with pid 10753
+2025-09-09 22:05:15,675 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:21,709 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:22,712 INFO spawned: 'rag' with pid 10787
+2025-09-09 22:05:23,803 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:30,048 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:31,051 INFO spawned: 'rag' with pid 10821
+2025-09-09 22:05:32,141 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:38,309 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:39,313 INFO spawned: 'rag' with pid 10855
+2025-09-09 22:05:40,426 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:46,339 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:47,343 INFO spawned: 'rag' with pid 10889
+2025-09-09 22:05:48,435 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:05:54,507 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:05:55,511 INFO spawned: 'rag' with pid 10923
+2025-09-09 22:05:56,604 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:06:03,484 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:06:04,488 INFO spawned: 'rag' with pid 10957
+2025-09-09 22:06:05,582 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:06:11,503 WARN exited: rag (exit status 3; not expected)
+2025-09-09 22:06:12,506 INFO spawned: 'rag' with pid 10991
+2025-09-09 22:06:13,588 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:07:03,648 WARN received SIGTERM indicating exit request
+2025-09-09 22:07:03,654 INFO waiting for rag, sdk to die
+2025-09-09 22:07:05,764 INFO stopped: sdk (exit status 0)
+2025-09-09 22:07:06,582 INFO stopped: rag (exit status 0)
+2025-09-09 22:07:08,087 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-09 22:07:08,092 INFO supervisord started with pid 1
+2025-09-09 22:07:09,095 INFO spawned: 'rag' with pid 7
+2025-09-09 22:07:09,097 INFO spawned: 'sdk' with pid 8
+2025-09-09 22:07:10,966 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-09 22:07:10,966 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 19:06:02,906 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-12 19:06:02,916 INFO supervisord started with pid 1
+2025-09-12 19:06:03,921 INFO spawned: 'rag' with pid 7
+2025-09-12 19:06:03,924 INFO spawned: 'sdk' with pid 8
+2025-09-12 19:06:04,954 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 19:06:04,955 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 19:27:35,059 WARN received SIGTERM indicating exit request
+2025-09-12 19:27:35,067 INFO waiting for rag, sdk to die
+2025-09-12 19:27:35,365 INFO stopped: sdk (exit status 0)
+2025-09-12 19:27:37,750 INFO stopped: rag (exit status 0)
+2025-09-12 19:27:41,442 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-12 19:27:41,452 INFO supervisord started with pid 1
+2025-09-12 19:27:42,456 INFO spawned: 'rag' with pid 7
+2025-09-12 19:27:42,458 INFO spawned: 'sdk' with pid 8
+2025-09-12 19:27:44,353 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 19:27:44,354 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 20:44:03,450 WARN received SIGTERM indicating exit request
+2025-09-12 20:44:03,531 INFO waiting for rag, sdk to die
+2025-09-12 20:44:05,194 INFO stopped: sdk (exit status 0)
+2025-09-12 20:44:07,334 INFO waiting for rag to die
+2025-09-12 20:44:10,338 INFO waiting for rag to die
+2025-09-12 20:44:16,770 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-12 20:44:16,775 INFO supervisord started with pid 1
+2025-09-12 20:44:17,785 INFO spawned: 'rag' with pid 7
+2025-09-12 20:44:17,797 INFO spawned: 'sdk' with pid 8
+2025-09-12 20:44:19,704 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 20:44:19,704 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 20:44:27,714 WARN received SIGTERM indicating exit request
+2025-09-12 20:44:27,715 INFO waiting for rag, sdk to die
+2025-09-12 20:44:27,791 INFO stopped: sdk (exit status 0)
+2025-09-12 20:44:28,708 INFO stopped: rag (exit status 0)
+2025-09-12 20:44:30,072 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-12 20:44:30,076 INFO supervisord started with pid 1
+2025-09-12 20:44:31,080 INFO spawned: 'rag' with pid 7
+2025-09-12 20:44:31,081 INFO spawned: 'sdk' with pid 8
+2025-09-12 20:44:32,739 INFO success: rag entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-12 20:44:32,740 INFO success: sdk entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

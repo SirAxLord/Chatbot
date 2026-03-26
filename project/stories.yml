@@ -1,0 +1,8 @@
+version: "3.1"
+stories:
+  - story: saludo y recomendación
+    steps:
+      - intent: saludar
+      - action: utter_saludar
+      - intent: pedir_recomendacion
+      - action: action_llm_fallback

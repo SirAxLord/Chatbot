@@ -1,0 +1,21 @@
+version: "3.1"
+nlu:
+  - intent: saludar
+    examples: |
+      - hola
+      - buenos días
+      - qué tal
+  - intent: despedir
+    examples: |
+      - adiós
+      - nos vemos
+      - hasta luego
+  - intent: pedir_recomendacion
+    examples: |
+      - ¿qué materias me recomiendas?
+      - recomiéndame una materia
+      - ayudame a elegir énfasis
+  - intent: info_materia
+    examples: |
+      - dame info de [Programación I](materia)
+      - ¿de qué trata [Redes](materia)?

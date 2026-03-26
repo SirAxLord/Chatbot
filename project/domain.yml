@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - despedir
+  - pedir_recomendacion
+  - info_materia
+  - nlu_fallback
+
+# project/domain.yml (solo la parte de slots)
+slots:
+  user_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text # guarda el texto del usuario cuando se use este slot
+
+  long_memory:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom # este slot lo rellena tu acción personalizada
+        action: action_set_user_memory
+
+  last_topics:
+    type: list
+    influence_conversation: true
+    mappings:
+      - type: custom
+        action: action_llm_fallback
+
+responses:
+  utter_saludar:
+    - text: "¡Hola! ¿En qué puedo ayudarte?"
+  utter_despedir:
+    - text: "¡Hasta luego!"
+  utter_ask_rephrase:
+    - text: "No estoy seguro, ¿podrías reformularlo?"
+
+actions:
+  - action_llm_fallback
+  - action_set_user_memory
+  - action_debug_memory

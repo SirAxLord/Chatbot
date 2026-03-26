@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Asistente académico</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="app">
+			<header class="topbar">
+				<h1>Asistente académico</h1>
+				<div id="status" class="badge">Conectando…</div>
+			</header>
+
+			<section id="log" class="log" aria-live="polite"></section>
+
+			<form id="form" class="composer" autocomplete="off">
+				<input id="msg" type="text" placeholder="Escribe tu mensaje…" />
+				<button id="send" type="submit">Enviar</button>
+			</form>
+		</main>
+
+		<template id="tpl-msg">
+			<div class="msg">
+				<div class="bubble"></div>
+			</div>
+		</template>
+
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,846 @@
+[
+  {
+    "id": "course:2817",
+    "type": "course",
+    "title": "Programación de Robots",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813"
+    ],
+    "summary": "Conocer y aplicar los conceptos básicos de la cinemática de robots manipuladores y móviles, así como el uso de frameworks que permitan el modelado de sensores y actuadores para aplicar dichos conceptos en uno o más robots.",
+    "syllabus_topics": [
+      "Introducción a la robótica",
+      "Cinemática de Robots Moviles",
+      "Aplicaciones de los Concepots de Cinemática",
+      "Cinematica de Robots Manipuladores."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y aplicar los conceptos básicos de la cinemática de robots manipuladores y móviles, así como el uso de frameworks que permitan el modelado de sensores y actuadores para aplicar dichos conceptos en uno o más robots.\nIntroducción a la robótica, Cinemática de Robots Moviles, Aplicaciones de los Concepots de Cinemática, Cinematica de Robots Manipuladores.",
+    "source": "plan_estudios.json#2817",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2809",
+    "type": "course",
+    "title": "Computo Bio-Inspirado",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813"
+    ],
+    "summary": "Conocer, analizar y aplicar algoritmos avanzados basados en el comportamiento de un conjunto de seres vivos, así como su aplicación a problemas de búsqueda y optimización.",
+    "syllabus_topics": [
+      "Introduccion al Computo Bio-Inspirado",
+      "Inteligencia de Enjambre",
+      "Computo Evolutivo: Algoritmos Geneticos",
+      "Computo Evolutivo: Programacion Genetica.."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer, analizar y aplicar algoritmos avanzados basados en el comportamiento de un conjunto de seres vivos, así como su aplicación a problemas de búsqueda y optimización.\nIntroduccion al Computo Bio-Inspirado, Inteligencia de Enjambre, Computo Evolutivo: Algoritmos Geneticos, Computo Evolutivo: Programacion Genetica..",
+    "source": "plan_estudios.json#2809",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2815",
+    "type": "course",
+    "title": "Visión Computacional",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813"
+    ],
+    "summary": "Comprender y aplicar los conceptos de visión computacional, mediante el uso de herramientas de programación para la interpretación automática de información obtenida mediante videos o imágenes.",
+    "syllabus_topics": [
+      "Introduccion a la Visión Computacional",
+      "Tareas de Visión computacional de Bajo Nivel",
+      "Taraeas de Visión Computacional de Alto Nivel",
+      "Tareas de Visión Computacional Con Aprendizaje Automatico."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Comprender y aplicar los conceptos de visión computacional, mediante el uso de herramientas de programación para la interpretación automática de información obtenida mediante videos o imágenes.\nIntroduccion a la Visión Computacional, Tareas de Visión computacional de Bajo Nivel, Taraeas de Visión Computacional de Alto Nivel, Tareas de Visión Computacional Con Aprendizaje Automatico.",
+    "source": "plan_estudios.json#2815",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2816",
+    "type": "course",
+    "title": "Aprendizaje Automatico",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813"
+    ],
+    "summary": "Conocer y ser capaz de aplicar algoritmos de aprendizaje automático para resolver problemas de regresión, clasificación y agrupamiento.",
+    "syllabus_topics": [
+      "Algorimos de Regresion",
+      "Algoritmos de Clasificacion",
+      "Algorimtos de Agrupamiento."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y ser capaz de aplicar algoritmos de aprendizaje automático para resolver problemas de regresión, clasificación y agrupamiento.\nAlgorimos de Regresion, Algoritmos de Clasificacion, Algorimtos de Agrupamiento.",
+    "source": "plan_estudios.json#2816",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2818",
+    "type": "course",
+    "title": "Robotica Inteligente",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813",
+      "2817"
+    ],
+    "summary": "Analizar y aplicar los conceptos y métodos que permitan modelar y desarrollar un agente robótico con la capacidad de adquirir información de su entorno y actuar en este mediante algún algoritmo de toma de decisiones.",
+    "syllabus_topics": [
+      "Interaccion con el Ambiente",
+      "Arquitecturas Roboticas",
+      "Percepcion y Localizacion",
+      "Planeacion de Movimientos",
+      "Toma de Decisiones."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Analizar y aplicar los conceptos y métodos que permitan modelar y desarrollar un agente robótico con la capacidad de adquirir información de su entorno y actuar en este mediante algún algoritmo de toma de decisiones.\nInteraccion con el Ambiente, Arquitecturas Roboticas, Percepcion y Localizacion, Planeacion de Movimientos, Toma de Decisiones.",
+    "source": "plan_estudios.json#2818",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2808",
+    "type": "course",
+    "title": "Ciencia de Datos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813",
+      "2816"
+    ],
+    "summary": "Analizar y aplicar el proceso del descubrimiento de conocimiento en bases de datos utilizando un conjunto de datos reales y herramientas para la minería de datos.",
+    "syllabus_topics": [
+      "Proceso para el Descubrimiento de Conocimiento",
+      "Conjuntos de Datos",
+      "Preparacion de los Datos",
+      "Mineria de Datos",
+      "Interpretacion y Evaluacion de Resultados."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Analizar y aplicar el proceso del descubrimiento de conocimiento en bases de datos utilizando un conjunto de datos reales y herramientas para la minería de datos.\nProceso para el Descubrimiento de Conocimiento, Conjuntos de Datos, Preparacion de los Datos, Mineria de Datos, Interpretacion y Evaluacion de Resultados.",
+    "source": "plan_estudios.json#2808",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2819",
+    "type": "course",
+    "title": "Representacion del Conocimiento y Ontologias",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Inteligencia Artificial y Robótica"
+    ],
+    "prereqs": [
+      "2813"
+    ],
+    "summary": "Conocer y aplicar las formas de representación del conocimiento basadas en lógica y en redes semánticas; así como los métodos de razonamiento y planificación usados en los sistemas expertos y en los agentes para la creación de sistemas inteligentes.",
+    "syllabus_topics": [
+      "Representacion del Conocimiento Basado en Lógica",
+      "Redes Semanticas y Ontologias",
+      "Razonamiento",
+      "Sistemas Expertos Basados en Reglas",
+      "Planificacion y Agentes."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y aplicar las formas de representación del conocimiento basadas en lógica y en redes semánticas; así como los métodos de razonamiento y planificación usados en los sistemas expertos y en los agentes para la creación de sistemas inteligentes.\nRepresentacion del Conocimiento Basado en Lógica, Redes Semanticas y Ontologias, Razonamiento, Sistemas Expertos Basados en Reglas, Planificacion y Agentes.",
+    "source": "plan_estudios.json#2819",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2832",
+    "type": "course",
+    "title": "Programacion de Videojuegos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Interacción y Videojuegos"
+    ],
+    "prereqs": [
+      "2807"
+    ],
+    "summary": "Comprender e implementar el proceso general para el diseño y programación de videojuegos, tomando en consideración los temas básicos para la realización de videojuegos.",
+    "syllabus_topics": [
+      "Shaders",
+      "Matrices del Modelo",
+      "Vistaa Y Proyeccion",
+      "Texturas",
+      "Escenarios."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Comprender e implementar el proceso general para el diseño y programación de videojuegos, tomando en consideración los temas básicos para la realización de videojuegos.\nShaders, Matrices del Modelo, Vistaa Y Proyeccion, Texturas, Escenarios.",
+    "source": "plan_estudios.json#2832",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2833",
+    "type": "course",
+    "title": "Diseño de Videojuegos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Interacción y Videojuegos"
+    ],
+    "prereqs": [
+      "2807"
+    ],
+    "summary": "Diseñar, prototipar, analizar y presentar formalmente experiencias de juego, interiorizando e implementando los conceptos clave del diseño de juegos.",
+    "syllabus_topics": [
+      "Teoria de los Juegos",
+      "Docuementacion de Diseño de Juegos(GDD)",
+      "Diseño de Juegos Analogicos",
+      "Diseño de Juegos Digitales."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Diseñar, prototipar, analizar y presentar formalmente experiencias de juego, interiorizando e implementando los conceptos clave del diseño de juegos.\nTeoria de los Juegos, Docuementacion de Diseño de Juegos(GDD), Diseño de Juegos Analogicos, Diseño de Juegos Digitales.",
+    "source": "plan_estudios.json#2833",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2834",
+    "type": "course",
+    "title": "Motores Graficos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Interacción y Videojuegos"
+    ],
+    "prereqs": [
+      "2807",
+      "2832"
+    ],
+    "summary": "Conocer la arquitectura básica de un motor gráfico para el desarrollo de videojuegos; además de implementar el proceso general para diseñar y programar un videojuego con un motor gráfico, tomando en consideración temas avanzados que el alumno debe de conocer para realizar dicho videojuego.",
+    "syllabus_topics": [
+      "Generalidades de Los Motores Graficos",
+      "Arquitectura de los Motores Graficos",
+      "Consideraciones de Programacion",
+      "Aplicaciones de un Motor Grafico."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer la arquitectura básica de un motor gráfico para el desarrollo de videojuegos; además de implementar el proceso general para diseñar y programar un videojuego con un motor gráfico, tomando en consideración temas avanzados que el alumno debe de conocer para realizar dicho videojuego.\nGeneralidades de Los Motores Graficos, Arquitectura de los Motores Graficos, Consideraciones de Programacion, Aplicaciones de un Motor Grafico.",
+    "source": "plan_estudios.json#2834",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2836",
+    "type": "course",
+    "title": "Arte Conceptual Para Videojuegos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Interacción y Videojuegos"
+    ],
+    "prereqs": [
+      "2807"
+    ],
+    "summary": "Comprender y ser capaz de interpretar los fundamentos artísticos universales, así como identificar la expresión y aplicación de estos en los videojuegos, empleando principios de creatividad y composición artística en la producción de ideas y conceptos.",
+    "syllabus_topics": [
+      "Fundamentos Artisticos",
+      "Introduccion a la Produccion de Arte en Videojeugos",
+      "Comunicacion y Narrativa Visual",
+      "Produccion de Personajes",
+      "Produccion de Entornos."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Comprender y ser capaz de interpretar los fundamentos artísticos universales, así como identificar la expresión y aplicación de estos en los videojuegos, empleando principios de creatividad y composición artística en la producción de ideas y conceptos.\nFundamentos Artisticos, Introduccion a la Produccion de Arte en Videojeugos, Comunicacion y Narrativa Visual, Produccion de Personajes, Produccion de Entornos.",
+    "source": "plan_estudios.json#2836",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2835",
+    "type": "course",
+    "title": "Temas Selectos de Videojuegos",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Interacción y Videojuegos"
+    ],
+    "prereqs": [
+      "2807",
+      "2832",
+      "2834"
+    ],
+    "summary": "Conocer y analizar los temas de actualidad que giran alrededor del desarrollo de videojuegos; así como la implementación de diversas herramientas para dicho desarrollo.",
+    "syllabus_topics": [
+      "Plataformas de Desarrollo",
+      "Experiencias Interactivas",
+      "Software para el Desarrollo de VIdeojuegos",
+      "Publicacion de Videojuegos."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y analizar los temas de actualidad que giran alrededor del desarrollo de videojuegos; así como la implementación de diversas herramientas para dicho desarrollo.\nPlataformas de Desarrollo, Experiencias Interactivas, Software para el Desarrollo de VIdeojuegos, Publicacion de Videojuegos.",
+    "source": "plan_estudios.json#2835",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2238",
+    "type": "course",
+    "title": "Fundamentos de Desarrollo Web",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Desarrollo Web y Multiplataforma"
+    ],
+    "prereqs": [
+      "2236"
+    ],
+    "summary": "Conocer y aplicar algunas de las tecnologías fundamentales requeridas para el desarrollo de aplicaciones web integrales, tanto en el lado del cliente como en el lado del servidor.",
+    "syllabus_topics": [
+      "Lenguajes de Marcado (HTML)",
+      "Hojas de Estilo (CSS)",
+      "Diseño Responsivo Y FlexBox",
+      "Javascript",
+      "PHP",
+      "Servicos Rest."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y aplicar algunas de las tecnologías fundamentales requeridas para el desarrollo de aplicaciones web integrales, tanto en el lado del cliente como en el lado del servidor.\nLenguajes de Marcado (HTML), Hojas de Estilo (CSS), Diseño Responsivo Y FlexBox, Javascript, PHP, Servicos Rest.",
+    "source": "plan_estudios.json#2238",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2239",
+    "type": "course",
+    "title": "Fundamentos de Desarrollo Movil",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Desarrollo Web y Multiplataforma"
+    ],
+    "prereqs": [
+      "2236"
+    ],
+    "summary": "Conocer y aplicar las diversas tecnologías para el desarrollo de aplicaciones móviles básicas, en los principales sistemas operativos del mercado.",
+    "syllabus_topics": [
+      "Introduccion a la Programacion de Dispositivos Moviles",
+      "Programacion Hibrida",
+      "Programacion Nativa (Android)",
+      "Programacion Nativa (IOS)."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y aplicar las diversas tecnologías para el desarrollo de aplicaciones móviles básicas, en los principales sistemas operativos del mercado.\nIntroduccion a la Programacion de Dispositivos Moviles, Programacion Hibrida, Programacion Nativa (Android), Programacion Nativa (IOS).",
+    "source": "plan_estudios.json#2239",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2237",
+    "type": "course",
+    "title": "Aplicaciones Web Interactivas",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Desarrollo Web y Multiplataforma"
+    ],
+    "prereqs": [
+      "2236",
+      "2238"
+    ],
+    "summary": "Generar aplicaciones web modernas, robustas y escalables utilizando librerías y frameworks tanto del lado del cliente como del lado del servidor.",
+    "syllabus_topics": [
+      "Bootstrap",
+      "JQuery",
+      "Laravel",
+      "Contruccion De Api's Rest."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Generar aplicaciones web modernas, robustas y escalables utilizando librerías y frameworks tanto del lado del cliente como del lado del servidor.\nBootstrap, JQuery, Laravel, Contruccion De Api's Rest.",
+    "source": "plan_estudios.json#2237",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2244",
+    "type": "course",
+    "title": "Diseño de Interfaces",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Desarrollo Web y Multiplataforma"
+    ],
+    "prereqs": [
+      "2236"
+    ],
+    "summary": "Conocer y aplicar los fundamentos del diseño de interfaces, siguiendo los requerimientos de diseño digital de un proyecto dado, para ser desarrollados en aplicaciones Web, móviles y de escritorio.",
+    "syllabus_topics": [
+      "Diseño de Interfaces Web",
+      "Diseño de Interfaces Moviles",
+      "Diseño de Interfaces de Aplicaciones de Escritorio"
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer y aplicar los fundamentos del diseño de interfaces, siguiendo los requerimientos de diseño digital de un proyecto dado, para ser desarrollados en aplicaciones Web, móviles y de escritorio.\nDiseño de Interfaces Web, Diseño de Interfaces Moviles, Diseño de Interfaces de Aplicaciones de Escritorio",
+    "source": "plan_estudios.json#2244",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2245",
+    "type": "course",
+    "title": "Aplicaciones Web Escalables",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Desarrollo Web y Multiplataforma"
+    ],
+    "prereqs": [
+      "2236",
+      "2238"
+    ],
+    "summary": "Generar aplicaciones web interactivas usando lenguajes de programación vigentes en el mercado que permitan enriquecer el desarrollo de aplicaciones de software.",
+    "syllabus_topics": [
+      "Angular",
+      "NodeJS",
+      "Mongo",
+      "Express JS"
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Generar aplicaciones web interactivas usando lenguajes de programación vigentes en el mercado que permitan enriquecer el desarrollo de aplicaciones de software.\nAngular, NodeJS, Mongo, Express JS",
+    "source": "plan_estudios.json#2245",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2824",
+    "type": "course",
+    "title": "Administracion de Redes",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2823"
+    ],
+    "summary": "Diseñar, configurar y ser capaces de adminstrar redes de tipo LAN y WAN",
+    "syllabus_topics": [
+      "Conceptos basicos de redes",
+      "IPv4",
+      "IPv6",
+      "LAN",
+      "Redundancia en LAN",
+      "DHCP",
+      "Seguridad en LAN",
+      "WLAN",
+      "Enrutamiento"
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Diseñar, configurar y ser capaces de adminstrar redes de tipo LAN y WAN\nConceptos basicos de redes,  IPv4, IPv6, LAN, Redundancia en LAN, DHCP, Seguridad en LAN, WLAN, Enrutamiento",
+    "source": "plan_estudios.json#2824",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2825",
+    "type": "course",
+    "title": "Principios de Seguridad Informatica",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2823"
+    ],
+    "summary": "Analizar los conceptos fundamentales y principios de la seguridad informatica necesarios, ademas de ser capaces de aplicarlos para el funcionamiento de una organizacion.",
+    "syllabus_topics": [
+      "Amenazas y Ataques",
+      "Politicas de Seguridad y legislacion",
+      "Seguridad de Redes",
+      "Principios de Software seguro"
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Analizar los conceptos fundamentales y principios de la seguridad informatica necesarios, ademas de ser capaces de aplicarlos para el funcionamiento de una organizacion.\nAmenazas y Ataques, Politicas de Seguridad y legislacion, Seguridad de Redes, Principios de Software seguro",
+    "source": "plan_estudios.json#2825",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2829",
+    "type": "course",
+    "title": "Interaccion de Redes",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2824"
+    ],
+    "summary": "Conocer, analizar y aplicar las herramientas y protocolos utilizados para la administracion y automatización de la red, así como las herramientas y aspectos relacionados a la seguridad de la red, la calidad de servicio, y los mecanismos para el acceso remoto seguro.",
+    "syllabus_topics": [
+      "Enrutamiento",
+      "Introduccion a la seguriad en redes",
+      "Listas de control de acceso",
+      "Traduccion de direcciones de red para OPv4",
+      "Redes de area amplia",
+      "red privada virtual e IPsec",
+      "Calidad de servicio."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Conocer, analizar y aplicar las herramientas y protocolos utilizados para la administracion y automatización de la red, así como las herramientas y aspectos relacionados a la seguridad de la red, la calidad de servicio, y los mecanismos para el acceso remoto seguro.\nEnrutamiento, Introduccion a la seguriad en redes, Listas de control de acceso, Traduccion de direcciones de red para OPv4, Redes de area amplia, red privada virtual e IPsec, Calidad de servicio.",
+    "source": "plan_estudios.json#2829",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2826",
+    "type": "course",
+    "title": "Criptografía",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2823"
+    ],
+    "summary": "Analizar y aplciar los elementos fundamentales y los protocolos básicos que permiten contruir los actuales sistemas de seguridad.",
+    "syllabus_topics": [
+      "Fundamentos e Historia de la Criptografia",
+      "Introduccion a la Criptografia Moderna",
+      "Criptografia Simetrica",
+      "Criptografia Asimetrica",
+      "Esteganografia y Estegoanalisis."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Analizar y aplciar los elementos fundamentales y los protocolos básicos que permiten contruir los actuales sistemas de seguridad.\nFundamentos e Historia de la Criptografia, Introduccion a la Criptografia Moderna, Criptografia Simetrica, Criptografia Asimetrica, Esteganografia y Estegoanalisis.",
+    "source": "plan_estudios.json#2826",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2827",
+    "type": "course",
+    "title": "Modelado y simulacion de redes",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2823"
+    ],
+    "summary": "Comprender, analizar y aplicar la estructura de las redes de telecomunicaciones mediante el estudio de modelos, propiedades matemáticas y experimentos usando simulador.",
+    "syllabus_topics": [
+      "Simuladores de redes",
+      "Estructura matemática de las redes",
+      "Simulacion de redes."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Comprender, analizar y aplicar la estructura de las redes de telecomunicaciones mediante el estudio de modelos, propiedades matemáticas y experimentos usando simulador.\nSimuladores de redes, Estructura matemática de las redes, Simulacion de redes.",
+    "source": "plan_estudios.json#2827",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "course:2828",
+    "type": "course",
+    "title": "Anonimato y Privacidad",
+    "semester": 6,
+    "credits": 8,
+    "area": [
+      "Ciberseguridad"
+    ],
+    "prereqs": [
+      "2825"
+    ],
+    "summary": "Analizar y aplciar los conceptos fundamentales y técnicas de anonimato, las aplicaciones que protegen la privacidad y los algoritmos utilizados, a través de la configuración de las redes y sistemas operativos para acceder a los servicions de la red oscura de forma segura.",
+    "syllabus_topics": [
+      "Anonimato",
+      "Privacidad",
+      "Criptomonedas y Blockchain",
+      "Dark Net."
+    ],
+    "skills": [],
+    "keywords": [],
+    "content": "Analizar y aplciar los conceptos fundamentales y técnicas de anonimato, las aplicaciones que protegen la privacidad y los algoritmos utilizados, a través de la configuración de las redes y sistemas operativos para acceder a los servicions de la red oscura de forma segura.\nAnonimato, Privacidad, Criptomonedas y Blockchain, Dark Net.",
+    "source": "plan_estudios.json#2828",
+    "intents_supported": [
+      "Search_course",
+      "Show_syllabus",
+      "Course_requirements",
+      "Compare_courses",
+      "Recommend_courses_by_degree"
+    ]
+  },
+  {
+    "id": "area:inteligencia_artificial_y_robótica",
+    "type": "area",
+    "title": "Inteligencia Artificial y Robótica",
+    "description": "Área enfocada en el desarrollo de sistemas inteligentes y autónomos.",
+    "recommended_paths": [
+      {
+        "name": "Ruta sugerida",
+        "path": [
+          "2817",
+          "2809",
+          "2815",
+          "2816",
+          "2818",
+          "2808",
+          "2819"
+        ]
+      }
+    ],
+    "skills": [],
+    "keywords": [],
+    "qa": [],
+    "intents_supported": [
+      "Explore_area_of_emphasis",
+      "Recommend_area",
+      "Recommend_courses_by_degree"
+    ],
+    "source": "plan_estudios.json"
+  },
+  {
+    "id": "area:interacción_y_videojuegos",
+    "type": "area",
+    "title": "Interacción y Videojuegos",
+    "description": "Área enfocada en el desarrollo de Juegos.",
+    "recommended_paths": [
+      {
+        "name": "Ruta sugerida",
+        "path": [
+          "2832",
+          "2833",
+          "2834",
+          "2835",
+          "2836"
+        ]
+      }
+    ],
+    "skills": [],
+    "keywords": [],
+    "qa": [],
+    "intents_supported": [
+      "Explore_area_of_emphasis",
+      "Recommend_area",
+      "Recommend_courses_by_degree"
+    ],
+    "source": "plan_estudios.json"
+  },
+  {
+    "id": "area:ciberseguridad",
+    "type": "area",
+    "title": "Ciberseguridad",
+    "description": "Área enfocada en el desarrollo de las habilidades de ciberseguridad.",
+    "recommended_paths": [
+      {
+        "name": "Ruta sugerida",
+        "path": [
+          "2824",
+          "2825",
+          "2826",
+          "2827",
+          "2828",
+          "2829"
+        ]
+      }
+    ],
+    "skills": [],
+    "keywords": [],
+    "qa": [],
+    "intents_supported": [
+      "Explore_area_of_emphasis",
+      "Recommend_area",
+      "Recommend_courses_by_degree"
+    ],
+    "source": "plan_estudios.json"
+  },
+  {
+    "id": "area:desarrollo_web_y_multiplataforma",
+    "type": "area",
+    "title": "Desarrollo Web y Multiplataforma",
+    "description": "Área enfocada en el desarrollo de paginas web.",
+    "recommended_paths": [
+      {
+        "name": "Ruta sugerida",
+        "path": [
+          "2237",
+          "2238",
+          "2239",
+          "2244",
+          "2245"
+        ]
+      }
+    ],
+    "skills": [],
+    "keywords": [],
+    "qa": [],
+    "intents_supported": [
+      "Explore_area_of_emphasis",
+      "Recommend_area",
+      "Recommend_courses_by_degree"
+    ],
+    "source": "plan_estudios.json"
+  }
+]
